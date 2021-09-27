@@ -1,0 +1,226 @@
+/* Variables and Font-Faces */
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("../media/font/Druk\ Wide\ Bold.ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../media/font/WorkSans-Regular.ttf"),
+    url("../media/font/WorkSans-SemiBold.ttf");
+}
+
+:root {
+  --black: #2f2f2f;
+  --white: #f4f4f4;
+  --blue: #6100ff;
+  --yellow: rgb(255,230,117);
+}
+
+
+
+/* Main CSS Starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+body{
+	overflow-x: hidden;
+}
+
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+
+/* Navigation Starts */
+
+.logo-img {
+  position: absolute;
+  width: 86px;
+  height: 95px;
+  left: 100px;
+  top: 43px;
+
+  /* background: url(CodeIN.png); */
+  
+}
+
+.logo-text {
+  position: absolute;
+  width: 270px;
+  height: 63px;
+  left: 207px;
+  top: 55px;
+
+  font-family: Druk Wide Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 32px;
+  /* or 100% */
+  color: var(--white);
+}
+.list-group {
+  background: transparent;
+  position: absolute;
+  width: 624px;
+  height: 48px;
+  /* left: 568px; */
+  left: 730px;
+  /* top: 62px; */
+  top: 56px;
+}
+.list-group-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  color: #2f2f2f;
+}
+.list-group-items a {
+  margin-top: 12px;
+  text-decoration: none;
+  color: #faf8f8;
+  transition: 150ms ease-in-out;
+}
+.list-group-items a:hover {
+  color: var(--yellow);
+}
+.list-group-items span:hover{
+  cursor: pointer;
+}
+.list-group-items .active-item {
+  color: var(--yellow);
+  margin-top: 12px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+}
+.cta-nav {
+  width: 110px;
+  height: 48px;
+  margin-right: 15px;
+  background: var(--yellow);
+  border-radius: 5px;
+  border: none;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 28px;
+  /* identical to box height, or 187% */
+  transform: translateY(5px);
+  transition: 250ms ease-in;
+  color: #2f2f2f;
+}
+.cta-nav:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+
+
+/* Hero Section Starts*/
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+  max-width: 100vw;
+  background: var(--white) url("../media/Images/Background1.jpg") no-repeat;
+  background-size: 100rem;
+}
+.hero-left {
+  position: relative;
+  z-index: 2;
+  top: 4.9rem;
+  background: url("../media/Images/hero.png") no-repeat;
+  background-size: 100%;
+}
+.hero-right {
+  position: absolute;
+  width: 600px;
+  height: 96px;
+  left: 720px;
+  top: 270px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 38px;
+  /* or 116% */
+
+  color: #f5f0f0;
+}
+.hero-right span {
+  color: var(--yellow);
+}
+
+
+.hero-button {
+  position: absolute;
+  width: 167px;
+  height: 57px;
+  left: 240px;
+  top: 250px;
+  background: var(--yellow);
+  border-radius: 6px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+  border: none;
+  color: var(--black);
+  transition: 250ms ease-in;
+}
+.hero-button:hover{
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ffe675; 
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+
+/* Scroll Bar  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
