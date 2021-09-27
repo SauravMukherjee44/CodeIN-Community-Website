@@ -2,9 +2,9 @@
 
 <h3> Open Source Website for CodeIN Community built using HTML, CSS and JavaScript </h3>
 <h3>[ In development Phase ]</h3>
-<h2> 
-<a href="https://sauravmukherjee44.github.io/CodeIN-Community-Website/" target="_blank">Visit our website 🚀</a>
-</h2> 
+
+
+
 
 So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?
 <div align="left">
