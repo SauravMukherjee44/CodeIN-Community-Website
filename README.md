@@ -1,6 +1,6 @@
-<h1 align="center">CodeIN Community Website built using HTML, CSS and JavaScript</h1>
+<h1 align="center">CodeIN Community Website </h1>
 
-<h3> Open Source Website for CodeIN Community </h3>
+<h3> Open Source Website for CodeIN Community built using HTML, CSS and JavaScript </h3>
 <h4>[ In development Phase ]</h4>
 <h2> 
 <a href="https://sauravmukherjee44.github.io/CodeIN-Community-Website/" target="_blank">Visit our website 🚀</a>
@@ -10,7 +10,7 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 <div align="left">
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://sloc.xyz/github/SauravMukherjee44/CodeIN-Community-Website" alt="LOC"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.shields.io/github/stars/SauravMukherjee44/CodeIN-Community-Website" alt="Stars Badge"/></a>
-<a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/network/members"><img src="https://img.shields.io/github/forks/SauravMukherjee44CodeIN-Community-Website" alt="Forks Badge"/></a>
+<a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/network/members"><img src="https://img.shields.io/github/forks/SauravMukherjee44/CodeIN-Community-Website" alt="Forks Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SauravMukherjee44/CodeIN-Community-Website?color=2b9348"></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
 </div>
