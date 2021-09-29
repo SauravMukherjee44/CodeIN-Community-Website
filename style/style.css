@@ -70,13 +70,10 @@ body{
 .list-group {
   background: transparent;
   position: absolute;
-  width: 624px;
-  height: 48px;
-  /* left: 568px; */
-  left: 730px;
-  /* top: 62px; */
-  top: 56px;
+  right: 2rem;
+  top: 2rem;
 }
+
 .list-group-items {
   display: flex;
   justify-content: space-between;
@@ -93,6 +90,7 @@ body{
   margin-top: 12px;
   text-decoration: none;
   color: #faf8f8;
+  padding-right: 0.9rem;
   transition: 150ms ease-in-out;
 }
 .list-group-items a:hover {
@@ -109,6 +107,7 @@ body{
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+  padding-right: 1.2rem;
   /* identical to box height, or 156% */
 }
 .cta-nav {
@@ -155,9 +154,8 @@ body{
   position: absolute;
   width: 600px;
   height: 96px;
-  left: 720px;
-  top: 270px;
-
+  right: 1.2rem;
+  top: 15rem;
   font-family: Work Sans;
   font-style: normal;
   font-weight: 600;
