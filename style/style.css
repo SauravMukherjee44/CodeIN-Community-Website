@@ -88,6 +88,7 @@ body{
 }
 .list-group-items a {
   margin-top: 12px;
+  margin-right: 20px;
   text-decoration: none;
   color: #faf8f8;
   padding-right: 0.9rem;
@@ -95,10 +96,12 @@ body{
 }
 .list-group-items a:hover {
   color: var(--yellow);
-}
-.list-group-items span:hover{
   cursor: pointer;
 }
+.list-group-items a i{
+  margin-right: 5px;
+}
+
 .list-group-items .active-item {
   color: var(--yellow);
   margin-top: 12px;
@@ -113,7 +116,8 @@ body{
 .cta-nav {
   width: 110px;
   height: 48px;
-  margin-right: 15px;
+  margin-right: 20px;
+  margin-top: -3px;
   background: var(--yellow);
   border-radius: 5px;
   border: none;
@@ -130,6 +134,9 @@ body{
 .cta-nav:hover {
   cursor: pointer;
   transform: translateY(-2px);
+}
+.cta-nav i{
+  margin-right: 5px;
 }
 
 
