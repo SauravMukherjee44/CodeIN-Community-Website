@@ -148,7 +148,7 @@ body{
   height: 100vh;
   max-width: 100vw;
   background: var(--white) url("../media/Images/Background1.jpg") no-repeat;
-  background-size: 100rem;
+  background-size: cover;
 }
 .hero-left {
   position: relative;
