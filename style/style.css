@@ -6,14 +6,137 @@
 @font-face {
   font-family: "Work Sans";
   src: url("../media/font/WorkSans-Regular.ttf"),
-       url("../media/font/WorkSans-SemiBold.ttf");
+    url("../media/font/WorkSans-SemiBold.ttf");
 }
 
 :root {
   --black: #2f2f2f;
   --white: #f4f4f4;
   --blue: #6100ff;
-  --yellow: rgb(255, 230, 117);
+  --yellow: rgb(255,230,117);
+}
+
+/* navbar starts */
+header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 10%;
+  height: 6.5rem;
+  background-color: rgba(2, 2, 2, 0);
+  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+}
+section{
+  min-height: 100vh;
+  padding: 2rem 9%;
+}
+.heading{
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: center;
+}
+.headingcontact{
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-align: center; 
+}
+.heading span{
+  color: rgb(115, 3, 167);
+}
+header .logo{
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+}
+header .logo i {
+  font-size: 2.2rem;
+}
+header .logo:hover {
+  color: #fc8c05;
+}
+header .navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+header .navbar li{
+  margin-left: 2.5rem;
+}
+header .navbar ul li a{
+  font-size: 1.57rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  transition: .2s;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+  color: #ffffff;
+  border-bottom: .2rem solid #e551f8;
+  padding: .5rem 0;
+}
+/* navbar ends */
+
+/* hamburger icon starts*/
+#menu{
+  font-size: 2rem;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+@media(max-width:768px){
+  #menu{
+      display: block;
+  }
+  header .navbar{
+    position: fixed;
+    top: 4.9rem; right: -120%;
+    width:90%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #c59dc9;
+  }
+  header .navbar ul{
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    width: 19rem;
+  }
+  header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover{
+    padding: 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    border-bottom: .5rem solid var(--yellow);
+  }
+  .fa-times{
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle{
+    right: 0;
+  }
 }
 
 /* Main CSS Starts */
@@ -24,15 +147,14 @@
   /* outline: 1px solid red; */
 }
 
-body {
-  overflow-x: hidden;
+body{
+	overflow-x: hidden;
 }
 
-.container {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
+
+
+
+
 
 /* Navigation Starts */
 
@@ -44,6 +166,7 @@ body {
   top: 43px;
 
   /* background: url(CodeIN.png); */
+  
 }
 
 .logo-text {
@@ -92,7 +215,7 @@ body {
   color: var(--yellow);
   cursor: pointer;
 }
-.list-group-items a i {
+.list-group-items a i{
   margin-right: 5px;
 }
 
@@ -129,9 +252,11 @@ body {
   cursor: pointer;
   transform: translateY(-2px);
 }
-.cta-nav i {
+.cta-nav i{
   margin-right: 5px;
 }
+
+
 
 /* Hero Section Starts*/
 .hero-section {
@@ -151,7 +276,7 @@ body {
   height: 550px;
   /* width: 350px; */
 }
-.hero-right {
+ .hero-right {
   position: absolute;
   width: 600px;
   height: 96px;
@@ -165,12 +290,12 @@ body {
   /* or 116% */
 
   color: #f5f0f0;
-}
+} 
 .hero-right span {
   color: var(--yellow);
 }
-@media (min-width: 280px) {
-  .hero-left {
+@media (min-width:280px) {
+  .hero-left{
     height: 550px;
     width: 350px;
   }
@@ -186,12 +311,12 @@ body {
     font-size: 10px;
     line-height: 38px;
     /* or 116% */
-
+  
     color: #f5f0f0;
   }
 }
-@media (min-width: 768px) {
-  .hero-left {
+@media (min-width:768px) {
+  .hero-left{
     height: 550px;
     width: 350px;
   }
@@ -207,12 +332,13 @@ body {
     font-size: 12px;
     line-height: 38px;
     /* or 116% */
-
+  
     color: #f5f0f0;
   }
+
 }
-@media (min-width: 1000px) {
-  .hero-left {
+@media (min-width:1000px) {
+  .hero-left{
     height: 550px;
     width: 550px;
   }
@@ -228,29 +354,33 @@ body {
     font-size: 25px;
     line-height: 38px;
     /* or 116% */
-
+  
     color: #f5f0f0;
   }
 }
-@media (min-width: 540px) {
+@media (min-width:540px) {
+ 
+  
 }
-@media (max-width: 280px) {
-  .hero-left {
+@media (max-width:280px) {
+  .hero-left{
     height: 550px;
     width: 230px;
-  }
-  .hero-right {
-    width: 220px;
-    height: 96px;
-    right: 1.2rem;
-    top: 17rem;
-    font-family: Work Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 38px;
-  }
+  } 
+ .hero-right{
+  width: 220px;
+  height: 96px;
+  right: 1.2rem;
+  top: 17rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 38px;
+ }
+  
 }
+
 
 .hero-button {
   position: absolute;
@@ -270,27 +400,28 @@ body {
   color: var(--black);
   transition: 250ms ease-in;
 }
-.hero-button:hover {
+.hero-button:hover{
   cursor: pointer;
   transform: translateY(-5px);
 }
-.hero-button a {
-  color: var(--black);
+.hero-button a{
+  color:var(--black) ;
   text-decoration: none;
 }
+
 
 /* Custom Scroll Bar */
 ::-webkit-scrollbar {
   width: 5px;
 }
-
+ 
 ::-webkit-scrollbar-thumb {
-  background: #ffe675;
+  background: #ffe675; 
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-}
+}	
 
 /* Scroll Bar  */
 ::-webkit-scrollbar {
@@ -298,37 +429,13 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #f1f1f1; 
 }
-
+ 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #888; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-@media screen and (max-width: 1200px) {
-  .container {
-    overflow: auto;
-  }
-  .hero-section {
-    display: block;
-    height: auto;
-    width: auto;
-    max-width: none;
-    max-height: none;
-  }
-  .hero-left {
-    padding-top: 100%;
-  }
-  .hero-button,
-  .hero-right {
-    position: static;
-    width: auto;
-    height: auto;
-    padding: 15px;
-    margin: 15px;
-  }
+  background: #555; 
 }
