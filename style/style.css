@@ -16,7 +16,128 @@
   --yellow: rgb(255,230,117);
 }
 
+/* navbar starts */
+header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 10%;
+  height: 6.5rem;
+  background-color: rgba(2, 2, 2, 0);
+  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+}
+section{
+  min-height: 100vh;
+  padding: 2rem 9%;
+}
+.heading{
+  font-size: 3.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: center;
+}
+.headingcontact{
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-align: center; 
+}
+.heading span{
+  color: rgb(115, 3, 167);
+}
+header .logo{
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+}
+header .logo i {
+  font-size: 2.2rem;
+}
+header .logo:hover {
+  color: #fc8c05;
+}
+header .navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+header .navbar li{
+  margin-left: 2.5rem;
+}
+header .navbar ul li a{
+  font-size: 1.57rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  transition: .2s;
+}
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+  color: #ffffff;
+  border-bottom: .2rem solid #e551f8;
+  padding: .5rem 0;
+}
+/* navbar ends */
 
+/* hamburger icon starts*/
+#menu{
+  font-size: 2rem;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+@media(max-width:768px){
+  #menu{
+      display: block;
+  }
+  header .navbar{
+    position: fixed;
+    top: 4.9rem; right: -120%;
+    width:90%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #c59dc9;
+  }
+  header .navbar ul{
+    flex-flow: column;
+    padding: 1rem;
+  }
+  header .navbar ul li{
+    text-align: center;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    width: 19rem;
+  }
+  header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+  }
+  header .navbar ul li a.active,
+  header .navbar ul li a:hover{
+    padding: 1rem;
+    color: #fff;
+    border-radius: .5rem;
+    border-bottom: .5rem solid var(--yellow);
+  }
+  .fa-times{
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle{
+    right: 0;
+  }
+}
 
 /* Main CSS Starts */
 * {
@@ -31,11 +152,7 @@ body{
 }
 
 
-.container{
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-}
+
 
 
 
@@ -152,12 +269,14 @@ body{
 }
 .hero-left {
   position: relative;
-  z-index: 2;
+  z-index: 100;
   top: 4.9rem;
   background: url("../media/Images/hero.png") no-repeat;
   background-size: 100%;
+  height: 550px;
+  /* width: 350px; */
 }
-.hero-right {
+ .hero-right {
   position: absolute;
   width: 600px;
   height: 96px;
@@ -171,9 +290,95 @@ body{
   /* or 116% */
 
   color: #f5f0f0;
-}
+} 
 .hero-right span {
   color: var(--yellow);
+}
+@media (min-width:280px) {
+  .hero-left{
+    height: 550px;
+    width: 350px;
+  }
+  .hero-right {
+    position: absolute;
+    width: 320px;
+    height: 96px;
+    right: 1.2rem;
+    top: 25rem;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 38px;
+    /* or 116% */
+  
+    color: #f5f0f0;
+  }
+}
+@media (min-width:768px) {
+  .hero-left{
+    height: 550px;
+    width: 350px;
+  }
+  .hero-right {
+    position: absolute;
+    width: 320px;
+    height: 96px;
+    right: 1.2rem;
+    top: 7rem;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 38px;
+    /* or 116% */
+  
+    color: #f5f0f0;
+  }
+
+}
+@media (min-width:1000px) {
+  .hero-left{
+    height: 550px;
+    width: 550px;
+  }
+  .hero-right {
+    position: absolute;
+    width: 600px;
+    height: 96px;
+    right: 1.2rem;
+    top: 17rem;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    /* or 116% */
+  
+    color: #f5f0f0;
+  }
+}
+@media (min-width:540px) {
+ 
+  
+}
+@media (max-width:280px) {
+  .hero-left{
+    height: 550px;
+    width: 230px;
+  } 
+ .hero-right{
+  width: 220px;
+  height: 96px;
+  right: 1.2rem;
+  top: 17rem;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 38px;
+ }
+  
 }
 
 

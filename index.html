@@ -7,49 +7,54 @@
     <title>CodeIN Community</title>
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   </head>
   <body>
     <!-- Container Starts -->
-    <div class="container">
+    <div >
       <!-- Navigation Starts -->
-      <nav>
+      <header>
+        <a href="." class="logo"> <img src="./media/Images/CodeIN.png" height="24" width="30" alt="" srcset=""> CodeIN Community</a>
 
-        <div class="logo">
-          <img class="logo-img" src="media/Images/CodeIN 2.png" alt="" />
-          <span class="logo-text"><h1>CODEIN COMMUNITY</h1></span>
-        </div>
-        
-        <ul class="list-group">
-          <li class="list-group-items">
-            <a class="active-item"></span><i class="fa fa-home"></i>Home</a>
-            <a href="#"><i class="fa fa-user-o"></i>About</a>
-            <a href="#"><i class="fa fa-calendar"></i>Events</a>
-            <a href="#"><i class="fa fa-users"></i>Team</a>
-            <button type="button" class="cta-nav"><i class="fa fa-envelope"></i>Contact</button>
-          </li>
-        </ul>
-      </nav>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Events</a></li>
+            <li><a href="#education">Teams</a></li>
+            <li><a href="#work">Contact</a></li>
+         
+            </ul>
+        </nav>
+</header>
       <!-- Navigation Ends -->
 
       <!-- Hero-Section Starts  -->
-      <div class="hero-section">
-        <div class="hero-left"></div>
-        <div class="hero-right">
-          <h1>
-            CodeIN Community is the Community of
-            <span>Coding Enthusiasts</span>
-
-            Where we share Resources, Roadmaps to learn different technologies.
-            <span>We organize events on different technologies.</span>
-
-        </h1>
-        <button class="hero-button" type="button"> <a href="https://discord.gg/PqYrPf3X"><i class="fa fa-handshake-o"> Join on Discord</i></a></button>
+      <div class="conatiner hero-section">
+      <div >
+        <div class="row">
+          <div class="col-md-6">
+            <div class="hero-left"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-right">
+              <p>  CodeIN Community is the Community of
+                <span>Coding Enthusiasts</span>
+                Where we share Resources, Roadmaps to learn different technologies.
+                <span>We organize events on different technologies.</span>
+              </p>
+              <button class="btn btn-warning">Join on Discord</button>
+            </div>
         </div>
-      </div>
+       
       <!-- Hero Section Ends -->
 
-      
+      </div>
     </div>
     <!-- Container Ends -->
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
 </html>
