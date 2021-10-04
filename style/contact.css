@@ -24,7 +24,7 @@
 .contact-form{
     max-width: 550px;
     margin: 0 auto;
-    background: rgba(155, 161, 155, 0.8);
+    background-image:linear-gradient(rgb(207, 106, 106),rgb(144, 144, 161));
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 0 10px;
