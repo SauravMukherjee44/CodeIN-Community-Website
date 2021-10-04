@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image:url(/media/Images/Background1.jpg);
+    background-image:url(../media/Images/Background1.jpg);
     background-size: cover;
     height: 100vh;
     overflow: hidden;
