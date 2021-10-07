@@ -2,7 +2,7 @@
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
-Please note that this project is released with a [Contributor Code of Conduct](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/main/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ## Issues and PRs
 
@@ -12,23 +12,23 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## How to Contribute
 
-- Take a look at the Existing [Issues](https://github.com/SauravMukherjee44/Aec-Library-Website/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues) or create your own Issues!
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this is all about.
 
 ## How to make a Pull Request
 
-**1.** Fork the repository by clicking on the <a href="https://github.com/SauravMukherjee44/Aec-Library-Website"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+**1.** Fork the repository by clicking on the <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 ```
-   git clone https://github.com/your_user_name/Aec-Library-Website.git
+   git clone https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
 ```
 
 **3.** Navigate to the project directory.
 ```
-   cd Aec-Library-Website
+   cd CodeIN-Community-Website
 ```
 
 **4.** Create a new branch:
@@ -60,7 +60,8 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 **10.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
-   git remote add upstream https://github.com/SauravMukherjee44/Aec-Library-Website.git
+   git remote add upstream  https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
+```
 ```
 
 **11.** Check the remotes for this repository.
