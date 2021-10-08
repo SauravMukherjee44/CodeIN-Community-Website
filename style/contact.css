@@ -1,112 +1,329 @@
-*{
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("../media/font/Druk\ Wide\ Bold.ttf");
+  }
+  @font-face {
+    font-family: "Work Sans";
+    src: url("../media/font/WorkSans-Regular.ttf"),
+      url("../media/font/WorkSans-SemiBold.ttf");
+  }
+  
+  :root {
+    --black: #2f2f2f;
+    --white: #f4f4f4;
+    --blue: #6100ff;
+    --yellow: rgb(255,230,117);
+}
+/* navbar starts */
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    height: 6.5rem;
+    background-color: rgba(2, 2, 2, 0);
+    box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  }
+  section{
+    min-height: 100vh;
+    padding: 2rem 9%;
+  }
+  .heading{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    text-align: center;
+  }
+  .headingcontact{
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-align: center; 
+  }
+  .heading span{
+    color: rgb(115, 3, 167);
+  }
+  header .logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  header .logo i {
+    font-size: 2.2rem;
+  }
+  header .logo:hover {
+    color: #fc8c05;
+  }
+  header .navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  header .navbar li{
+    margin-left: 2.5rem;
+  }
+  header .navbar ul li a{
+    font-size: 1.57rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04rem;
+    transition: .2s;
+  }
+  /* header .navbar ul li a.active, */
+  header .navbar ul li a:hover,
+  header .navbar ul li .contact{
+    color: #ffffff;
+    border-bottom: .2rem solid #e551f8;
+    padding: .5rem 0;
+  }
+  /* navbar ends */
+  
+  /* hamburger icon starts*/
+  #menu{
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: none;
+  }
+  @media(max-width:768px){
+    #menu{
+        display: block;
+    }
+    header .navbar{
+      position: fixed;
+      top: 4.9rem; right: -120%;
+      width:90%;
+      height: 100%;
+      text-align: left;
+      align-items: flex-start;
+      background-color: #c59dc9;
+    }
+    header .navbar ul{
+      flex-flow: column;
+      padding: 1rem;
+    }
+    header .navbar ul li{
+      text-align: center;
+      width: 100%;
+      margin: 1rem 0;
+      border-radius: .5rem;
+      width: 19rem;
+    }
+    header .navbar ul li a{
+      display: block;
+      padding: 1rem;
+      text-align: left;
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+    }
+    header .navbar ul li a.active,
+    header .navbar ul li a:hover{
+      padding: 1rem;
+      color: #fff;
+      border-radius: .5rem;
+      border-bottom: .5rem solid var(--yellow);
+    }
+    .fa-times{
+      transform: rotate(180deg);
+    }
+    header .navbar.nav-toggle{
+      right: 0;
+    }
+  }
+  
+  /* Main CSS Starts */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /* outline: 1px solid red; */
+  }
+  
+  body{
+      overflow-x: hidden;
+      background: var(--white) url("../media/Images/Background1.jpg") no-repeat;
 }
 
-.content h4{
-    margin-top: 30px;
-    font-size: 35px;
-    font-weight:bolder;
-    text-align: center;
-    color:rgb(29, 29, 32);
+/* CONTACT SECTION */
+.content{
+   margin-top: 18vh;
+   height: 80vh;
+   color: #fff;
+   display: flex;
 }
-
-.wrapper{
-    position:absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    padding: 0 20px;
+.content .left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4%;
 }
-
-.contact-form{
-    max-width: 550px;
-    margin: 0 auto;
-    background-image:linear-gradient(rgb(207, 106, 106),rgb(144, 144, 161));
-    padding: 30px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px;
+.left-side .head{
+   margin-bottom: 5%;
+   font-family: 'Work Sans', sans-serif;
 }
-
-.input-fields{
-    width: 100%;
+.left-side .email p i{
+    padding-right: 1.2%;
 }
-
-.input-fields .input,
-.msg textarea{
-    margin: 10px 0;
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid rgba(91, 99, 96, 0.8);
-    padding: 10px;
-    color: #cfd4d6;
-    width: 100%;
+.left-side .socials{
+   margin-top: 1.3%;
 }
-.msg textarea{
-    height: 100px;
-}
-
-::-webkit-input-placeholder{
-    color: #eff3f5;
-}
-::-moz-input-placeholder{
-    color: #c5ecfd;
-}
-::-ms-input-placeholder{
-    color: #c5ecfd;
-}
-.button{
-    background-color: #67aec1;
-    text-align: center;
-    padding: 15px;
+.left-side .socials button{
+    margin-right: 3.5%;
+    padding: .4% 1%;
     border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #fc8c05;
+}
+.left-side .socials button a{
+    text-decoration: none;
     color: #fff;
-    cursor: pointer;
+}
+.content .right-side{
+    width: 50%;
+}
+.right-side form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-side form .input-box{
+   margin-bottom: 0%;
+   position: relative;
+   height: 13vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.right-side form .input-box input{
+    height: 50%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 2px;  
+    color: #fff;
+}
+.right-side form .input-box input::placeholder{
+   color: #c59dc9;
+}
+.right-side form .input-box .label-1{
     text-transform: uppercase;
+    position: absolute;
+    top: -25%;
+    left: 8%;
 }
-
-@media screen and (max-width:600px) {
-    .contact-form{
-        flex-direction: column;
-    }
-    .msg textarea{
-        height: 80px;
-    }
-    .input-fields,
-    .msg{
-        width: 100%;
-    }
+.right-side form .input-box .label-2{
+    text-transform: uppercase;
+    position: absolute;
+    top: -25%;
+    right: 34%;
 }
-
-.socials{
-    padding: 15px;
-    text-align: center;
+.right-side form .input-box-2{
+    margin-bottom: 3%;
     position: relative;
-   
- 
+    height: 10%;
+}
+.right-side form .input-box-2 input{
+   width: 83%;
+   height: 50%;
+   margin-left: 8%;
+   margin-top: 1%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 2px;   
+    color: #fff;
+}
+.right-side form .input-box-2 input::placeholder{
+    color: #c59dc9;
+}
+.right-side form .input-box-2 .label-3{
+   position: absolute;
+   text-transform: uppercase;
+   top: -50%;
+    left: 8%;
+}
+.right-side form button{
+    width: 25%;
+    padding: 1% 0%;
+    margin-left: 8%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #fc8c05;
+    color: #fff;
+} 
+
+
+@media screen and (max-width: 768px) {
+  .content{
+    height: 90vh;
+    flex-direction: column;
+    gap: 10vh;
   }
-  .socials .social-icons {
-    padding-left:0;
-    list-style:none
+  .content .left-side{
+    width: 100%;
   }
-  .socials .social-icons li {
-    display:inline-block;
-    
+  .left-side .email p{
+    font-size: .9rem;
   }
-  .social-icons a {
-    display:inline-block;
-    line-height:40px;
-    background-color:#d5cceb;
-    width:44px;
-    height:44px;
-    text-align:center;
-    margin-right:8px;
-    border-radius:100%;
-    -webkit-transition:all .2s linear;
-    -o-transition:all .2s linear;
-    transition:all .2s linear
+  .left-side .socials button{
+    padding: .6% 2%;
+    font-size: 1.2rem;
   }
+  .content .right-side{
+   width: 100%;
+   height: 70%;
+  }
+  .right-side form{
+    justify-content: space-around;
+  }
+  .right-side form .input-box{
+    margin-top: 0%;
+    height: 23vh;
+    flex-direction: column;
+    justify-content:space-around;
+    padding-left: 4%;
+  }
+  .right-side form .input-box input{
+   height: 5vh;
+  }
+  .right-side form .input-box .label-1{
+    top: -5%;
+    left: 4%;
+  }
+  .right-side form .input-box .label-2{
+    top: 45%;
+    left: 4%;
+  }
+  .right-side form .input-box-2{
+    height: 23%;
+  }
+  .right-side form .input-box-2 input{
+    width: 97%;
+    margin-left: 4%;
   
-  
+  }
+  .right-side form .input-box-2 .label-3{
+    top: -30%;
+    left: 4%;
+  }
+  .right-side form button{
+    margin-left: 4%;
+    width: 45%;
+    margin-top: 0%;
+  }
+
+}
