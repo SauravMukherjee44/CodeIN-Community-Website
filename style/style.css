@@ -629,8 +629,14 @@ a :hover{
   transition: 450ms;
   transform: scale(1.5);
 }
-
+.footer-dark{
+  background:  url("../media/Images/Background.jpg") ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .footer-dark {
+
   padding:50px 0;
   /* color:black; */
   background-color:#7777776e;
@@ -655,7 +661,7 @@ a :hover{
 .footer-dark ul a {
   color:inherit;
   text-decoration:none;
-  opacity:0.6;
+  opacity:0.9;
   
 }
 
