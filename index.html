@@ -12,6 +12,16 @@
      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
+    <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <script>
+        particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+  console.log('particles.js config loaded');
+});
+    </script>
+   
 
     <!-- preloader starts -->
     <div id="loader">
@@ -78,6 +88,7 @@
        </div>
       <!-- Hero Section Ends -->
       <!-- Container Ends -->
+
       <div class="footer-dark">
         <footer>
             <div  class="container">
@@ -88,6 +99,9 @@
         </footer>
     </div>
   </body>
+
+    </body>
+
 
   <script>
       var loader = document.getElementById('loader');
