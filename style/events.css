@@ -1,0 +1,133 @@
+
+.cards{
+   height:100vh;
+   background-image: linear-gradient(to right top, #051937, #152960, #363889, #6143b0, #9449d4);
+}
+.cards-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title{
+    color:whitesmoke;
+    font-family: 'Josefin Sans', sans-serif; 
+    text-shadow: 0px 1px 3px whitesmoke;
+    font-size: 3.2em;
+    font-weight: 300;
+}
+.main_title{
+    font-size: 1.5em;
+}
+.card{
+    position: relative;
+    width: 17rem;
+    height:20rem;
+    padding: 0px;
+    margin: 0px 40px;
+    border: 0px !important;
+    box-shadow: 0px 0px 40px rgb(8, 48, 122);
+    background-image: linear-gradient(to top, #23274b, #232958, #232a66, #222b74, #232c81);
+    transition:all 2s;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card-img-overlay{
+    position: absolute;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    transition: 1s ease;
+    width: 100%;
+    height: 16.5rem;
+    background-image: linear-gradient(to bottom, #051937, #111e48, #242259, #3a2467, #532373);
+}
+.card-title{
+    margin-top: 10px;
+}
+
+.main-img{
+    display: block;
+    align-self:center;
+    width: 100%;
+    opacity: 1;
+    height: 16rem;
+    border-radius:0px;
+    transition:all 2s;
+    border-bottom: 0px;
+    box-shadow: 0px 2px 10px rgb(39, 9, 51);
+   
+}
+.card:hover .card-img-overlay{
+    opacity: 10;
+    z-index: 100;    
+}
+.card:hover .card{
+    background-image: linear-gradient(to bottom, #051937, #111e48, #242259, #3a2467, #532373);
+    box-shadow: none;
+}
+.card:hover .main-img{
+    box-shadow: none;
+}
+
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    /* background-color:rgb(11, 11, 59); */
+}
+.card-body img{
+    width:35px;
+    height:35px;
+    opacity:0.8;
+    margin: 0px 20px ;
+    transition:all 0.5s;
+}
+.card-body img:hover{
+    opacity:2;
+}
+
+@media screen and (max-width:1200px){
+    .card-2{
+        margin: 0px 7em;
+    }
+    .card{
+        margin: 0px 30px;
+        height:20rem;
+    }
+}
+@media screen and (max-width:890px){
+    .cards{
+        height: auto;
+    }
+    .cards-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin: 0rem 0px;
+        width:17rem;
+        height: inherit;
+    }
+    .card-2{
+        margin: 3em 0px;
+    }
+    .card-4{
+        margin: 3em 0px;   
+    }
+}
+
+@media screen and (max-width:505px){
+    .title{
+        font-size:2.8rem;
+    }
+    .card{
+        width:15rem;
+    }
+    .main_title{
+        font-size:1.5em;
+    }
+    
+}
+
+
