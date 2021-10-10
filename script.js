@@ -38,7 +38,7 @@ $(document).ready(function(){
     })
 });
 $(document).scroll(function() {
-  if (window.pageYOffset > 50) {
+  if (window.pageYOffset > 200) {
     $(".navtrans").addClass("trans");
   } else {
     $(".navtrans").removeClass("trans");
