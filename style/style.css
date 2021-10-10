@@ -16,6 +16,9 @@
   --yellow: rgb(255,230,117);
 }
 
+a {
+  text-decoration: none !important;
+}
 /* preloader starts */
 
 #loader{
@@ -449,14 +452,16 @@ body{
 
 
 /* Hero Section Starts*/
-.hero-section {
+
+/* .hero-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100vh;
   max-width: 100vw;
   background: var(--white) url("../media/Images/Background1.jpg") no-repeat;
   background-size: cover;
-}
+} */
+
 .hero-left {
   position: relative;
   z-index: 100;
@@ -741,4 +746,13 @@ a :hover{
   font-weight: bold; 
   font-size:23px;
   margin-bottom:0;
+}
+
+.menu a{
+  display: block;
+  color: #eaeaea;
+}
+
+.menu a:hover {
+  color: lightblue;
 }
