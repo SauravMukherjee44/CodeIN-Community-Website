@@ -30,7 +30,7 @@
 #particles-js{
 
   background: #8115AF;
-  
+
 }
 
 .cssload-loader-inner {
@@ -233,7 +233,7 @@ section{
   font-size: 3.5rem;
   color: rgb(255, 255, 255);
   font-weight: 800;
-  text-align: center; 
+  text-align: center;
 }
 .heading span{
   color: rgb(115, 3, 167);
@@ -273,6 +273,19 @@ header .navbar ul li a:hover{
   color: #ffffff;
   border-bottom: .2rem solid #e551f8;
   padding: .5rem 0;
+}
+.trans {
+  animation: fadeIn 1s;
+  background: rgba(0, 0, 0, 0.6);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 /* navbar ends */
 
@@ -356,7 +369,7 @@ body{
   top: 43px;
 
   /* background: url(CodeIN.png); */
-  
+
 }
 
 .logo-text {
@@ -480,7 +493,7 @@ body{
   /* or 116% */
 
   color: #f5f0f0;
-} 
+}
 .hero-right span {
   color: var(--yellow);
 }
@@ -501,7 +514,7 @@ body{
     font-size: 10px;
     line-height: 38px;
     /* or 116% */
-  
+
     color: #f5f0f0;
   }
 }
@@ -522,7 +535,7 @@ body{
     font-size: 12px;
     line-height: 38px;
     /* or 116% */
-  
+
     color: #f5f0f0;
   }
 
@@ -544,19 +557,19 @@ body{
     font-size: 25px;
     line-height: 38px;
     /* or 116% */
-  
+
     color: #f5f0f0;
   }
 }
 @media (min-width:540px) {
- 
-  
+
+
 }
 @media (max-width:280px) {
   .hero-left{
     height: 550px;
     width: 230px;
-  } 
+  }
  .hero-right{
   width: 220px;
   height: 96px;
@@ -568,7 +581,7 @@ body{
   font-size: 10px;
   line-height: 38px;
  }
-  
+
 }
 
 
@@ -604,14 +617,14 @@ body{
 ::-webkit-scrollbar {
   width: 5px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #ffe675; 
+  background: #ffe675;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-}	
+}
 
 /* Scroll Bar  */
 ::-webkit-scrollbar {
@@ -619,15 +632,15 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 /* footer */
 a :hover{
@@ -661,14 +674,14 @@ a :hover{
   line-height:1.6;
   font-size:14px;
   margin-bottom:0;
-  
+
 }
 
 .footer-dark ul a {
   color:inherit;
   text-decoration:none;
   opacity:0.9;
-  
+
 }
 
 .footer-dark ul a:hover {
@@ -738,7 +751,7 @@ a :hover{
  color: #272727c2;
   /* opacity:0.3; */
   font-family: 'Prompt', sans-serif;
-  font-weight: bold; 
+  font-weight: bold;
   font-size:23px;
   margin-bottom:0;
 }
