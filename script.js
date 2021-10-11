@@ -37,7 +37,13 @@ $(document).ready(function(){
         },500, 'linear')
     })
 });
-
+$(document).scroll(function() {
+  if (window.pageYOffset > 200) {
+    $(".navtrans").addClass("trans");
+  } else {
+    $(".navtrans").removeClass("trans");
+  }
+});
 //Twak.to Added
 //Live chat Widget
 
