@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeIN Community</title>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div id="particles-js"></div>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeIN Community</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
 
-    <script>
-        particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-  console.log('particles.js config loaded');
-});
-    </script>
+<body>
+  <div id="particles-js"></div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', 'particlesjs-config.json', function () {
+      console.log('particles.js config loaded');
+    });
+  </script>
 
 
-    <!-- preloader starts -->
-    <div id="loader">
+  <!-- preloader starts -->
+  <div id="loader">
     <div class="cssload-loader-inner">
       <div class="cssload-cssload-loader-line-wrap-wrap">
         <div class="cssload-loader-line-wrap"></div>
@@ -42,75 +47,111 @@
         <div class="cssload-loader-line-wrap"></div>
       </div>
     </div>
-  </div> 
-     <!-- <div id="loader"></div> -->
-    <!-- preloader ends -->
+  </div>
+  <!-- <div id="loader"></div> -->
+  <!-- preloader ends -->
 
-    <!-- Container Starts -->
-    <div >
-      <!-- Navigation Starts -->
-      <header class="navtrans">
-        <a href="#" class="logo"> <img src="./media/Images/CodeIN 2.png"  alt="" srcset=""> CodeIN Community</a>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+    <div class="container">
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">Projects</a></li>
-            <li><a href="./events.html">About</a></li>
-            <li><a href="#education">Events</a></li>
-            <li><button class="contact-button" href="contact.html">Contact</button></li>
+      <!-- brand -->
+      <a class="navbar-brand" href="#">
+        <img id="navLogo" class="zoom" src="media/Images/CodeIN 2.png" alt="">
+      </a>
 
-            </ul>
-        </nav>
-    </header>
-      <!-- Navigation Ends -->
+      <!-- hamburger btn -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!-- Hero-Section Starts  -->
-      <div class="conatiner hero-section">
-      <div >
-        <div class="row">
-          <div class="col-md-6">
-            <div class="hero-left">
-              <img src="./media/Images/hero.png"  alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="hero-right">
-              <p>  CodeIN Community is the Community of
-                <span>Coding Enthusiasts</span>
-                Where we share Resources, Roadmaps to learn different technologies.
-                <span>We organize events on different technologies.</span>
-              </p>
-              <button class="btn btn-warning hero-button" > <a href="https://discord.com/invite/hWwbgP4dz9">Join on Discord</a></button>
-            </div>
-        </div>
-       </div>
-       </div>
-       </div>
-      <!-- Hero Section Ends -->
-      <!-- Container Ends -->
+      <!-- links -->
+      <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link active" aria-current="page" href="#">
+              <h4>Home</h4>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">
+              <h4>Projects</h4>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">
+              <h4>About</h4>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a href="events.html" class="nav-link">
+              <h4>Events</h4>
+            </a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a href="contact.html" class="nav-link">
+              <button class="btn btn-warning">
+                <h4>Contact</h4>
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-      <div class="footer-dark">
-        <footer>
-            <div  class="container">
-                <div class="row">
-
-                    <div class="col item social"><a href="#"><i  class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-twitter"></i><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i class="fab fa-linkedin"></i></a></div>
-
-        </footer>
     </div>
-  </body>
+  </nav>
 
-    </body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 px-5 mb-sm-0 mb-lg-5">
+        <img class="img-responsive" width="100%" src="media/images/hero.png" alt="">
+      </div>
+      <div class="col-md-6 text align-self-center text-light mb-5 text-center desc">
+        <p class="text-start"> CodeIN Community is the Community of
+          <span class="text-warning">Coding Enthusiasts</span>
+          Where we share Resources, Roadmaps to learn different technologies.
+          <span class="text-warning">We organize events on different technologies.</span>
+        </p>
+        <button class="btn-lg btn-warning discordBtn"> <a href="https://discord.com/invite/hWwbgP4dz9">Join on
+            Discord</a></button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col item social"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i
+                class="fab fa-twitter"></i><a href="#"><i class="fab fa-snapchat-ghost"></i></a><a href="#"><i
+                  class="fab fa-linkedin"></i></a></div>
+
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</body>
 
 
-  <script>
-      var loader = document.getElementById('loader');
-      window.addEventListener('load', function(){
-          loader.style.display="none";
-      });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="./script.js"></script>
+<script>
+  var loader = document.getElementById('loader');
+  window.addEventListener('load', function () {
+    loader.style.display = "none";
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js"></script>
+
 </html>
