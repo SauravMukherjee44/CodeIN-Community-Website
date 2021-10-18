@@ -42,9 +42,6 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ```
    git add .
-```
-
-```
    git commit -m "<your_commit_message>"
 ```
 
@@ -61,7 +58,6 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 **10.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
    git remote add upstream  https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
-```
 ```
 
 **11.** Check the remotes for this repository.
