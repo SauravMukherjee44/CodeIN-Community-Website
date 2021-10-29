@@ -28,7 +28,7 @@ body::before{
 }
 
 .wrapper {
-  max-width: 950px;
+  max-width: 1050px;
   width: 100%;
   overflow: hidden;
   padding: 60px 0;
