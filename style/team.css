@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   justify-content: center;
-  background-image: url(./media/Images/Background1.jpg);
+  background-color: rgb(175, 143, 175);
   position: relative;
 }
 
