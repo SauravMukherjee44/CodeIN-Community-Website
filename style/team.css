@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   justify-content: center;
-  /* background: #9584c5; */
+  background-image: url(./media/Images/Background1.jpg);
   position: relative;
 }
 
@@ -147,13 +147,13 @@ body::before{
   cursor: pointer;
   outline: none;
   margin: 0 5px;
-  border: 2px solid #0072bc !important;
+  border: 2px solid white !important;
   transition: all 0.3s ease;
 }
 
 .owl-dot:hover,
 .owl-dot.active {
-  background: #0072bc !important;
+  background: black !important;
 }
 
 
