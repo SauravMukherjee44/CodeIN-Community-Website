@@ -103,11 +103,12 @@ body::before{
 }
 .card .content .name{
   font-size: 20px;
-  font-weight:400;
+  font-weight:200;
 }
 .card .content .job{
   text-align: center;
   font-size: 15px;
+  font-weight:200
   color: #FF676D;
 }
 .card .content .media-icons{
