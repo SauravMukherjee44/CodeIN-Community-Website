@@ -147,13 +147,13 @@ body::before{
   cursor: pointer;
   outline: none;
   margin: 0 5px;
-  border: 2px solid white !important;
+  border: 2px solid blue  !important;
   transition: all 0.3s ease;
 }
 
 .owl-dot:hover,
 .owl-dot.active {
-  background: black !important;
+  background: blue !important;
 }
 
 
