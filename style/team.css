@@ -135,7 +135,7 @@ body::before{
 }
 
 
-.owl-dots {
+/* .owl-dots {
   text-align: center;
   margin-top: 40px;
 }
@@ -155,7 +155,7 @@ body::before{
 .owl-dot.active {
   background: #0072bc !important;
 }
-
+ */
 
 @media (max-width: 768px) {
   .main-card .cards .card{
