@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   justify-content: center;
-  background-image: url(./media/Images/Background1.jpg);
+  background-image: url(/media/Images/Background1.jpg);
   position: relative;
 }
 
@@ -28,7 +28,7 @@ body::before{
 }
 
 .wrapper {
-  max-width: 1050px;
+  max-width: 950px;
   width: 100%;
   overflow: hidden;
   padding: 60px 0;
@@ -103,12 +103,11 @@ body::before{
 }
 .card .content .name{
   font-size: 20px;
-  font-weight:200;
+  font-weight:600;
 }
 .card .content .job{
   text-align: center;
-  font-size: 15px;
-  font-weight:200
+  font-size: 16px;
   color: #FF676D;
 }
 .card .content .media-icons{
@@ -148,13 +147,13 @@ body::before{
   cursor: pointer;
   outline: none;
   margin: 0 5px;
-  border: 2px solid blue  !important;
+  border: 2px solid #0072bc !important;
   transition: all 0.3s ease;
 }
 
 .owl-dot:hover,
 .owl-dot.active {
-  background: blue !important;
+  background: #0072bc !important;
 }
 
 
