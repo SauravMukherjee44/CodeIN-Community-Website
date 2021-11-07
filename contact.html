@@ -132,6 +132,28 @@
                 </div>
             </nav>
         </div>
+
+      </div>
+
+      <div class="right-side">
+        <form id="contactForm">
+          <div class="input-box">
+            <input type="text" id="name" placeholder="abc" required>
+            <label for="name" class="label-1">Name</label>
+
+            <input type="email" id="email" placeholder="abc@gmail.com" required>
+            <label for="email" class="label-2">Email</label>
+          </div>
+
+          <div class="input-box-2">
+            <input type="text" id="message" placeholder="hi there,...." required>
+            <label for="message" class="label-3">Message</label>
+          </div>
+
+          <button type="submit" class="btn-warning">SEND</button>
+        </form>
+      </div>
+
     </div>
     <!-- --------------------------------------------narbar ends-------------------------------------------- -->
 
@@ -183,6 +205,35 @@
             </div>
         </div>
     </div>
+    <hr style="color: white;">
+    <div>
+      <div>
+        <h6 style="color: white;">@ 2021 Company, Inc.All rights reserved.</h6>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- emailjs to mail contact form data -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+(function() {
+emailjs.init("YOUR_USER_ID");
+
+emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#contactForm')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+       alert("Form Submitted Successfully");
+      }, function(error) {
+        console.log('FAILED...', error);
+        // alert("Form Submission Failed! Try Again");
+    });
+
+})();
+</script>
+<!-- emailjs to mail contact form data -->
+
     <!-- --------------------------------------------contact us form ends-------------------------------------------- -->
 
     <!-- --------------------------------------------Footer starts-------------------------------------------- -->
