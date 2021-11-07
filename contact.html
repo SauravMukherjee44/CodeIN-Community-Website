@@ -1,137 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CodeIN Community</title>
-  <link rel="stylesheet" href="style/contact.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <style>
-    header {
-      box-shadow: 2px 2px 10px rgb(21, 9, 27);
-      background-color: rgb(63, 29, 95);
-    }
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .content {
-      border: 2px solid rgba(37, 9, 37, 0.445);
-      padding: 20px;
-      border-radius: 15%;
-      background-color: rgba(17, 15, 19, 0.356);
-    }
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact Us</title>
 
-    footer {
-      margin: 0px;
-      padding: 0px;
-      display: flex;
-      flex-direction: column;
-      background-color: rgb(63, 29, 95);
-    }
+    <style>
+        #logo {
+            display: inline-block;
+            width: 3.7em;
+        }
 
-    footer .main_container1 {
-      display: flex;
-      justify-content: space-between;
-      padding: 20px 50px 0px 50px;
-      color: white;
-      line-height: 7px;
-    }
+        h4 {
+            display: inline-block;
+            font-weight: 1000;
+        }
 
-    footer .container2 {
-      margin-right: 70px;
-    }
+        .navBG {
+            background-color: #3f1d5f !important;
+        }
 
-    footer h2 {
-      font-size: 20px;
-      text-shadow: 1px 1px 10px white;
-    }
+        body {
+            background-image: url("media/Images/Background1.jpg");
+        }
 
-    footer p {
-      font-size: 14px;
-      text-align: left;
-    }
+        .nav-link {
+            border-bottom: 0px solid #ffffff !important;
+            border-bottom-width: 0px;
+        }
 
-    footer .container2 #subscribepara {
-      font-size: 12px;
-    }
+        .nav-link .customNavLink {
+            font-size: 1.75em;
+            font-weight: 500;
+        }
 
-    footer .container2 input {
-      font-size: 20px;
-    }
+        .nav-link :hover {
+            border-bottom-width: 100%;
+            border-bottom: 1px solid #ffffff;
+            transition: .1s border;
+        }
 
-    footer .container2 button {
-      font: 14px;
-      position: relative;
-      top: -3px;
-    }
+        #title {
+            font-size: 1em;
+        }
 
-    footer h6 {
-      padding-left: 25px;
-    }
+        .left-text {
+            font-size: 2em;
+        }
 
-    @media (max-width:700px) {
-      footer .main_container1 {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 5px 0px 5px;
-        color: white;
-        line-height: 7px;
-      }
+        .contact-us-form {
+            background-color: #58077171;
+            border: 1px solid #580771;
+        }
 
-      footer .container2 button {
-        position: relative;
-        top: 3px;
-      }
+        .icon {
+            border-radius: 50%;
+        }
 
-      footer h6 {
-        text-align: center;
-      }
-    }
-  </style>
+        .myInput {
+            border: none;
+            border-bottom: 1px solid white;
+            -webkit-text-fill-color: white;
+        }
+
+        #searchBar {
+            border-radius: 0px !important;
+        }
+
+        #footer-search-btn {
+            border-radius: 0px !important;
+        }
+
+        .footerSection ul a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <a href="." class="logo">
-        <img src="./media/Images/CodeIN.png" height="24" width="30" alt="" srcset="" />
-        CodeIN Community</a>
 
-      <div id="menu" class="fas fa-bars"></div>
-      <nav class="navbar">
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Events</a></li>
-          <li><a href="#education">Teams</a></li>
-          <li><a href="contact.html" class="contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <br>
+    <!-- --------------------------------------------navbar starts-------------------------------------------- -->
+    <div class="container-fluid py-2 shadow-lg navBG">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-transparent">
+                <div class="container-fluid">
+                    <!-- nav brand section -->
+                    <a class="navbar-brand" href="#">
+                        <img id="logo" src="media/Images/CodeIN.png" alt="">
+                        <h4 class="d-none d-lg-inline-block">CodeIn Community</h4>
+                    </a>
 
-    <div class="content">
-      <div class="left-side">
-        <div class="head">
-          <h1>Let's talk <i class='far fa-comment' style='font-size:56px'></i></h1>
-          <p>Ask us anything or just say hi...</p>
-        </div>
+                    <!-- hamburger btn -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-        <div class="email">
-          <p><i class="fas fa-envelope"></i> hello@codeincommunity.com</p>
-        </div>
-
-        <div class="socials">
-          <button><a href="#"><i class="fab fa-discord"></i></a></button>
-          <button><a href="#"><i class="fab fa-twitter"></i></a></button>
-          <button><a href="#"><i class="fab fa-linkedin-in"></i></a></button>
-          <button><a href="#"><i class="fab fa-instagram"></i></a></button>
+                    <!-- nav collapsable content -->
+                    <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-center" aria-current="page" href="#"><span
+                                        class="customNavLink">Home</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-center" href="#"><span class="customNavLink">About</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-center" href="events.html"><span class="customNavLink">Events</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-center" href="team.html"><span class="customNavLink">Team</span></a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link text-center active"><span class="customNavLink">Contact</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
 
       </div>
@@ -154,41 +153,57 @@
           <button type="submit" class="btn-warning">SEND</button>
         </form>
       </div>
+
     </div>
-  </div>
-  <br><br>
-  <footer class="foot">
-    <div class="main_container1">
-      <div class="container1 mx-3">
-        <h2>Section</h2>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-      </div>
-      <div class="container1 mx-3">
-        <h2>Section</h2>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-      </div>
-      <div class="container1 mx-3">
-        <h2>Section</h2>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-      </div>
-      <div class="container2">
-        <h2>Subscribe to our newsletter</h2>
-        <p id="subscribepara" style="line-height: 15px;">Monthly digest of whats new and exciting
-          from us.</p>
-        <div>
-          <input type="email" name="email" id="email" placeholder="Email">
-          <button class="btn btn-primary">Subscribe</button>
+    <!-- --------------------------------------------narbar ends-------------------------------------------- -->
+
+    <!-- --------------------------------------------contact us form starts-------------------------------------------- -->
+    <div class="conatiner my-5 mx-5 contact-us-form rounded-3">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row pt-5 text-white px-lg-5 mx-3">
+                    <span class="left-text">Let's talk <i class="far fa-comment"></i></span>
+                    <div id="title">Ask us anything or just say hi...</div>
+                </div>
+                <div class="text-white mt-5 p-2 text-sm-center text-lg-start px-lg-5 mx-lg-3">
+                    <p><i class="fas fa-envelope"></i> <span class="title">hello@codeincommunity.com</span></p>
+                </div>
+                <div class="row mb-lg-5">
+                    <div class="col d-flex justify-content-center justify-content-lg-start px-lg-5 mx-lg-3">
+                        <button class="btn btn-light rounded-circle m-2"><a href="#"><i
+                                    class="fab fa-discord"></i></a></button>
+                        <button class="btn btn-light rounded-circle m-2"><a href="#"><i
+                                    class="fab fa-twitter"></i></a></button>
+                        <button class="btn btn-light rounded-circle m-2"><a href="#"><i
+                                    class="fab fa-linkedin-in"></i></a></button>
+                        <button class="btn btn-light rounded-circle m-2"><a href="#"><i
+                                    class="fab fa-instagram"></i></a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 px-5">
+                <form class="my-5" action="#">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input class="form-control bg-transparent text-white myInput" type="text" name="name"
+                                id="nameInput" placeholder="Name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="email" class="form-control bg-transparent text-white myInput" name="email"
+                                id="emailInput" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col">
+                            <input type="text" class="form-control bg-transparent text-white myInput" name="message"
+                                placeholder="Message" id="messageInput">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="my-3 btn btn-light form-control">Send</button>
+                </form>
+            </div>
         </div>
-      </div>
     </div>
     <hr style="color: white;">
     <div>
@@ -219,6 +234,47 @@ emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', '#contactForm')
 </script>
 <!-- emailjs to mail contact form data -->
 
+    <!-- --------------------------------------------contact us form ends-------------------------------------------- -->
+
+    <!-- --------------------------------------------Footer starts-------------------------------------------- -->
+    <section class="footerSection navBG">
+        <div class="container py-5 footerSection">
+            <div class="row">
+                <div class="col-lg-3 text-light text-center text-lg-start">
+                    <h2>About</h2>
+                    <ul style="list-style: none; padding-left: 0px; display: inline-block;">
+                        <li>History</li>
+                        <li>Our Team</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-light text-center text-lg-start">
+                    <h2>Services</h2>
+                    <ul style="list-style: none; padding-left: 0px;">
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-light">
+                    <h2 class="text-center text-lg-end">CodeIN Community</h2>
+
+
+                    <!-- <p class="text-center text-lg-end">Lorem Ipsum available, but the majority</p> -->
+
+                    <!-- Search Bar -->
+                    <form class="d-flex mx-0 justify-content-sm-center justify-content-lg-end">
+                        <input class="form-control" id="searchBar" type="search" aria-label="Search"
+                            placeholder="Search">
+                        <button class="btn btn-outline-warning" id="footer-search-btn" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------------Footer ends-------------------------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
