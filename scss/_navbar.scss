@@ -1,0 +1,209 @@
+
+.navbar-brand{
+  position: relative;
+  padding: 0px;
+}
+.top-nav-collapse{
+  background: #fff;
+  z-index: 999999;
+  padding: 5px!important;
+  top: 0px!important;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  background: #fff!important;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  .navbar-brand{
+    top: 0px;
+    img{
+      width: 70%;
+    }
+  }
+  .navbar-nav .nav-link{
+    color: #585b60 !important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    &:hover{
+      cursor: pointer;
+      color: $preset!important;
+      border-color: $preset!important;
+    }
+  }
+  .navbar-nav .nav-link:hover{
+    color: $preset!important;
+  }
+}
+.navbar-expand-md .navbar-toggler{
+  background: transparent;
+  border: 1px solid $preset;
+  color: $preset;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navbar-brand{
+    img{
+      width: 70%;
+    }
+  }
+.top-nav-collapse .navbar-nav li.active a.nav-link{
+  color: $preset!important;
+  border-color: $preset;
+}
+.indigo{
+  background: transparent;
+}
+.menu-bg{
+  background: transparent;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+  i{
+    font-size: 14px;
+    margin-left: 5px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+.navbar-expand-md .navbar-nav .nav-item{
+  padding-left: 25px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+  color: #333;
+  font-weight: 400;
+  padding: 7px 0;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  &:before{
+    background-color: $preset;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    margin: 0 auto;
+    width: 0;
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: width 1s;
+    -ms-transition: width 1s;
+    -webkit-transition: width 1s;
+  }
+}
+.navbar-expand-md .navbar-nav li a:hover, 
+.navbar-expand-md .navbar-nav li .active > a, 
+.navbar-expand-md .navbar-nav li a:focus{
+  color: #fff;
+  outline: none;
+}
+.navbar-expand-md .navbar-nav .active > .nav-link, 
+.navbar-expand-md .navbar-nav .nav-link.active, 
+.navbar-expand-md .navbar-nav .nav-link.open, 
+.navbar-expand-md .navbar-nav .open > .nav-link{
+  color: $preset!important;
+  width: 100%;
+ }
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link:hover::before,
+.navbar-expand-md .navbar-nav .nav-link:focus{
+  color: $preset;
+  width: 100%;
+  transition: width 1s;
+  -webkit-transition: width 1s;
+  -ms-transition: width 1s;
+}
+.navbar{
+  padding: 10px 0;
+   li.active a.nav-link {
+      color: #preset;
+  }
+}
+.dropdown-toggle::after{
+  display: none;
+}
+.dropdown-menu{
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  z-index: 99;
+  min-width: 210px;
+  background-color: #fff;
+  white-space: nowrap;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  animation: fadeIn 0.4s;
+  -webkit-animation: fadeIn 0.4s;
+  -moz-animation: fadeIn 0.4s;
+  -o-animation: fadeIn 0.4s;
+  -ms-animation: fadeIn 0.4s;
+  &:before{
+      content: "";
+      display: inline-block;
+      position: absolute;
+      bottom: 100%;
+      left: 20%;
+      margin-left: -5px;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+  }
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  border: none;
+  animation: fadeIn 0.4s;
+  -webkit-animation: fadeIn 0.4s;
+  -moz-animation: fadeIn 0.4s;
+  -o-animation: fadeIn 0.4s;
+  -ms-animation: fadeIn 0.4s;
+}
+.dropdown .dropdown-menu .dropdown-item{
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #f1f1f1;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  clear: both;
+  position: relative;
+  outline: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.dropdown .dropdown-menu .dropdown-item:last-child{
+  border-bottom: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.dropdown .dropdown-menu .dropdown-item:first-child{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.dropdown .dropdown-item:focus, 
+.dropdown .dropdown-item:hover,
+.dropdown .dropdown-item.active{
+  color: $preset;
+  background: #f7f7f7;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background: transparent;
+}
+.fadeInUpMenu {
+  -webkit-animation-name: fadeInUpMenu;
+  animation-name: fadeInUpMenu;
+}
+

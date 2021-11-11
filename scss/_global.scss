@@ -1,0 +1,290 @@
+
+// Font Family
+@import url('https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans');
+html{
+  overflow-x: hidden;
+}
+body {
+  background: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #abacae;
+  line-height: 25px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4{
+  font-size: 38px;
+  color: #222222;
+  font-weight: 700;
+  font-family: 'Arvo', serif;
+}
+a{
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	&:hover{text-decoration: none;}
+	a:focus{
+	outline: none;
+	}
+}
+p{
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  font-size: 14px;
+}
+ul,ol{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+a:not([href]):not([tabindex]){
+  color: #fff;
+}
+.section-header{
+  margin-bottom: 30px;
+  p{
+    text: center;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
+.section-title{
+  font-size: 30px;
+  color: #222222;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+}
+.shape{
+  height: 1px;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 60px;
+  background-color: $preset;
+}
+.padding-none{
+  padding: 0px;
+}
+.bg-gray{
+  background: #f9f9f9;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgba(61, 96, 244, 0.3);
+}
+@mixin icon-shadow {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28)
+}
+
+//Bootstrap Button Core
+.btn{
+  font-size: 14px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+.btn:focus,
+.btn:active{
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+.btn-common{
+  background-color: $preset;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  &:hover{
+    color: $preset;
+    background: transparent;
+    border: 1px dotted $preset;
+    box-shadow:  0 6px 22px rgba(0,0,0,0.1);
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+  }
+}
+.btn-border{
+    color: $preset;
+    background-color: transparent;
+    border: 1px solid $preset;
+    border-radius: 30px;
+    text-transform: uppercase;
+  &:hover{
+    color: #fff;
+    border-color: $preset;
+    background-color: $preset;
+  }
+}
+.btn-border:focus{
+  color: #fff;
+  border-color: $preset;
+  background-color: $preset;
+}
+.btn-lg{
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.btn-rm{
+  padding: 7px 0px;
+  color: $preset;
+  text-transform: capitalize;
+  &:hover{
+    color: $preset;
+  }
+}
+button:focus{
+  outline: none!important;
+}
+.icon-close,.icon-check{
+  color: $preset;
+}
+.social-icon{
+    a{  
+      color: #666;
+      background: #fff;
+      width: 32px;
+      height: 32px;
+      line-height: 34px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 100%;
+      font-size: 16px;
+      margin: 15px 6px 12px 4px;
+      transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      &:hover{
+        color: #fff!important;
+      }
+    }
+    .facebook:hover{
+      background: #3b5999;
+    }
+    .twitter:hover{
+      background: #4A9CEC;
+    }
+    .instagram:hover{
+      background: #D6274D;
+    }
+    .linkedin:hover{
+      background: #1260A2;
+    }
+    .google:hover{
+      background: #CE332A;
+    }
+}
+/* ScrollToTop */
+a.back-to-top{
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+  text-decoration: none;
+  i {
+  	display: block;
+	  font-size: 22px;
+	  width: 40px;
+	  height: 40px;
+	  line-height: 40px;
+	  color: #fff;
+    background: $preset;
+	  border-radius: 30px;
+	  text-align: center;
+	  transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -webkit-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  @include icon-shadow;
+	}
+	&:hover , &:focus {
+		text-decoration: none;
+	}
+}
+
+ /* Preloader */
+ #preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999999;
+}
+.loader{
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+#loader-1:before, #loader-1:after{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 7px solid transparent;
+  border-top-color: $preset;
+}
+
+#loader-1:before{
+  z-index: 100;
+  animation: spin 1s infinite;
+}
+
+#loader-1:after{
+  border: 7px solid #f2f2f2;
+}
+
+@keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%{
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+//Helper Classes
+.section-padding {
+	padding: 60px 0;
+}
+hr{
+  border-top: 1px dotted #ddd;
+}

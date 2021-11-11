@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Pricing Table Style
+   ========================================================================== */
+   #pricing{
+    text-align: center;
+    .title{
+        padding-top: 20px;
+        h3{
+          text-transform: uppercase;
+          color: #333;
+          font-size: 18px;
+        }
+        .month-plan{
+          font-size: 16px;
+          font-weight: 500;
+          color: #333;
+        }
+    }
+    .table{
+        margin-top: 15px;
+        padding: 30px;
+        border-radius: 4px;
+        border: none!important;
+        box-shadow: 0px 2px 18px 0px rgba(198, 198, 198, 0.3);
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        .icon-box{
+          position: relative;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          display: inline-block;
+          vertical-align: middle;
+          background-color: #EBEDEF;
+          margin-bottom: 20px;
+          -webkit-transition: all .3s linear;
+          -moz-transition: all .3s linear;
+          -ms-transition: all .3s linear;
+          -o-transition: all .3s linear;
+          transition: all .3s linear;
+           i{
+            color: $preset;
+            line-height: 80px;
+            font-size: 30px;
+            -webkit-transition: all .3s linear;
+            -moz-transition: all .3s linear;
+            -ms-transition: all .3s linear;
+            -o-transition: all .3s linear;
+            transition: all .3s linear;
+           }
+        }
+        .pricing-header{
+            position: relative;
+            text-align: center;
+            .price-value{
+                font-size: 24px;
+                color: $preset; 
+                position: relative;
+                text-align: center;
+                font-weight: 700;
+                sup{
+                    font-size: 16px;
+                    font-weight: 500;
+                    top: -18px;
+                }
+                span{
+                  font-size: 15px;
+                  color: #abacae;
+                  font-weight: 400;
+                }
+            }
+        }
+        .description{
+            text-align: center;
+            padding: 0px 50px;
+            margin-bottom: 20px;
+            li{
+              font-size: 14px;
+              font-weight: 400;
+              color: #abacae;
+              padding: 4px 0;
+              &:last-child{
+                border-bottom: none;
+              }        
+            }
+        }
+    } 
+    .table:hover{
+      background: #ffffff;
+      box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+      .icon-box{
+        background: $preset;
+        i{
+          color: #fff;
+        }
+      }
+    }
+    #active-tb{
+      background: #ffffff;
+      box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+      .icon-box{
+        background: $preset;
+        i{
+          color: #fff;
+        }
+      }
+    }
+    .active{
+      z-index: 99999;
+    }
+  }
+

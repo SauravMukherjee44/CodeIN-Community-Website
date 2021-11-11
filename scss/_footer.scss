@@ -1,0 +1,126 @@
+/* Footer Area Start */
+.footer-area{
+	position: relative;
+	padding: 150px 0px 0px;
+	background: url(../img/footer-bg.jpg);
+	.footer-titel{
+		font-size: 18px;
+		color: #333333;
+    font-weight: 500;
+    padding-bottom: 20px;
+    letter-spacing: 0.5px;
+    span{
+    	color: #ccc;
+    	font-weight: 400;
+    }
+	}
+	.textwidget{
+		p{
+			color: #333;
+		}
+	}
+	.footer-link{
+		li{
+			margin-bottom: 10px;
+			a{
+				color: #333;
+				font-size: 14px;
+				font-weight: 400;
+				position: relative;
+				&:hover{
+					color: $preset;
+				}
+			}
+		}
+	}
+	.address{
+		li{
+			margin-bottom: 20px;
+			a{
+				color: #666666;
+				font-size: 14px;
+				line-height: 30px;
+				font-weight: 400;
+				i{
+					font-size: 22px;
+				    width: 32px;
+				    vertical-align: middle;
+				    height: 36px;
+				    text-align: center;
+				    display: inline-block;
+				    float: left;
+				    margin-right: 5px;
+				    line-height: 32px;
+				}
+			}
+		}
+	}
+	#subscribe-form{
+		margin-top: 10px;
+		.form-group{
+			position: relative;
+			.btn-common{
+				position: absolute;
+			    top: 0;
+			    right: 0;
+			    padding: 7px 15px;
+			    height: 52px;
+			    border-radius: 0;
+			    background: transparent;
+			    color: $preset;
+			}
+		}
+	}
+}
+#copyright{
+	.copyright-content{
+		border-top: 1px solid #d5d4e9;
+    padding: 15px 0;
+    margin: 45px 0 0px;
+	}
+	p{
+		line-height: 42px;
+		color: #333;
+		text-align: center;
+		margin: 0;
+		a{
+			color: $preset;
+		}
+	}
+}
+.social-icon{
+    a{  
+      color: #272727;
+      background: #fff;
+      width: 32px;
+      height: 32px;
+      line-height: 34px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 4px;
+      font-size: 16px;
+      margin: 15px 6px 12px 4px;
+      transition: all 0.3s ease-in-out 0s;
+      -moz-transition: all 0.3s ease-in-out 0s;
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      &:hover{
+        color: #fff!important;
+      }
+    }
+    .facebook:hover{
+      background: #3b5999;
+    }
+    .twitter:hover{
+      background: #4A9CEC;
+    }
+    .instagram:hover{
+      background: #D6274D;
+    }
+    .linkedin:hover{
+      background: #1260A2;
+    }
+    .google:hover{
+      background: #CE332A;
+    }
+}
