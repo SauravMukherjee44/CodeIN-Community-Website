@@ -26,7 +26,7 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
 
 ## 📌 Sneak Peek of Main Page
-![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/2c2416fbb822f24e0e2fbb47aca2099aa0127f95/media/Images/Screenshot%20(327).png)
+![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/b68f617105ebe30df54c7915170aa2bc198c0fb6/assets/img/Screenshot%202021-11-12%20023818.png)
 
 In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
 
