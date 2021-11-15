@@ -5,7 +5,7 @@
 
 
 <h2>
-<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Join Us On Discord ⚡</a>
+<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Join Us On Discord </a>
 </h2>
 
 So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?
