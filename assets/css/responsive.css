@@ -160,6 +160,8 @@
   .testimonial-item {
     padding: 0;
   }
+
+  
   .client-item-wrapper img {
     width: 50%;
   }
@@ -204,4 +206,19 @@
   .cta-text {
     margin-bottom: 30px;
   }
+}
+@media screen and (max-width: 600px){
+  .events .box-container{
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: auto;
+   width: 70%;
+
+  }
+  .events .box-container .box .content{
+    height: 100%;
+    
+  }
+
 }
