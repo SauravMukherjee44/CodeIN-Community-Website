@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
 html {
   overflow-x: hidden;
+  font-size: 62.5%;
 }
 
 body {
@@ -827,6 +828,147 @@ hr {
   transform: scale(1.9);
 }
 
+
+/*----------Event Section Starts here--------------------->*/
+.events .heading{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+ }
+
+ .events .box-container{
+   display: flex;
+   flex-wrap:nowrap;
+   gap:10.5rem;
+   overflow-x: auto;
+   overflow-y: hidden;
+
+
+
+ }
+/*--------Scroll-Bar Designing---------------------------->*/
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#F63854 ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*Scoll bar designing ends here-------------------------------->*/
+
+ .events .box-container .box{
+   height:auto;
+
+   flex:1 1 30rem;
+
+   border:1rem solid #fff;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   border-radius: .5rem;
+   position: relative;
+
+   min-width:25%;
+
+ }
+
+ .events .box-container .box img{
+   height: 100%;
+   width:100%;
+   object-fit:contain;
+
+ }
+
+ .events .box-container .box .content{
+   position: absolute;
+   top:0; left:0;
+   height: 0;
+   width: 0;
+   background:whitesmoke;
+   padding:2rem;
+   padding-top: 5rem;
+   text-align: center;
+   overflow:auto;
+   visibility: hidden;
+
+ }
+
+ .events .box-container .box .content h4{
+   font-size: 3rem;
+   color:#F63854;
+
+
+
+
+ }
+
+ .events .box-container .box .content p{
+   font-size: 1.5rem;
+   color:#F63854;
+   padding:1rem 0;
+   font-stretch: normal;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+ .events .box-container .box:hover .content{
+   top:0;
+   height: 100%;
+   width: 100%;
+   visibility: visible;
+ }
+
+/*--------------Event-Buttons starts here--------------->*/
+ .btn{
+  display: inline-block;
+  padding: .5rem 3rem;
+  border: .2rem solid #F63854;
+  color:black;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 0%;
+  height: 100%;
+  background:#F63854;
+  transition: .3s linear;
+  z-index: -1;
+
+}
+.btn:hover::before{
+  width: 100%;
+  left: 0;
+}
+
+.btn:hover{
+  color: #fff;
+}
+
+
+
+/*-------------------Event Section ends here---------------------------->*/
+
+
+
 .form-control {
   width: 100%;
   margin-bottom: 20px;
@@ -1066,3 +1208,4 @@ textarea {
   /* width: 800px; */
   object-fit: cover;
 }
+
