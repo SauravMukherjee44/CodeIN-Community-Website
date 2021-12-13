@@ -1208,4 +1208,14 @@ textarea {
   /* width: 800px; */
   object-fit: cover;
 }
-
+.opportunity_btn{
+  position: relative;
+  top: 10px;
+  left: 550px;
+}
+.navbar-brand img{
+  width: 50px;
+}
+.top-nav-collapse .navbar-brand img{
+  width: 50px;
+}
