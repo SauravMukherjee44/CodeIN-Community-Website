@@ -20,6 +20,10 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-brand{
+  font-size: 7rem;
+}
+
 h1, h2, h3, h4 {
   font-size: 38px;
   color: #222222;
@@ -690,6 +694,7 @@ hr {
 .testimonial {
   position: relative;
   background-color: #F63854;
+ 
 }
 
 .testimonial-item {
@@ -1215,6 +1220,8 @@ textarea {
 }
 .navbar-brand img{
   width: 50px;
+  
+  
 }
 .top-nav-collapse .navbar-brand img{
   width: 50px;
