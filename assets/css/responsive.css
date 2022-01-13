@@ -222,3 +222,39 @@
   }
 
 }
+@media  (min-width: 151px) and (max-width: 350px) {
+  .content{
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .events .box-container .box .content h4{
+    font-size: 2rem;
+  }
+  .content .btn{
+   
+    padding:5%;
+    font-size: 70%;
+  }
+   
+  .swiper-slide{
+    min-width: 100%;
+    max-width: 100%;
+    
+    
+  }
+  
+  }
+      
+  
+  @media  (min-width: 151px) and (max-width: 483px) {
+    
+   
+    .col-lg-5 col-md-12 col-xs-12{
+    min-width: 200%;
+    max-width: 200%;
+    }
+    .contact-img{
+      min-width: 100%;
+      max-width: 100%;
+    }
+}
