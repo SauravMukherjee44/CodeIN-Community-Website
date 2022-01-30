@@ -1195,6 +1195,42 @@ textarea {
   color: #f63854;
 }
 
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  border: 1.1px solid rgb(32, 31, 31);
+  padding: 5px;
+  border-radius: 50%;
+  color: #ffe600;
+  background-color: #09011b;
+}
+
+.socials a i{
+  font-size: 15px;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover {
+  background-color: #00aced;
+  color: wheat;
+}
+
+
 #copyright .copyright-content {
   border-top: 1px solid #d5d4e9;
   padding: 15px 0;
