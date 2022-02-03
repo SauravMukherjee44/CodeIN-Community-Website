@@ -1250,6 +1250,35 @@ textarea {
 
 /* CUSTOM CSS */
 
+/* ====== Partners ======= */
+.communityPartner__image {
+  height: 100px;
+  width: auto;
+}
+.communityPartner__box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.communityPartner__box1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.communityPartner__box2 h3 {
+  padding-left: 100px;
+  font-weight: bold;
+}
+.communityPartner__image2 {
+  height: 50px;
+  margin-left: 20px;
+}
+.communityPartner__box3 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: center;
+}
+
 .contact-img {
   /* height: 200px; */
   /* width: 800px; */
