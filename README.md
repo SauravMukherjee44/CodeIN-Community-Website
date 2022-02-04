@@ -1,11 +1,11 @@
 <h1 align="center">CodeIN Community Website </h1>
 
 <h3> Open Source Website for CodeIN Community built using HTML, CSS and JavaScript </h3>
-<h3>[ In development Phase ]</h3>
 
 
 <h2>
 <a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Join our community on Discord🚀</a>
+<br>
 <a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
 </h2>
 
