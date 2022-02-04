@@ -207,40 +207,12 @@
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 600px){
-  .events .box-container{
-    flex-direction: column;
-    overflow-y: auto;
-    overflow-x: hidden;
-    margin: auto;
-   width: 70%;
-
-  }
-  .events .box-container .box .content{
-    height: 100%;
-    
-  }
-
 }
 @media  (min-width: 151px) and (max-width: 350px) {
-  .content{
-    min-width: 100%;
-    max-width: 100%;
-  }
-  .events .box-container .box .content h4{
-    font-size: 2rem;
-  }
-  .content .btn{
-   
-    padding:5%;
-    font-size: 70%;
-  }
    
   .swiper-slide{
     min-width: 100%;
     max-width: 100%;
-    
-    
   }
   
   }
