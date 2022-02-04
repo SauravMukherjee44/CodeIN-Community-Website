@@ -5,7 +5,8 @@
 
 
 <h2>
-<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Join Us On Discord </a>
+<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Join our community on Discord🚀</a>
+<a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
 </h2>
 
 So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?
@@ -25,7 +26,7 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
 
-## 📌 Sneak Peek of Main Page
+## 📌 Sneak Peek of the Website:
 ![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/f25d4e879d383cedf72b31fe770803221035a200/assets/img/DEMO.png)
 
 In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
