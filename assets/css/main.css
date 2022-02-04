@@ -167,13 +167,18 @@ a:not([href]):not([tabindex]) {
   left: 0px;
   background: rgba(61, 96, 244, 0.3);
 }
+/* 
+.btn-danger{
+  padding: 10px 30px;
+  border-radius: 20px;
+} */
 
 .btn {
   font-size: 14px;
   padding: 10px 30px;
   cursor: pointer;
   font-weight: 400;
-  color: #fff;
+  color: red;
   border-radius: 30px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
