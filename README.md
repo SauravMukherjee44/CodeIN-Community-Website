@@ -1,6 +1,6 @@
 <h1 align="center">CodeIN Community Website </h1>
 
-<h3> Open Source Website for CodeIN Community built using HTML, CSS and JavaScript </h3>
+<h3> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
 
 
 <h2>
