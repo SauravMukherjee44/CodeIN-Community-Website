@@ -998,9 +998,12 @@ hr {
 @media screen and (max-width:991px){
   .events_box_row{
     margin:30px auto;
+    flex-direction: row;
   }
   .events_box{
     margin: 0px 30px;
+    flex-direction: column;  
+    border: 2px solid;
   }
   .events_container{
     flex-direction: column;
@@ -1016,11 +1019,11 @@ hr {
 
 @media screen and (max-width:517px){
     .events_box{
-      width: 15em;
+      width: 17em;
       height: 22em;
       border-radius:15px;
       background-color: transparent;
-      margin-top: 20px;
+      margin-top: 40px;
       align-items: center;
     }
     .events_img{
@@ -1394,3 +1397,94 @@ textarea {
 }
 
 /* //// Community partners end//// */
+
+/* //// Counter starts//// */
+.counter-up{
+  min-height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right top, #051937, #3f325b, #7a4b79, #b7668e, #f2879b);
+  margin:40px 0px;
+}
+.counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.counter-up .content{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-up .content .box{
+  width: calc(25% - 30px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+  height: 26em;
+  
+}
+.content .box .icon{
+  font-size: 4em;
+  color: white;
+  border: 1px solid;
+  padding: 43px 45px;
+  border-radius: 50%;
+}
+.content .box .counter{
+  font-size: 50px;
+  font-weight: 500;
+  margin: 20px 0px;
+  color: white;
+  font-family: sans-serif;
+}
+.content .box .text{
+  font-weight: 400;
+  color: white;
+  text-transform:uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1036px) {
+  .counter-up{
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box{
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box{
+    width: 100%;
+    margin:0px;
+  }
+  .content .box .counter{
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper{
+    padding: 20px;
+  }
+  .counter-up{
+    padding: 30px 20px 0 20px;
+  }
+}
+/* //// Counter end//// */
+

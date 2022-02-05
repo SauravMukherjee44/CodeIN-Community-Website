@@ -8,13 +8,13 @@
 
   <title>CodeIN Community </title>
 
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <!-- Icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
   <link rel="stylesheet" href="assets/fonts/line-icons.css">
   <!-- Owl carousel -->
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -30,6 +30,13 @@
   <!-- Responsive Style -->
   <link rel="stylesheet" href="assets/css/responsive.css">
   <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-png">
+
+  <!-- counter imports -->
+  <script src="assets/js/jquery-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <!-- counter imports end-->
+
 </head>
 
 <body>
@@ -954,6 +961,28 @@
   </section>
   <!-- Opportunity end -->
 
+  <!-- counter starts -->
+  <div class="counter-up ">
+    <div class="content container wow fadeInDown animated">
+      <div class="box">
+        <div class="icon"><i class="fas fa-users"></i></div>
+        <div class="d-flex align-items-center"><h1 class="counter">1500</h1><p style="font-size: 50px;">  +</p></div>
+        <div class="text">Community members</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="far fa-calendar"></i></div>
+        <div class="d-flex align-items-center"><h1 class="counter">10</h1><p style="font-size: 50px;">  +</p></div>
+        <div class="text">Events</div>
+      </div>
+      <div class="box">
+        <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="d-flex align-items-center"><h1 class="counter">200</h1><p style="font-size: 50px;">  +</p></div>
+        <div class="text">Opportunities Provided</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- counter ends -->
   
   <!---- Community partner
     ==================================== -->
@@ -1009,6 +1038,36 @@
     </div>
     <!--
        End  Community partner
+        ==================================== -->
+   <!---- Sponsors
+    ==================================== -->
+    <div class="community_partner">
+      <div class="container">
+        <h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS</h1>
+        <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+      
+        <div class="imgbox wow fadeInLeft animated">
+  
+          <div class="img_container">
+            <div class="community_box box1">
+              <a href="https://learnwith.community/" style="text-decoration: none;" target="_blank">
+                <img src="./assets/img/Partners/LWC.png" class="communityPartner__image" alt="">
+              </a>
+            </div>
+            <div class="community_box box2">
+              <a href="https://gdsc.community.dev/kalindi-college-delhi/" style="text-decoration: none;" target="_blank">
+                <img src="./assets/img/Partners/GDSC_kalindi.jpg" class="communityPartner__image" alt="">
+              </a>
+            </div>
+          </div>
+
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <!--
+       End  Sponsors
         ==================================== -->
   
 
@@ -1171,12 +1230,25 @@
   </div>
   <!-- End Preloader -->
 
+  <!-- counter scripts -->
+
+  <script>
+    
+    $(document).ready(function(){
+      $('.counter').counterUp({
+        delay: 10,
+        time: 400
+      });
+    });
+    
+  </script>
+  <!-- counter scripts end -->
+
   <!-- emailjs cdn -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <!-- emailjs cdn -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="assets/js/jquery-min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
