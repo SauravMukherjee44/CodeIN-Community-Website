@@ -130,9 +130,10 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
+  
 }
 
 .section-title {
@@ -1041,9 +1042,9 @@ hr {
     
 }
 
-}
+
 /*--------------Event-Buttons starts here--------------->*/
-.btn {
+/* .btn {
   display: inline-block;
   padding: 0.5rem 3rem;
   border: 0.2rem solid #f63854;
@@ -1075,7 +1076,8 @@ hr {
 
 .btn:hover {
   color: #fff;
-}
+  
+} */
 
 /*-------------------Event Section ends here---------------------------->*/
 
@@ -1350,7 +1352,16 @@ textarea {
 .opportunity_btn {
   position: relative;
   top: 10px;
-  left: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.opportunity_btn a
+{
+    color: aliceblue;
+}
+.opportunity_btn:hover a
+{
+    color: #f63854;
 }
 .navbar-brand img {
   width: 50px;
