@@ -26,6 +26,7 @@
 
 .lni-image:before {
   content: "\e991";
+  font-size:20px;
 }
 .lni-linkedin-filled:before {
   content: "\e9ac";
