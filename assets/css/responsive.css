@@ -109,6 +109,7 @@
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
     margin: 0px 15px;
+    padding:10px;
   }
   .bg-inverse {
     background: #fff !important;
