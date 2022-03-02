@@ -2,6 +2,7 @@
 html {
   overflow-x: hidden;
   font-size: 62.5%;
+  scroll-behavior: smooth;   /* ---added smooth scrolling--- */
 }
 
 body {
@@ -1473,4 +1474,26 @@ textarea {
   }
 }
 /* //// Counter end//// */
+/* navigate to top button */
+#buttontop
+{
+  background: #fc0155;
+  outline: none;
+  border: none;
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  height: 55px;
+  width: 55px;
+  border-radius: 30px;
+}
+
+.disappear {
+  opacity:0;
+ 
+}
+.appear {
+  opacity:1;
+
+}
 

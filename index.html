@@ -16,6 +16,7 @@
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/fonts/line-icons.css">
+  <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
   <!-- Owl carousel -->
   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl.theme.css">
@@ -1376,11 +1377,36 @@
   </div>
   <!-- End Preloader -->
 
+  <!--navigate to top button -->
+  <div id="navtbut" class="disappear">
+    <a href = "#top">
+      <button id = "buttontop">
+      <i class = "material-icons">arrow_upward</i>  
+      </button>
+    </a>
+  </div>
+
   <!-- counter scripts -->
 
   <script src="./JS/Counter1.js"></script>    <!--JS Function allocated to JS Folder-->
   <!-- counter scripts end -->
 
+  <!--navigate to top button script-->
+  <script>
+    navtbut = document.getElementById("navtbut");
+
+  var navToTop = function () {
+  var y = window.scrollY;
+  if (y >= 220) {
+      navtbut.className = "appear"
+  } 
+  else {
+      navtbut.className = "disappear"
+  }
+};
+
+window.addEventListener("scroll", navToTop);
+  </script>
   <!-- emailjs cdn -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <!-- emailjs cdn -->
