@@ -4,12 +4,15 @@
     
     .nav-item {
         font-size: large;
+        margin: 20px;
+        padding : 20px;
     }
     
     .head-title {
         color: black;
         animation: slideleft 1s linear forwards;
     }
+
     
     p {
         color: rgb(43, 41, 41);
