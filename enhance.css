@@ -12,8 +12,54 @@
         color: black;
         animation: slideleft 1s linear forwards;
     }
+   .head-title :hover #slide{
+       transition: 1s;
+       left: 0;
+}
+    #slide {
+     position: absolute;
+     left: -100px;
+     width: 100px;
+     height: 100px;
+     background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 2s;
+}
 
-    
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+ p.slide-left:hover #slide{
+     transition: 1s;
+       left: 0;
+}
+    #slide {
+     position: absolute;
+     left: -100px;
+     width: 100px;
+     height: 100px;
+     background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+     animation: slide 0.5s forwards;
+     animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+     
+     
     p {
         color: rgb(43, 41, 41);
     }
@@ -26,10 +72,32 @@
         animation: slideleft 1s linear forwards;
         animation-delay: 2s;
     }
+    #slide {
+       position: absolute;
+       left: -100px;
+       width: 100px;
+       height: 100px;
+       background: blue;
+      -webkit-animation: slide 0.5s forwards;
+      -webkit-animation-delay: 2s;
+       animation: slide 0.5s forwards;
+       animation-delay: 3s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
     
     .header-button:hover {
         background-position: right;
+        transition: 1s;
+        left: 0;
     }
+
     
     .header-button {
         padding-top: 20px;
