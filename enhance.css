@@ -64,10 +64,13 @@
 }
    h3 {
         font-family: san serif;
-        color: rgb(216, 36, 66);
+        color:black;
 }
    h4{
        color: black;
+}
+   .media-icons{
+       color : black;
 }
    .btn btn-common mt-3{
     padding-top: 40px;
