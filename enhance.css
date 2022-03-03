@@ -66,6 +66,9 @@
         font-family: san serif;
         color: rgb(216, 36, 66);
 }
+   h4{
+       color: black;
+}
    .btn btn-common mt-3{
     padding-top: 40px;
     padding-left : 100px;
