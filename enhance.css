@@ -60,6 +60,13 @@
     
     h2 {
         font-family: san serif;
-.btn btn-common mt-3{
-    padding-top: 20px;
+        color: rgb(216, 36, 66);
+}
+   h3 {
+        font-family: san serif;
+        color: rgb(216, 36, 66);
+}
+   .btn btn-common mt-3{
+    padding-top: 40px;
+    padding-left : 100px;
 }
