@@ -40,7 +40,7 @@ body {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #ffe600;
+  color: #007bb6;
   background-color: #09011b;
   width: 44px;
   height: 44px;
@@ -1222,7 +1222,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 5rem 0 3rem 0;
   text-align: center;
   font-weight: bold;
 }
@@ -1235,21 +1235,53 @@ textarea {
   text-decoration: none;
   color: rgb(15, 15, 15);
   border: 1.1px solid rgb(32, 31, 31);
-  padding: 5px;
+  padding: 10px;
   border-radius: 50%;
   color: #ffe600;
   background-color: #09011b;
 }
 
+
 .socials a i {
   font-size: 15px;
   width: 20px;
   transition: color 0.4s ease;
+
 }
 
-.socials a:hover {
-  background-color: #00aced;
-  color: wheat;
+.socials a.linkedin:hover {
+  background-color: #0077b5;
+  color: #FFFFFF;
+}
+
+.socials a.discord:hover {
+  background-color:  #5865F2;
+  color: #FFFFFF;
+}
+
+.socials a.telegram:hover {
+  background-color: #229ED9;
+  color: #FFFFFF;
+}
+
+.socials a.github:hover {
+  background-color: #124165;
+  color: #FFFFFF;
+}
+
+.socials a.youtube:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+.socials a.facebook:hover {
+  background-color: #3b5998;
+  color: #FFFFFF;
+}
+
+.socials a.twitter:hover {
+  background-color: #1DA1F2;
+  color: #FFFFFF;
 }
 
 #copyright .copyright-content {
