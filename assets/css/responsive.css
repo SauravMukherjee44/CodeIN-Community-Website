@@ -32,6 +32,10 @@
   #pricing-table .title h3 {
     font-size: 14px;
   }
+
+  .imgbox {
+    width: 30px;
+  }
 }
 
 /* only small tablets */
@@ -161,7 +165,6 @@
     padding: 0;
   }
 
-  
   .client-item-wrapper img {
     width: 50%;
   }
@@ -207,35 +210,30 @@
     margin-bottom: 30px;
   }
 }
-}
-@media  (min-width: 151px) and (max-width: 350px) {
-   
-  .swiper-slide{
+
+@media (min-width: 151px) and (max-width: 350px) {
+  .swiper-slide {
     min-width: 100%;
     max-width: 100%;
   }
-  
-  }
-      
-  
-  @media  (min-width: 151px) and (max-width: 483px) {
-    
-   
-    .col-lg-5 col-md-12 col-xs-12{
-    min-width: 200%;
-    max-width: 200%;
-    }
-    .contact-img{
-      min-width: 100%;
-      max-width: 100%;
-    }
 }
 
-@media (max-width:500px) {
-  .socials ul{
+@media (min-width: 151px) and (max-width: 483px) {
+  .col-lg-5 col-md-12 col-xs-12 {
+    min-width: 200%;
+    max-width: 200%;
+  }
+  .contact-img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .socials ul {
     text-align: center;
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  }
+}
