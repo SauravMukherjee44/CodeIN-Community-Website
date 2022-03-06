@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card{
+    width: 250px;
+    height: 200px;
+    color: white;
+    margin: 1em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1.5em;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.icon
+{
+    width: 60px;
+    height: 60px;
+    background: #DA0037;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card:hover .icon
+{
+    box-shadow: 0 0 10px red;
+}
+
+.icon i{
+    font-size: 1.5rem;
+}
+
+.card p{
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    display: none;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.card:hover p{
+    display: block;
+    opacity: 1;
+}
+
+.card h4{
+    margin-top: 0.5rem;
+}
+
+.card::before, .card::after{
+    content: " ";
+    position: absolute;
+    background: #171717;
+    width: 100%;
+    height: 40%;
+    z-index: -10;
+    border-radius: 15px 15px 0 0;
+    transition: all .4s;
+}
+
+.card::before{
+    top: 0;
+}
+
+.card:hover::before{
+    transform: translateY(-20px);
+}
+
+.card::after{
+    bottom: 10px;
+    height: 60%;
+    border-radius: 0 0 15px 15px;
+}
+
