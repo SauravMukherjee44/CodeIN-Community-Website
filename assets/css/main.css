@@ -137,7 +137,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 45px;
   color: #222222;
   display: inline-block;
   font-weight: 700;
@@ -622,6 +622,7 @@ hr {
 
 .navbar {
   padding: 10px 0;
+  font-size: 17px;
 }
 
 .navbar li.active a.nav-link {
@@ -1135,6 +1136,15 @@ textarea {
 #cta {
   background: ;
 }
+/* benefits section starts */
+.section-feature {
+  line-height: 48px;
+  padding: 15px 0;
+}
+.com {
+  font-size: 30px;
+}
+/* benefits section ends */
 
 /* Footer Area Start */
 .footer-area {
@@ -1241,47 +1251,45 @@ textarea {
   background-color: #09011b;
 }
 
-
 .socials a i {
   font-size: 15px;
   width: 20px;
   transition: color 0.4s ease;
-
 }
 
 .socials a.linkedin:hover {
   background-color: #0077b5;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .socials a.discord:hover {
-  background-color:  #5865F2;
-  color: #FFFFFF;
+  background-color: #5865f2;
+  color: #ffffff;
 }
 
 .socials a.telegram:hover {
-  background-color: #229ED9;
-  color: #FFFFFF;
+  background-color: #229ed9;
+  color: #ffffff;
 }
 
 .socials a.github:hover {
   background-color: #124165;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .socials a.youtube:hover {
-  background-color: #FF0000;
-  color: #FFFFFF;
+  background-color: #ff0000;
+  color: #ffffff;
 }
 
 .socials a.facebook:hover {
   background-color: #3b5998;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .socials a.twitter:hover {
-  background-color: #1DA1F2;
-  color: #FFFFFF;
+  background-color: #1da1f2;
+  color: #ffffff;
 }
 
 #copyright .copyright-content {
