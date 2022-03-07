@@ -79,4 +79,8 @@ box-shadow:  5px 5px 19px #a4a4a4,
   .blog_container{
     grid-template-columns: none;
   }
+
+  .blog_item_container{
+    height: auto;
+  }
 }
