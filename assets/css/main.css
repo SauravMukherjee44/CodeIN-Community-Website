@@ -1536,14 +1536,17 @@ textarea {
 /* navigate to top button */
 #buttontop {
   background: #fc0155;
+  color: white;
   outline: none;
   border: none;
   position: fixed;
-  bottom: 100px;
-  right: 25px;
+  bottom: 50px;
+  right: 30px;
   height: 55px;
   width: 55px;
   border-radius: 30px;
+  z-index: 10;
+  cursor: pointer;
 }
 
 .disappear {
