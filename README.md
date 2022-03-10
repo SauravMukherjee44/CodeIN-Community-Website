@@ -134,12 +134,12 @@ To start contributing, follow the below guidelines:
 
 **13.** Make sure that you're on your master branch.
 ```
-   git checkout master
+   git checkout main
 ```
 
 **14.** Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
 ```
-   git merge upstream/master
+   git merge upstream/main
 ```
 
 © 2021 Saurav Mukherjee and contributors\
