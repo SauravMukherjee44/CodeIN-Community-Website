@@ -5,8 +5,11 @@
   height: 400px;
   margin-top: 50px;
 }
-
+#testimonials-slider.swiper-slide{
+  animation: pulse 3s infinite;&:hover { animation-play-state: paused; } 
+}
 #testimonials-slider .swiper {
+  
   width: 100%;
   height: 100%;
   overflow: hidden;
