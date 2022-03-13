@@ -25,6 +25,8 @@
   <link rel="stylesheet" href="assets/css/swipper.css">
   <!-- Animate -->
   <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- animate-on-scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- Main Style -->
   <link rel="stylesheet" href="assets/css/main.css">
    <!--blog css  -->
@@ -38,6 +40,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   <!-- counter imports end-->
+
+  <!-- animate on scroll import -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- animate on scroll import end -->
 </head>
 
     <body>
@@ -54,32 +60,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <li class="nav-item active">
-              <a class="nav-link" href="#hero-area">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">
+              <a class="nav-link" href="/#about">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">
+              <a class="nav-link" href="/#testimonials">
                 Team
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#events">
+              <a class="nav-link" href="/#events">
                 Events
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#opportunity">
+              <a class="nav-link" href="/#opportunity">
                 Opportunity
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="./blog.html">
                 Blogs
               </a>
@@ -100,22 +106,18 @@
         <!-- Header Area wrapper End -->
 
 
-
-
-
-<br><br><br>
-
-<div class="title">
-    Blog Page
+<br><br><br><br>
+<br><br>
+<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+  <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Blog</h2>
+  <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
 </div>
-<br><br><br>
-<br><br><br>
 
 
     <!-- blog content start  -->
    <div class="blog_container" >
        <!-- blog 1 -->
-    <a href="https://www.programmableweb.com/news/how-brian-douglas-team-10-developer-advocates-supports-github-s-65-million-developers/analysis/2021/05/11" class="blog_item_container">
+    <a data-aos="fade-up" data-aos-duration="1500" href="https://www.programmableweb.com/news/how-brian-douglas-team-10-developer-advocates-supports-github-s-65-million-developers/analysis/2021/05/11" class="blog_item_container">
         <div class="blog_item_image">
             <img src="https://www.programmableweb.com/sites/default/files/Brian-Douglas-GitHub.jpg">
         </div>
@@ -129,7 +131,7 @@
      </a>
  
       <!-- blog 2 -->
-     <a href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04" class="blog_item_container">
+     <a data-aos="fade-up" data-aos-duration="1500" href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04" class="blog_item_container">
         <div class="blog_item_image">
            <img src="data:image/jpeg;base64,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">
         </div>
@@ -143,7 +145,7 @@
      </a>
 
       <!-- blog 3 -->
-     <a href="https://simpleprogrammer.com/myths-about-software-programming/" class="blog_item_container">
+     <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/myths-about-software-programming/" class="blog_item_container">
         <div class="blog_item_image">
             <img src="https://simpleprogrammer.com/wp-content/uploads/2022/02/Fact-or-Fiction-8-Myths-About-Software-Programming-square-300x300.png">
         </div>
@@ -156,7 +158,7 @@
      </a>
  
      <!-- blog 4 -->
-     <a href="https://simpleprogrammer.com/mobile-app-development-process-guide-2022/" class="blog_item_container">
+     <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/mobile-app-development-process-guide-2022/" class="blog_item_container">
         <div class="blog_item_image">
             <img src="https://simpleprogrammer.com/wp-content/uploads/2022/02/The-Mobile-App-Development-Process-A-Step-by-Step-Guide-2022-square-300x300.png">
         </div>
@@ -169,7 +171,7 @@
      </a>
 
      <!-- blog 5 -->
-     <a href="https://simpleprogrammer.com/trends-ai-and-ml-2022/" class="blog_item_container">
+     <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/trends-ai-and-ml-2022/" class="blog_item_container">
         <div class="blog_item_image">
             <img src="https://simpleprogrammer.com/wp-content/uploads/2022/02/machine-learnign-and-AI-square-300x300.png">
         </div>
@@ -182,7 +184,7 @@
      </a>
 
      <!-- blog 6 -->
-     <a href="https://simpleprogrammer.com/iot-influence-industry/" class="blog_item_container">
+     <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/iot-influence-industry/" class="blog_item_container">
         <div class="blog_item_image">
             <img src="https://simpleprogrammer.com/wp-content/uploads/2022/02/How-Are-These-5-Industry-Segments-Influenced-by-IoT-squaew-300x300.png">
         </div>
@@ -195,66 +197,21 @@
      </a>
    </div>
     
-    
-     
-
   
     <br><br><br>
     <br><br><br>
     <br><br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!---- Sponsors
     ==================================== -->
     <div class="community_partner">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
           <h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS</h1>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         
           <div class="imgbox wow fadeInLeft animated">
     
-            <div class="img_container">
+            <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
               <div class="community_box box1">
                 <a href="https://www.geeksforgeeks.org/" style="text-decoration: none;" target="_blank">
                   <img src="./assets/img/Partners/Geeks.jpg" class="communityPartner__image" alt="">
@@ -268,7 +225,7 @@
                 </a>
               </div>
   
-              <div class="img_container">
+              <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
                 <div class="community_box box1">
                   <a href="https://givemycertificate.com/" style="text-decoration: none;" target="_blank">
                     <img src="./assets/img/Partners/GMC LogoS.png" class="communityPartner__image" alt="">
@@ -289,13 +246,13 @@
     <!---- Community partner
       ==================================== -->
       <div class="community_partner">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1500">
           <h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">OUR COMMUNITY PARTNERS</h1>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         
           <div class="imgbox wow fadeInLeft animated">
     
-            <div class="img_container">
+            <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
               <div class="community_box box1">
                 <a href="https://learnwith.community/" style="text-decoration: none;" target="_blank">
                   <img src="./assets/img/Partners/LWC.png" class="communityPartner__image" alt="">
@@ -308,7 +265,7 @@
               </div>
             </div>
     
-            <div class="img_container">
+            <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
               <div class="community_box box3">
                 <a href="https://linktr.ee/cs_sattva" style="text-decoration: none;" target="_blank">
                   <img src="./assets/img/Partners/Sattva.jpg" class="communityPartner__image" alt="">
@@ -321,7 +278,7 @@
               </div>
             </div>
     
-            <div class="img_container">
+            <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
               <div class="community_box box5">
                 <a href="https://www.linkedin.com/company/sudan-s-tech/" style="text-decoration: none;" target="_blank">
                   <img src="./assets/img/Partners/Sudands.jpg" class="communityPartner__image" alt="">
@@ -345,7 +302,7 @@
   
     <!-- Contact Section Start -->
     <section id="contact" class="section-padding bg-gray">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500">
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact Us</h2>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
@@ -364,7 +321,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required
+                      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email" id="email" class="form-control" name="email" required
                         data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div>
@@ -518,6 +475,17 @@
   <!-- counter scripts -->
 
   <script>
+    // initialize AOS
+    AOS.init({
+      disable: function(){
+        if(window.innerWidth > 767){
+          return true;
+        } else{
+          return false;
+        }
+      }
+    });
+    //initialize AOS ends
     
     $(document).ready(function(){
       $('.counter').counterUp({
@@ -553,7 +521,6 @@
   <!-- counter scripts -->
 
   <script>
-    
     $(document).ready(function(){
       $('.counter').counterUp({
         delay: 10,
