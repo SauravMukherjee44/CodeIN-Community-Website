@@ -400,7 +400,7 @@ hr {
   padding: 20px;
   border-radius: 4px;
   text-align: center;
-  margin: 15px 0;
+  margin: 15px 10px;
   box-shadow: 0 0 12px #f4f4f4;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
