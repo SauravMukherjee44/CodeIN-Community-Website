@@ -590,9 +590,9 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  transition: width 1s;
-  -ms-transition: width 1s;
-  -webkit-transition: width 1s;
+  transition: width 0.1s;
+  -ms-transition: width 0.1s;
+  -webkit-transition: width 0.1s;
 }
 
 .navbar-expand-md .navbar-nav li a:hover,
@@ -615,9 +615,9 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link:focus {
   color: #f63854;
   width: 100%;
-  transition: width 1s;
-  -webkit-transition: width 1s;
-  -ms-transition: width 1s;
+  transition: width 0.1s;
+  -webkit-transition: width 0.1s;
+  -ms-transition: width 0.1s;
 }
 
 .navbar {
@@ -1365,10 +1365,10 @@ textarea {
   color: #f63854;
 }
 .navbar-brand img {
-  width: 50px;
+  width: 120px;
 }
 .top-nav-collapse .navbar-brand img {
-  width: 50px;
+  width: 70px;
 }
 
 /* //// Community partners //// */
