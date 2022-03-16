@@ -400,7 +400,9 @@ hr {
   border-radius: 4px;
   text-align: center;
   margin: 15px 10px;
-  box-shadow: 0 0 12px #f4f4f4;
+  /* box-shadow: 0 0 12px #f4f4f4; */
+  box-shadow: -10px -10px 15px rgba(225, 225, 225, 0.5),
+  10px 10px 15px rgba(70, 70, 70, 0.12);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -408,11 +410,14 @@ hr {
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
+  /* border: 1px solid #f1f1f1; */
   width: 70px;
   height: 70px;
   border-radius: 50%;
   margin: 0 auto;
+  box-shadow: -10px -10px 15px rgba(225, 225, 225, 0.5),
+  10px 10px 15px rgba(70, 70, 70, 0.12);
+  border: 2px solid #f63854;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
