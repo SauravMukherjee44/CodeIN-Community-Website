@@ -4,9 +4,8 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; /* ---added smooth scrolling--- */
 }
-
 body {
-  background: #fff;
+  background:#fff;
   font-size: 14px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
