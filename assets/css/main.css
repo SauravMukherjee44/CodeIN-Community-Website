@@ -362,6 +362,18 @@ a.back-to-top:focus {
   border-top-color: #f63854;
 }
 
+.help-block.with-errors{
+  color:red;
+}
+
+.has-error input{
+  border: 1px solid red;
+}
+
+.has-error textarea{
+  border: 1px solid red;
+}
+
 #loader-1:before {
   z-index: 100;
   animation: spin 1s infinite;
@@ -1062,6 +1074,7 @@ hr {
 
 textarea {
   border-radius: 4px !important;
+  resize:none;
 }
 
 .form-control:focus {
