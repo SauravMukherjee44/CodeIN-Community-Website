@@ -1,0 +1,35 @@
+.card {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 10px rgb(226, 137, 137) !important;
+    margin: 5%;
+    min-width: 25%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 10px rgb(133 69 69) !important;
+}
+
+.card-body {
+    border: 5px;
+    border-radius: 5rem;
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    font-family: "Arvo", serif;
+}
+
+li {
+    padding-bottom: 5px;
+    color: #2e2e2e;
+}
