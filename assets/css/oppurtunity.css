@@ -43,4 +43,20 @@ li {
 .oppurtunity_section {
     margin-left: 5%;
     margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 350px;
+        height: 349px;
+    }
+
+    .oppurtunity_section {
+        align-items: center;
+        flex-direction: column;
+    }
 }
