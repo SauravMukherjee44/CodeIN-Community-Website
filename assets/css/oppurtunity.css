@@ -2,9 +2,11 @@
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
-    box-shadow: 0 3px 10px rgb(226, 137, 137) !important;
-    margin: 5%;
-    min-width: 25%;
+    box-shadow: 0px 5px 10px rgb(133 69 69) !important;
+    margin: 3%;
+    min-height: max-content;
+    border-radius: 3rem;
+    flex: 1;
 }
 
 .card:hover {
@@ -32,4 +34,13 @@
 li {
     padding-bottom: 5px;
     color: #2e2e2e;
+}
+
+.card-img-top {
+    border-radius: 3rem;
+}
+
+.oppurtunity_section {
+    margin-left: 5%;
+    margin-right: 5%;
 }

@@ -42,7 +42,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 	<!-- counter imports end-->
-
 	<!-- animate on scroll import -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!-- animate on scroll import end -->
@@ -1000,9 +999,6 @@
 						</div>
 					</div>
 
-
-
-
 					<div class="events_box" data-aos="fade-up" data-aos-duration="1500">
 						<img src="./assets/img/Event/event3.png" class="events_img" alt="" />
 						<div class="content">
@@ -1023,8 +1019,6 @@
 						</div>
 					</div>
 
-
-
 					<div class="events_box" data-aos="fade-up" data-aos-duration="1500">
 						<img src="./assets/img/Event/event4.jpeg" class="events_img" alt="" />
 						<div class="content">
@@ -1044,22 +1038,29 @@
 
 	<!-- Opportunity start -->
 	<section id="opportunity" class="section-padding bg-white">
-		<div class="container">
-			<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
-				<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Opportunities</h2>
-				<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-			</div>
-			<br>
-			<br>
-			<div class="card-group">
-				<div class="card " data-aos="fade-up" data-aos-duration="1500">
-					<img src="./assets/img/opportunity/opp-1.jpg" class="card-img-top" alt="..." height="350px">
-					<div class="card-body">
-						<h5 class="card-title">Google Developer Student Clubs is come up with GDSC WOW</h5>
-						<!-- <p class="card-text"> -->
+		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+			<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Opportunities</h2>
+			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+		</div>
+		<br>
+
+		<div class="oppurtunity_section" style="display: flex;flex-direction:row;flex-wrap: wrap;">
+
+			<div class="card">
+				<img class="card-img-top" src="./assets/img/opportunity/opp-1.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Google Developer Student Clubs is come up with GDSC WOW</h5>
+					<button class="btn btn-common opportunity_btn" type="button" data-toggle="collapse"
+						data-target="#opp1" aria-expanded="false" aria-controls="opp1">
+						Read More
+					</button>
+					<br> <br>
+					</p>
+					<div class="collapse" id="opp1">
 						<ul style="list-style-type:square">
 							<li> GDSC WOW (Wonder of Wonders) 2021 is
-								a 3-day long virtual event consisting of webinars covering various topics of the latest
+								a 3-day long virtual event consisting of webinars covering various topics of the
+								latest
 								technologies and
 								the treasure hunt game - Treasure to WOW which will run through the event.
 								Doesn't it sound exciting??? The wait is over 🤩 <br>
@@ -1076,14 +1077,21 @@
 							</li>
 							<br>
 						</ul>
-						<!-- </p> -->
 					</div>
 				</div>
-				<div class="card " data-aos="fade-up" data-aos-duration="1500">
-					<img src="./assets/img/opportunity/opp-2.png" class="card-img-top" alt="..." height="350px">
-					<div class="card-body">
-						<h5 class="card-title">Spark-a-thon a hackathon- By CodeIN Community</h5>
-						<p class="card-text">
+			</div>
+
+			<div class="card">
+				<img class="card-img-top" src="./assets/img/opportunity/opp-2.png" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Spark-a-thon a hackathon- By CodeIN Community</h5>
+					<button class="btn btn-common opportunity_btn" type="button" data-toggle="collapse"
+						data-target="#opp2" aria-expanded="false" aria-controls="opp2">
+						Read More
+					</button>
+					<br> <br>
+					</p>
+					<div class="collapse" id="opp2">
 						<ul>
 							<li>
 								Complete the challenge by creating a simple project guided by us and earn a
@@ -1118,11 +1126,19 @@
 						</ul>
 					</div>
 				</div>
-				<div class="card " data-aos="fade-up" data-aos-duration="1500">
-					<img src="./assets/img/opportunity/codein.png" class="card-img-top" alt="..." height="350px">
-					<div class="card-body">
-						<h5 class="card-title">Winter Fest 2022 🧑‍💻</h5>
-						<p class="card-text">
+			</div>
+
+			<div class="card">
+				<img class="card-img-top" src="./assets/img/opportunity/codein.png" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Winter Fest 2022 🧑‍💻</h5>
+					<button class="btn btn-common opportunity_btn" type="button" data-toggle="collapse"
+						data-target="#opp3" aria-expanded="false" aria-controls="opp3">
+						Read More
+					</button>
+					<br> <br>
+					</p>
+					<div class="collapse" id="opp3">
 						<ul>
 							<li>
 								CodeIN community is organizing the much-awaited "Winter Fest" on 19th
@@ -1158,19 +1174,22 @@
 							<a href="  https://reskilll.com/event/codeinewinterfest">
 								https://reskilll.com/event/codeinewinterfest</a> <br>
 						</ul>
-						</p>
 					</div>
 				</div>
 			</div>
-			<br>
-			<br>
-			<button class="btn btn-common opportunity_btn"><a href="./opportunity.html">View All</a>
-			</button>
+
 		</div>
+
+		<br>
+		<br>
+		<button class="btn btn-common opportunity_btn"><a href="./opportunity.html">View All</a>
+		</button>
 	</section>
+
 	<!-- Opportunity end -->
 
 	<!--Blog Section Start -->
+
 	<div id="blog" class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
 		<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Blogs</h2>
 		<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
@@ -1188,17 +1207,18 @@
 				</div>
 				<!--</a> -->
 				<div class="description">
-					IoT has been racing ahead in the technological race, thinning the gap between the physical world and
+					IoT has been racing ahead in the technological race, thinning the gap between the physical world
+					and
 					the
 					digital world
 				</div>
-				<a href="https://simpleprogrammer.com/iot-influence-industry/" class="read_btn" data-aos="fade-up"> Read
+				<a href="https://simpleprogrammer.com/iot-influence-industry/" class="read_btn" data-aos="fade-up">
+					Read
 					More</a>
 			</div>
 		</div>
 
 		<!-- blog 2 -->
-
 		<div class="blog" data-aos="fade-up" data-aos-duration="1500">
 			<div class="image">
 				<img
@@ -1210,7 +1230,8 @@
 				</div>
 				<!--  </a>-->
 				<div class="description">
-					Artificial intelligence (AI) and machine learning (ML) are two of the most used terms that are not
+					Artificial intelligence (AI) and machine learning (ML) are two of the most used terms that are
+					not
 					confined in
 					a specific domain but have universal adoption
 				</div>
@@ -1231,11 +1252,13 @@
 					Fact or Fiction? 8 Myths About Software Programming
 				</div>
 				<div class="description">
-					Though developers can express their creativity through coding, we see many of them abandoning it. A
+					Though developers can express their creativity through coding, we see many of them abandoning
+					it. A
 					likely
 					reason is that there are many myths surrounding coding, making it monotonous or illogical
 				</div>
-				<a href="https://simpleprogrammer.com/myths-about-software-programming/" class="read_btn">Read More</a>
+				<a href="https://simpleprogrammer.com/myths-about-software-programming/" class="read_btn">Read
+					More</a>
 			</div>
 		</div>
 	</div>
@@ -1280,7 +1303,8 @@
     ==================================== -->
 	<div class="community_partner">
 		<div class="container" data-aos="fade-up" data-aos-duration="1500">
-			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS</h1>
+			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS
+			</h1>
 			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
 
 			<div class="imgbox wow fadeInLeft animated">
@@ -1321,7 +1345,8 @@
     ==================================== -->
 	<div class="community_partner">
 		<div class="container" data-aos="fade-up" data-aos-duration="1500">
-			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">OUR COMMUNITY
+			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">OUR
+				COMMUNITY
 				PARTNERS</h1>
 			<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
 
@@ -1466,7 +1491,8 @@
 						<div class="widget">
 							<h3 class="footer-logo">CodeIN Community</h3>
 							<div class="textwidget">
-								<p>CodeIN Community is the Community of Coding Enthusiasts on Discord. Together We aim
+								<p>CodeIN Community is the Community of Coding Enthusiasts on Discord. Together We
+									aim
 									to explore the
 									untouched world of technology and Tremendous growth-making fields.</p>
 							</div>

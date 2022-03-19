@@ -108,12 +108,30 @@
 
   <br><br><br><br>
   <br><br>
-  <div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
-    <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Blogs</h2>
-    <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Our Blogs</h2>
+        <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+
+    <div class="col-md-3">
+      <div style="float: left;margin-right: 5%;">
+        <input style="border-radius: 3rem; padding: 10px;border-color: grey;width: 130%;" id="searchbar"
+          onkeyup="search_blog()" type="text" name="search" placeholder='Search blogs.....' />
+      </div>
+    </div>
   </div>
 
+
+
+
   <div class="container_blog">
+
     <div class="blog" data-aos="fade-up" data-aos-duration="1500">
 
       <div class="image">
@@ -285,9 +303,7 @@
 
       <div class="blog_content" id="content">
         <div class="head">
-          Brain Douglas' Team of 10 Developer
-
-        </div>
+          Brain Douglas' Team of 10 Developer </div>
 
         <div class="description">
           It seem like a daunting job to help support 65 million developers and a assumption is GitHub must employ an
@@ -612,6 +628,7 @@
   <!-- counter scripts end -->
 
   <!-- emailjs cdn -->
+  <script src="./assets/js/blog.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <!-- emailjs cdn -->
 
