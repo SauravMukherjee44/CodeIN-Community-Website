@@ -1220,6 +1220,9 @@ textarea {
   margin-right: 5px;
   line-height: 32px;
 }
+.footer-area .address li a:hover {
+  color: #f63854;
+}
 
 .footer-area #subscribe-form {
   margin-top: 10px;
