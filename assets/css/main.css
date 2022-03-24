@@ -137,7 +137,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title {
-  font-size: 45px;
+  font-size: 38px;
   color: #222222;
   display: inline-block;
   font-weight: 700;
@@ -633,7 +633,7 @@ hr {
 }
 
 .navbar {
-  padding: 10px 0;
+  padding: 37px 0;
   font-size: 17px;
 }
 
