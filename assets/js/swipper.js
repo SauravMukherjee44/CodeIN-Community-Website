@@ -10,7 +10,7 @@ var swiper = new Swiper("#testimonials-slider .swiper", {
   },
   breakpoints: {
     // when window width is <= 320px
-    370: {
+    300: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
