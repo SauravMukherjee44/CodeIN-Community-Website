@@ -1644,3 +1644,8 @@ textarea {
 .appear {
   opacity: 1;
 }
+
+.tawk-min-container {
+  margin: 0;
+  padding: 0;
+}
