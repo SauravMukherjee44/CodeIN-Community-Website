@@ -15,7 +15,9 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.shields.io/github/stars/SauravMukherjee44/CodeIN-Community-Website" alt="Stars Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/network/members"><img src="https://img.shields.io/github/forks/SauravMukherjee44/CodeIN-Community-Website" alt="Forks Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SauravMukherjee44/CodeIN-Community-Website?color=2b9348"></a>
+<a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues"><img src="https://img.shields.io/github/issues/SauravMukherjee44/CodeIN-Community-Website" alt="Issues Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
+<a href="./LICENSE.md"><img src="https://img.shields.io/github/license/SauravMukherjee44/CodeIN-Community-Website" alt="License Badge"/></a>
 </div>
 
 
@@ -67,7 +69,6 @@ If you want to contact me, you can reach me through below handles.
       <img width="30%" align="center"   src="https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png">
 	 
 	 
-
  
 I have started a Community named **CodeIN Community [Community of Coding Enthusiasts]** where we share **Resources**, **Roadmaps** to learn different technologies and share opportunities related to different **Tech Programmes**. Also, we organize **Events** on different technologies to help people to get started with these technologies.
 
@@ -149,6 +150,9 @@ To start contributing, follow the below guidelines:
 	
 To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 	
+
+
+<hr>
 	
 © 2021 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
