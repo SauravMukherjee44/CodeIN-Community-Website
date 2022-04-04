@@ -17,7 +17,7 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SauravMukherjee44/CodeIN-Community-Website?color=2b9348"></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues"><img src="https://img.shields.io/github/issues/SauravMukherjee44/CodeIN-Community-Website" alt="Issues Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
-<a href="./LICENSE.md"><img src="https://img.shields.io/github/license/SauravMukherjee44/CodeIN-Community-Website" alt="License Badge"/></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/SauravMukherjee44/CodeIN-Community-Website" alt="License Badge"/></a>
 </div>
 
 
