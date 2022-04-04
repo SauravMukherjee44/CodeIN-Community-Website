@@ -145,6 +145,11 @@ To start contributing, follow the below guidelines:
    git merge upstream/main
 ```
 
+## Code of Conduct 📜
+	
+To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+	
+	
 © 2021 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
 
