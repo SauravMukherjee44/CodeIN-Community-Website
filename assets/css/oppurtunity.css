@@ -6,7 +6,9 @@
     margin: 3%;
     min-height: max-content;
     border-radius: 3rem;
-    flex: 1;
+/*     flex: 1; */
+    width: 24rem;
+
 }
 
 .card:hover {
@@ -46,10 +48,12 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .card {
         width: 350px;
         height: 349px;
@@ -59,4 +63,31 @@ li {
         align-items: center;
         flex-direction: column;
     }
-}
+} */
+
+
+@media screen and (max-width: 1200px) {
+    .card {
+      margin-left: 1.5em;
+      border: 2px solid;
+    }
+  }
+  
+  @media screen and (max-width: 517px) {
+    /* html{
+      font-size: 70%;
+    } */
+    .card {
+      align-items: center;
+    }
+  
+    .card-img-top {
+      height: 100%;
+      border-radius: 15px;
+    }
+    .oppurtunity_section {
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+  
