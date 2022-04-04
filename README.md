@@ -1,6 +1,6 @@
 <h1 align="center">CodeIN Community Website </h1>
 
-<h3> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
+<h3 align="center"> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
 
 
 <h2>
@@ -15,16 +15,18 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.shields.io/github/stars/SauravMukherjee44/CodeIN-Community-Website" alt="Stars Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/network/members"><img src="https://img.shields.io/github/forks/SauravMukherjee44/CodeIN-Community-Website" alt="Forks Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SauravMukherjee44/CodeIN-Community-Website?color=2b9348"></a>
+<a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues"><img src="https://img.shields.io/github/issues/SauravMukherjee44/CodeIN-Community-Website" alt="Issues Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/SauravMukherjee44/CodeIN-Community-Website" alt="License Badge"/></a>
 </div>
 
 
 # Contribution is fun! 🧡
 
 ## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 ## 📌 Sneak Peek of the Website:
@@ -64,11 +66,13 @@ If you want to contact me, you can reach me through below handles.
  <div align="center">
       
    <h1 align="center">CodeIN Community</h1>
-      <img width="10%" align="center"   src="https://github.com/SauravMukherjee44/SauravMukherjee44/blob/01033044396cd45db3731e6ac37284dc5386e2cd/CodeIN%20Logo.png" >
+      <img width="30%" align="center"   src="https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png">
+	 
+	 
  
-I have started a Community named CodeIN Community [Community of Coding Enthusiasts] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech programs. Also, We organize Events on different technologies to help people to get started with these technologies.
+I have started a Community named **CodeIN Community [Community of Coding Enthusiasts]** where we share **Resources**, **Roadmaps** to learn different technologies and share opportunities related to different **Tech Programmes**. Also, we organize **Events** on different technologies to help people to get started with these technologies.
 
-  <span> <h2>Join the Community on Discord ⚡</h2>
+  <span> <h2>Join the Community on Discord and Other Platforms!⚡</h2>
 <a  href="https://discord.gg/hWwbgP4dz9"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a  href="https://t.me/CodeINCommunity"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a  href="https://www.linkedin.com/company/codein-community/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></span>
@@ -142,6 +146,14 @@ To start contributing, follow the below guidelines:
    git merge upstream/main
 ```
 
+## Code of Conduct 📜
+	
+To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+	
+
+
+<hr>
+	
 © 2021 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
 
