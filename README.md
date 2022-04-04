@@ -1,6 +1,6 @@
 <h1 align="center">CodeIN Community Website </h1>
 
-<h3> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
+<h3 align="center"> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
 
 
 <h2>
@@ -22,9 +22,9 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 # Contribution is fun! 🧡
 
 ## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 ## 📌 Sneak Peek of the Website:
@@ -64,11 +64,14 @@ If you want to contact me, you can reach me through below handles.
  <div align="center">
       
    <h1 align="center">CodeIN Community</h1>
-      <img width="10%" align="center"   src="https://github.com/SauravMukherjee44/SauravMukherjee44/blob/01033044396cd45db3731e6ac37284dc5386e2cd/CodeIN%20Logo.png" >
- 
-I have started a Community named CodeIN Community [Community of Coding Enthusiasts] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech programs. Also, We organize Events on different technologies to help people to get started with these technologies.
+      <img width="10%" align="center"   src="https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png">
+	 
+	 
 
-  <span> <h2>Join the Community on Discord ⚡</h2>
+ 
+I have started a Community named **CodeIN Community [Community of Coding Enthusiasts]** where we share **Resources**, **Roadmaps** to learn different technologies and share opportunities related to different **Tech Programmes**. Also, we organize **Events** on different technologies to help people to get started with these technologies.
+
+  <span> <h2>Join the Community on Discord and Other Platforms!⚡</h2>
 <a  href="https://discord.gg/hWwbgP4dz9"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a  href="https://t.me/CodeINCommunity"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a  href="https://www.linkedin.com/company/codein-community/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></span>
