@@ -3,10 +3,12 @@
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     box-shadow: 0px 5px 10px rgb(133 69 69) !important;
-    margin: 3%;
+    margin: 0.90rem;
     min-height: max-content;
     border-radius: 3rem;
-    flex: 1;
+    /* flex: 1; */
+    width: 28.8rem;
+
 }
 
 .card:hover {
@@ -46,10 +48,12 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(216, 92, 92); */
 }
 
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .card {
         width: 350px;
         height: 349px;
@@ -59,4 +63,57 @@ li {
         align-items: center;
         flex-direction: column;
     }
-}
+} */
+
+@media screen and (max-width: 1200px) {
+    .card {
+      margin-left: 1.28rem;
+      border: 2px solid;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .card {
+      margin-left: 1rem;
+      border: 2px solid;
+    }
+  }
+  @media screen and (max-width: 517px) {
+    /* html{
+      font-size: 70%;
+    } */
+    .card {
+      align-items: center;
+
+    }
+  
+    .card-img-top {
+      height: 100%;
+      border-radius: 15px;
+    }
+    .oppurtunity_section {
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+  
+
+  @media screen and (max-width:320px) {
+    .card {
+        margin: 0.8rem auto;
+        /* margin-left:0rem; */
+        width:27rem;
+      }
+      .oppurtunity_section{
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        
+        /* flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center; */
+    
+    }
+  }
