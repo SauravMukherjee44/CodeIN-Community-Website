@@ -970,9 +970,112 @@ hr {
 
 /*----------Event Section Starts here--------------------->*/
 
+.event_container{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+flex-wrap: wrap;
+
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+.button_event{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button_event a{
+  color: white;
+}
+
+.button_event a:hover{
+  color: #e62c3e;
+ 
+}
+
+#event_heading{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.event{
+
+ 
+display: flex;
+width: 350px;
+
+justify-content: space-around;
+align-items: center;
+
+/*   border-radius: 30px 30px 30px 30px;
+ */
+/* background-color: #FFF6EA; */
+ 
+  margin: 50px;
+
+/*   background-color: #e62c3e; */
+
+
+
+}
+
+ .event img{
+
+/* border-radius: 30px 30px 0px 30px; */
+
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+
+
+  
+
+} 
+
+.event .icon{
+      margin: -30px;
+
+}
+
+
+
+.event .icon i{
+  font-size: 60px;
+  
+  color:#e62c3e;
+  margin: 20px;
+
+  cursor:pointer;
+
+
+}
+
+.event .icon:hover{
+  transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.event:hover{
+ /*  cursor: pointer; */
+   
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+
+
+
 .events_container {
   width: 100%;
   display: flex;
+
   justify-content: center;
   margin-top: 60px;
   margin-bottom: 120px;
