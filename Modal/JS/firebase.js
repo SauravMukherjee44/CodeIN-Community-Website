@@ -35,6 +35,6 @@ button.addEventListener('click', ()=> {
         Email: email
     });
 
-    email.value = "";
+    email = "";
 })
   
