@@ -25,19 +25,24 @@
   line-height: 30px;
   margin: 0;
 }
+
+/* update font style and color Of Meet-Our Team-Section*/
 #testimonials-slider .swiper .swiper-slide .testimonial-item h3 {
   margin: 0;
   clear: both;
   font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 10px;
-  color: #6306af;
+  color: #495057;
 }
 #testimonials-slider .swiper .swiper-slide .testimonial-item .img-thumb {
   position: relative;
   margin: 15px 0 15px 0;
 }
+
+/* update the color */
 #testimonials-slider .swiper .swiper-slide .img-thumb img {
   border-radius: 50%;
   display: inline-block;
@@ -45,7 +50,7 @@
   height: 200px;
   object-fit: cover;
   padding: 3px;
-  border: solid 2px #004bed;
+  border: solid 2px #f63854;
 }
 .swiper-button-next, .swiper-button-prev {
   position: absolute;
