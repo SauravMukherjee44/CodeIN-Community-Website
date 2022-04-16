@@ -166,6 +166,14 @@ a:not([href]):not([tabindex]) {
   background-color: #f63854;
 }
 
+/* updated the title of Meet Our Team Section */
+.h2w{
+  color: #eee;
+}
+.w{
+  background-color: #eee;
+}
+
 .padding-none {
   padding: 0px;
 }
@@ -870,7 +878,7 @@ hr {
   color: #fff;
   border-radius: 50%;
   border: 2px solid transparent;
-  background: #8a15e9;
+  background: #f63854;
   transition: all 0.3s ease;
 }
 
