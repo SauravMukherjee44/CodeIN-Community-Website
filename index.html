@@ -35,6 +35,9 @@
 	<link rel="stylesheet" href="assets/css/blog.css">
 	<link rel="stylesheet" href="assets/css/oppurtunity.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+	
+	<!-- CONTACT-SECTION -->
+	<link rel="stylesheet" href="/assets/css/contactSection.css">
 
 	<!-- Responsive Style -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
@@ -1331,61 +1334,38 @@
 
 
 	<!-- Contact Section Start -->
-	<section id="contact" class="section-padding bg-gray" data-aos="fade-up" data-aos-duration="1500">
-		<div class="container">
-			<div class="section-header text-center">
-				<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact Us</h2>
-				<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-			</div>
-			<div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
-				<div class="col-lg-7 col-md-12 col-sm-12">
-					<div class="contact-block">
-						<form id="contactForm">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name"
-											required data-error="Please enter your name">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-											placeholder="Email" id="email" class="form-control" name="email" required
-											data-error="Please enter your email">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="text" placeholder="Subject" id="msg_subject" class="form-control"
-											name="subject" required data-error="Please enter your subject">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message"
-											name="message" rows="7" data-error="Write your message" required></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="submit-button text-left">
-										<button class="btn btn-common" id="form-submit" type="submit">Send
-											Message</button>
-										<div id="msgSubmit" class="h3 text-center hidden"></div>
-										<div class="clearfix"></div>
-									</div>
-								</div>
+	<section id="contact" class="section-padding bg-gray contactSection" data-aos="fade-up" data-aos-duration="1500">
+		<div class="text-center Contactsec">
+			<div class="section-header Contactsec text-center">
+					  <h2 class=" wow fadeInDown" data-wow-delay="0.3s">Contact Us</h2>
+					  <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+				  </div>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <form class="mt-5">
+						  <div class="form-row">
+							  <div class="form-group col-md-6 ">
+								<input type="text" class="form-control" id="inputName"  placeholder="Name">
+							  </div>
+							  <div class="form-group col-md-6 ">
+							  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							  </div>
 							</div>
+						  <div class="form-group ">
+							<input type="text" class="form-control" id="subj" placeholder="Subject" required>
+						  </div>
+						  <div class="form-group">
+						   <textarea class="form-control" id="msg" rows="5" placeholder="Your Message" required></textarea>
+							</div>
+						  <button class="Cbtn text-light float-left" id="checkBtn">Submit</button>
+						  <br><br>
 						</form>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 col-xs-12">
-					<img class="contact-img" src="./assets/img/contact.webp" alt="">
-				</div>
-			</div>
-		</div>
+						</div>
+				  <div class="col-md-6 text-center">
+					  <img class="image-fluid bg-cont" src="/assets/img/pngtree-contact-us-flat-design-style-png-image_2766546-removebg-preview.png">
+				  </div>
+			  </div>
+		  </div>
 	</section>
 	<!-- Contact Section End -->
 	<!--Start of Tawk.to Script-->
