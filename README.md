@@ -44,13 +44,6 @@ Happy Submissions :slightly_smiling_face:
 
 </tbody></table>
 
- <h1 align=center> Project Mentor 👩‍🏫 </h1>
-<p align="center">
-<table align="center">
-  <tbody><tr>
-     <td align="center"><a href="https://github.com/jheel05"><img alt="" src="https://avatars.githubusercontent.com/jheel05" width="125px;"><br><sub><b>Jheel Soni</b></sub></a><br></td> </a></td>
-
-</tbody></table>
 
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
 <p align="center">
