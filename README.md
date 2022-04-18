@@ -30,7 +30,7 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 
 ## 📌 Sneak Peek of the Website:
-![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/f25d4e879d383cedf72b31fe770803221035a200/assets/img/DEMO.png)
+![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/d17228955f83a69a76beebfc8f090d9da545ecbe/assets/img/screencapture-codeincommunity-tech-2022-04-19-02_35_25.png)
 
 In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
 
