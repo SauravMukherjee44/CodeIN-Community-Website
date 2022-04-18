@@ -75,7 +75,7 @@ If you want to contact me, you can reach me through below handles.
  <div align="center">
       
    <h1 align="center">CodeIN Community</h1>
-      <img width="20%" align="center"   src="https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png">
+      <img width="10%" align="center"   src="https://user-images.githubusercontent.com/80174214/161517599-ceae42d0-98f0-4a60-9598-31607893320c.png">
 	 
 	 
  
