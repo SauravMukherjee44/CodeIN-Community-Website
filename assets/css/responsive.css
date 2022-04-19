@@ -15,7 +15,16 @@
   .team-item .contetn {
     padding: 15px 20px;
   }
+  #buttontop{
+    bottom: 25px;
+    left: 30px;
+  }
 }
+
+
+
+/* bottom: 25px;
+left: 30px; */
 
 /* tablets */
 @media (max-width: 991px) {
@@ -35,6 +44,11 @@
 
   .imgbox {
     width: 30px;
+  }
+  
+  #buttontop{
+    bottom: 25px;
+    left: 30px;
   }
 }
 
@@ -98,6 +112,11 @@
   .contact-right-area {
     margin-top: 0px;
     margin-left: 0px;
+  }
+  
+  #buttontop{
+    bottom: 25px;
+    left: 30px;
   }
 }
 
@@ -209,6 +228,10 @@
   .cta-text {
     margin-bottom: 30px;
   }
+  #buttontop{
+    bottom: 25px;
+    left: 30px;
+  }
 }
 
 @media (min-width: 151px) and (max-width: 350px) {
@@ -226,6 +249,9 @@
   .contact-img {
     min-width: 100%;
     max-width: 100%;
+  }
+  .header-button a{
+      padding: 8px 20px;
   }
 }
 
