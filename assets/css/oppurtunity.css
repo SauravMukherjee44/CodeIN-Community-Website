@@ -41,8 +41,8 @@ li {
 }
 
 .oppurtunity_section {
-    /* margin-left: 5%;
-    margin-right: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -58,5 +58,6 @@ li {
     .oppurtunity_section {
         align-items: center;
         flex-direction: column;
+        margin: 0;
     }
 }
