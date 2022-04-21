@@ -8,6 +8,57 @@ html {
   /* ---added smooth scrolling--- */
 }
 
+/* Modal */
+
+#closed{
+  font-size: 22px; background-color: lightgrey; border-radius:50%; padding: 3px 5px;
+}
+
+#modal-text h4{
+  font-size: 28px;
+   color: #f63855c2;
+}
+
+#modal-text p{
+  color: #f195a3;
+}
+
+.subscribe_form {
+  max-width: 470px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px 0px rgba(10, 6, 20, 0.116);
+}
+
+.subscribe_form:focus{
+  outline: none;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-control:focus{
+  
+    box-shadow: none;
+}
+
+  #btns{
+    border: none;
+    height: 44px;
+    background-color: #f63854;
+    color: #fff;
+    border-radius: 0;
+    width: 135px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+
 body {
   background: #fff;
   font-size: 14px;
