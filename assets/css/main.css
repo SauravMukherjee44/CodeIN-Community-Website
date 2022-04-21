@@ -1301,6 +1301,34 @@ textarea {
   color: #f63854;
 }
 
+.mail input{
+	padding:10px;
+	width: 200px;
+	font-family:helvetica;
+	font-size:14px;
+	border:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	outline:0;
+}
+
+.mail #btns{
+	padding:10px;
+	border:0;
+	width: 80px;
+	font-family:helvetica;
+	font-size:14px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+  background-color: #f63854;
+  color: #fff;
+}
+.mail #btns:hover{
+	background:#f195a3;
+	transition: 300ms ease-in;
+	color:#fff;
+}
+
 @media (max-width: 800px) {
   #footer {
     text-align: center;
