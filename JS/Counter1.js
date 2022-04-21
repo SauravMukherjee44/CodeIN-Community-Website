@@ -15,7 +15,5 @@ button.addEventListener('click', (e)=> {
   let email = document.getElementById("Email");
     
   email.value = "";
-  msg.innerText = "Sucessfully! Subscribed";
-  msg.style.color = "#f195a3";
-    
+  msg.innerText = "Sucessfully! Subscribed";    
 })
