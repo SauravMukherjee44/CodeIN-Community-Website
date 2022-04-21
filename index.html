@@ -52,6 +52,35 @@
 </head>
 
 <body>
+	
+	<!--Modal Subscribe to our newsletter-->
+	<div id="myModal" class="modal fade">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body mb-4">
+					<button type="button" class="close float-right" data-dismiss="modal" id="closed">&times;</button>
+					<br>
+					<center>
+						<img src="./assets/img/newsletter.png" alt="newsletter" width="190px" height="140px">
+					</center>
+					
+					<div class="mt-3 text-center" id="modal-text">
+					<h4>Subscribe To Our Newsletter</h4>
+					<p class="px-4">Join our subscribers list to get latest news, updates and events delivered directly in your inbox.</p>
+				    </div>
+
+					<form class="mt-5 form-group subscribe_form">
+						<div class="input-group">
+						   <input type="text" class="form-control" id="Email" name="email" placeholder="Enter your email">
+						   <span class="input-group-btn">
+								<button id="btns" class="btn btn-default" type="button">subscribe</button>
+						   </span>
+						</div>
+					  </form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Header Area wrapper Starts -->
 	<header id="header-wrap">
@@ -1576,6 +1605,13 @@
 		<div class="loader" id="loader-1"></div>
 	</div>
 	<!-- End Preloader -->
+
+        <!--Modal-->
+	<script>
+		$(document).ready(function(){
+			$("#myModal").modal('show');
+		});
+	</script>
 
 	<!--navigate to top button -->
 	<div id="navtbut" class="disappear">
