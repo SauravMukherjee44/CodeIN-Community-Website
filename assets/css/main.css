@@ -1309,7 +1309,7 @@ textarea {
   color: #f63854;
 }
 
-.mail input{
+.mail input {
 	padding:9px;
 	width: 200px;
 	font-family:helvetica;
@@ -1320,7 +1320,7 @@ textarea {
 	outline:0;
 }
 
-.mail #btns{
+.mail #btns {
 	padding:9px;
 	border:0;
 	width: 80px;
@@ -1332,7 +1332,7 @@ textarea {
   background-color: #f63854;
   color: #fff;
 }
-.mail #btns:hover{
+.mail #btns:hover {
 	background:#f195a3;
 	transition: 300ms ease-in;
 	color:#fff;
