@@ -1,0 +1,127 @@
+.form-control{
+    background-color: rgb(248, 245, 245);
+    color: black;
+    border-color: rgb(134, 134, 134);
+ }
+ .form-control:focus{
+    border-color: #AF41A0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    box-shadow: 0 0 10px #F63955 !important;
+}
+.contactSection{
+    background-image: url("/assets/img/one.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+#inputName, #inputEmail, #subj, #msg, #checkBtn{
+    margin-left: 45px;
+}
+
+
+.Cbtn {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    box-sizing: border-box;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  
+    cursor: pointer;
+    display: inline-block; 
+    line-height: normal;
+    outline: none;
+    padding: 6px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 35%;
+    will-change: transform;
+  }
+  
+  .Cbtn:disabled {
+    pointer-events: none;
+  }
+  
+  .Cbtn:hover {
+    color: white;
+    background-color: #F63955;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    border-color: #F63955;
+  }
+  
+  .Cbutton-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  @media(max-width:751px) {
+    .bg-cont{
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    
+    }
+
+
+    #inputName, #inputEmail, #subj, #msg, #checkBtn{
+        margin-left: 5px !important;
+        justify-content: center;
+    }
+
+
+    .Cbtn {
+        appearance: none;
+        background-color: purple !important;
+    }
+
+
+    #contactSection{
+        background-image: url("./images/one.png");
+        height: 100vh !important;
+        width: 100vw !important;
+       
+    }
+
+    .bg-cont{
+        display: none !important;
+    } 
+
+}
+
+@media (max-width: 767px)
+{
+    .Cbtn {
+        appearance: none;
+        background-color: purple !important;
+    }
+    #inputName, #inputEmail, #subj, #msg, #checkBtn{
+        width: 95vw !important;
+        justify-content: center !important;
+        margin-left: 10px !important;
+       
+    }
+    
+}
+@media(max-width: 912px) {
+    .bg-cont{
+        width: 50vw !important;
+    } 
+    .Cbtn {
+        appearance: none;
+        background-color: purple !important;
+    }
+    
+}
+
+@media(max-width: 1024px){
+    .bg-cont{
+        width: 40vw !important;
+    }
+}

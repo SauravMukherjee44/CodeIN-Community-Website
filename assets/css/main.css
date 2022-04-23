@@ -1188,8 +1188,10 @@ textarea {
 }
 
 .h3 {
-  float: right;
+  margin-top: 25px;
+  margin-left: 45px;
   font-size: 16px;
+
 }
 
 /*cta
@@ -1209,6 +1211,7 @@ textarea {
 
 /* benefits section ends */
 
+/* Footer Area Start */
 /* Footer Area Start */
 .footer-area {
   position: relative;
@@ -1698,7 +1701,7 @@ textarea {
   outline: none;
   border: none;
   position: fixed;
-  bottom: 25px;
+  bottom: 50px;
   right: 30px;
   height: 55px;
   width: 55px;
