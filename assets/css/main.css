@@ -1212,6 +1212,7 @@ textarea {
 /* benefits section ends */
 
 /* Footer Area Start */
+/* Footer Area Start */
 .footer-area {
   position: relative;
   padding: 60px 0px 0px;
@@ -1223,6 +1224,14 @@ textarea {
   color: #fff;
   font-weight: 500;
   padding-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.footer-area .contact-footer, .footer-news {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  padding-bottom: 5px;
   letter-spacing: 0.5px;
 }
 
@@ -1258,7 +1267,7 @@ textarea {
 }
 
 .footer-area .address li {
-  margin-bottom: 10px;
+  margin-bottom:0px;
 }
 
 .footer-area .address li a {
@@ -1270,10 +1279,10 @@ textarea {
 }
 
 .footer-area .address li a i {
-  font-size: 22px;
+  font-size: 20px;
   width: 32px;
   vertical-align: middle;
-  height: 36px;
+  height: 32px;
   text-align: center;
   display: inline-block;
   margin-right: 5px;
@@ -1301,6 +1310,35 @@ textarea {
   border-radius: 0;
   background: transparent;
   color: #f63854;
+}
+
+.mail input {
+	padding:9px;
+	width: 200px;
+	font-family:helvetica;
+	font-size:14px;
+	border:0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	outline:0;
+}
+
+.mail #btns {
+	padding:9px;
+	border:0;
+	width: 80px;
+  text-align: center;
+	font-family:helvetica;
+	font-size:14px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+  background-color: #f63854;
+  color: #fff;
+}
+.mail #btns:hover {
+	background:#f195a3;
+	transition: 300ms ease-in;
+	color:#fff;
 }
 
 @media (max-width: 800px) {
