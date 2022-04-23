@@ -58,5 +58,6 @@ li {
     .oppurtunity_section {
         align-items: center;
         flex-direction: column;
+        margin: 0;
     }
 }
