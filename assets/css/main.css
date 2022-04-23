@@ -1188,8 +1188,10 @@ textarea {
 }
 
 .h3 {
-  float: right;
+  margin-top: 25px;
+  margin-left: 45px;
   font-size: 16px;
+
 }
 
 /*cta
@@ -1221,14 +1223,6 @@ textarea {
   color: #fff;
   font-weight: 500;
   padding-bottom: 20px;
-  letter-spacing: 0.5px;
-}
-
-.footer-area .contact-footer, .footer-news {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 500;
-  padding-bottom: 5px;
   letter-spacing: 0.5px;
 }
 
@@ -1264,7 +1258,7 @@ textarea {
 }
 
 .footer-area .address li {
-  margin-bottom:0px;
+  margin-bottom: 10px;
 }
 
 .footer-area .address li a {
@@ -1276,10 +1270,10 @@ textarea {
 }
 
 .footer-area .address li a i {
-  font-size: 20px;
+  font-size: 22px;
   width: 32px;
   vertical-align: middle;
-  height: 32px;
+  height: 36px;
   text-align: center;
   display: inline-block;
   margin-right: 5px;
@@ -1307,35 +1301,6 @@ textarea {
   border-radius: 0;
   background: transparent;
   color: #f63854;
-}
-
-.mail input {
-	padding:9px;
-	width: 200px;
-	font-family:helvetica;
-	font-size:14px;
-	border:0;
-	border-top-left-radius: 5px;
-	border-bottom-left-radius: 5px;
-	outline:0;
-}
-
-.mail #btns {
-	padding:9px;
-	border:0;
-	width: 80px;
-  text-align: center;
-	font-family:helvetica;
-	font-size:14px;
-	border-bottom-right-radius: 5px;
-	border-top-right-radius: 5px;
-  background-color: #f63854;
-  color: #fff;
-}
-.mail #btns:hover {
-	background:#f195a3;
-	transition: 300ms ease-in;
-	color:#fff;
 }
 
 @media (max-width: 800px) {
@@ -1698,7 +1663,7 @@ textarea {
   outline: none;
   border: none;
   position: fixed;
-  bottom: 25px;
+  bottom: 50px;
   right: 30px;
   height: 55px;
   width: 55px;
