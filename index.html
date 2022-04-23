@@ -1411,7 +1411,7 @@
 				  </div>
 			  <div class="row">
 				  <div class="col-md-6">
-					  <form class="mt-5">
+					  <form class="mt-5" id="contactForm">
 						  <div class="form-row">
 							  <div class="form-group col-md-6 ">
 								<input type="text" class="form-control" id="inputName"  placeholder="Name">
@@ -1426,7 +1426,9 @@
 						  <div class="form-group">
 						   <textarea class="form-control" id="msg" rows="5" placeholder="Your Message" required></textarea>
 							</div>
-						  <button class="Cbtn text-light float-left" id="checkBtn">Submit</button>
+						  <button class="Cbtn text-light float-left" id="checkBtn" type="submit">Submit</button>
+						  <br>
+						  <div id="msgSubmit" class="h3 text-left hidden"></div>
 						  <br><br>
 						</form>
 						</div>
