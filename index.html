@@ -35,7 +35,13 @@
 	<link rel="stylesheet" href="assets/css/blog.css">
 	<link rel="stylesheet" href="assets/css/oppurtunity.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+
 	<link rel="stylesheet" href="assets/css/FAQ.css">
+
+	
+	<!-- CONTACT-SECTION -->
+	<link rel="stylesheet" href="/assets/css/contactSection.css">
+
 
 	<!-- Responsive Style -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
@@ -127,26 +133,26 @@
 						<div class="contents">
 
 							<h2 class="head-title">CodeIN Community </h2>
-							<p>CodeIN Community is the Community of more than 2,500+ Coding Enthusiasts. 
-							Where we organize Events, Hackathons, and Workshops on different Technologies.
-						        Also, We Share Resources, Roadmaps to learn different technologies and share 
-						        opportunities related to Internships and different tech programs.
+							<p>CodeIN Community is the Community of more than 2,500+ Coding Enthusiasts.
+								Where we organize Events, Hackathons, and Workshops on different Technologies.
+								Also, We Share Resources, Roadmaps to learn different technologies and share
+								opportunities related to Internships and different tech programs.
 
-								<div class="header-button" data-aos="fade-right" data-aos-duration="2000">
+							<div class="header-button" data-aos="fade-right" data-aos-duration="2000">
 
-									<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank" class="btn btn-common">
-										<img src="./assets/img/discord.png" width="25" style="margin-right: 10px;" />
-										Join
-	
-									  Now</i></a>
-									<a href="#about" class="btn btn-outline-danger btn-common video-popup">
-										<img src="./assets/img/grad.png" width="25" style="margin-right: 10px;" />Learn
-										More</i></a>
-								</div>
+								<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank" class="btn btn-common">
+									<img src="./assets/img/discord.png" width="25" style="margin-right: 10px;" />
+									Join
 
-                                                <br>Join the community on Discord for interaction with students from all over India. 
-					          </p>
-						   <br>
+									Now</i></a>
+								<a href="#about" class="btn btn-outline-danger btn-common video-popup">
+									<img src="./assets/img/grad.png" width="25" style="margin-right: 10px;" />Learn
+									More</i></a>
+							</div>
+
+							<br>Join the community on Discord for interaction with students from all over India.
+							</p>
+							<br>
 
 						</div>
 					</div>
@@ -1199,7 +1205,7 @@
 	<br><br>
 	<!-- Blog Section End-->
 
-	
+
 	<!-- join us start -->
 	<section id="joinus" class="section-padding bg-white">
 		<div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
@@ -1288,7 +1294,7 @@
 
 	<!---- Sponsors
     ==================================== -->
-	<div id= "community_partner" class="community_partner">
+	<div id="community_partner" class="community_partner">
 		<div class="container" data-aos="fade-up" data-aos-duration="1500">
 			<h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS
 			</h1>
@@ -1470,61 +1476,40 @@
 	<!-- FAQs section ends	 -->
 
 	<!-- Contact Section Start -->
-	<section id="contact" class="section-padding bg-gray" data-aos="fade-up" data-aos-duration="1500">
-		<div class="container">
-			<div class="section-header text-center">
-				<h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contact Us</h2>
-				<div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-			</div>
-			<div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
-				<div class="col-lg-7 col-md-12 col-sm-12">
-					<div class="contact-block">
-						<form id="contactForm">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name"
-											required data-error="Please enter your name">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-											placeholder="Email" id="email" class="form-control" name="email" required
-											data-error="Please enter your email">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<input type="text" placeholder="Subject" id="msg_subject" class="form-control"
-											name="subject" required data-error="Please enter your subject">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message"
-											name="message" rows="7" data-error="Write your message" required></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="submit-button text-left">
-										<button class="btn btn-common" id="form-submit" type="submit">Send
-											Message</button>
-										<div id="msgSubmit" class="h3 text-center hidden"></div>
-										<div class="clearfix"></div>
-									</div>
-								</div>
+	<section id="contact" class="section-padding bg-gray contactSection" data-aos="fade-up" data-aos-duration="1500">
+		<div class="text-center Contactsec">
+			<div class="section-header Contactsec text-center">
+					  <h2 class=" wow fadeInDown" data-wow-delay="0.3s">Contact Us</h2>
+					  <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+				  </div>
+			  <div class="row">
+				  <div class="col-md-6">
+					  <form class="mt-5" id="contactForm">
+						  <div class="form-row">
+							  <div class="form-group col-md-6 ">
+								<input type="text" class="form-control" id="inputName"  placeholder="Name">
+							  </div>
+							  <div class="form-group col-md-6 ">
+							  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							  </div>
 							</div>
+						  <div class="form-group ">
+							<input type="text" class="form-control" id="subj" placeholder="Subject" required>
+						  </div>
+						  <div class="form-group">
+						   <textarea class="form-control" id="msg" rows="5" placeholder="Your Message" required></textarea>
+							</div>
+						  <button class="Cbtn text-light float-left" id="checkBtn" type="submit">Submit</button>
+						  <br>
+						  <div id="msgSubmit" class="h3 text-left hidden"></div>
+						  <br><br>
 						</form>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-12 col-xs-12">
-					<img class="contact-img" src="./assets/img/contact.webp" alt="">
-				</div>
-			</div>
-		</div>
+						</div>
+				  <div class="col-md-6 text-center">
+					  <img class="image-fluid bg-cont" src="/assets/img/pngtree-contact-us-flat-design-style-png-image_2766546-removebg-preview.png">
+				  </div>
+			  </div>
+		  </div>
 	</section>
 	<!-- Contact Section End -->
 	<!--Start of Tawk.to Script-->
@@ -1574,12 +1559,22 @@
 							<li><a href="#events">Events</a></li>
 							<li><a href="#">Hackathons</a></li>
 							<li><a href="#">Open Source</a></li>
-							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform">Volunteer Group</a></li>
+							<li><a
+									href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform">Volunteer
+									Group</a></li>
 							<li><a href="https://codeincommunity.bio.link/">Community</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-						<h3 class="footer-titel">Contact</h3>
+						<h3 class="footer-news">Subscribe to our Newsletter</h3>
+						<p class="text-light mb-2">Subscribe to get latest updates and updates.</p>
+						<div class="mail">
+						<input type="email" id="Email" placeholder="enter your email.." />
+						<a type="submit" id="btns" label="submit" placeholder="submit">Submit</a>
+					    </div>
+						<small class="text-light" id="suscribeMsg"></small>
+
+						<h3 class="contact-footer mt-5">Contact</h3>
 						<ul class="address">
 							<li>
 								<a
@@ -1592,6 +1587,7 @@
 							</li>
 						</ul>
 					</div>
+					
 				</div>
 			</div>
 		</div>
