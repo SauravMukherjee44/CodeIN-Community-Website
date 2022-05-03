@@ -987,7 +987,7 @@ hr {
 }
 
 .events_box {
-  flex: 0 0 18em;
+  flex: 1;
   border: 2px solid white;
   overflow: hidden;
   position: relative;
