@@ -1701,8 +1701,8 @@ textarea {
   outline: none;
   border: none;
   position: fixed;
-  bottom: 50px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   height: 55px;
   width: 55px;
   border-radius: 30px;
