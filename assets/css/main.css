@@ -1654,14 +1654,14 @@ textarea {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(
+ /*  background-image: linear-gradient(
     to right top,
     #051937,
     #3f325b,
     #7a4b79,
     #b7668e,
     #f2879b
-  );
+  ); */
   margin: 40px 0px;
 }
 
@@ -1686,37 +1686,45 @@ textarea {
 }
 
 .counter-up .content .box {
-  width: calc(25% - 30px);
+  width: calc(30% - 30px);
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  padding: 20px;
-  height: 26em;
+  padding: 30px;
+  height: 20em;
+  background:#f4f4f4;
 }
 
 .content .box .icon {
-  font-size: 4em;
+  font-size: 2em;
   color: white;
+  background-color: #f63854;
   border: 1px solid;
-  padding: 43px 45px;
+  padding: 30px 30px;
   border-radius: 50%;
 }
 
+
+
+
 .content .box .counter {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 700;
   margin: 20px 0px;
-  color: white;
-  font-family: sans-serif;
+  color: #f63854;
+  /* font-family: sans-serif; */
+  font-family:helvetica;
 }
 
+
 .content .box .text {
-  font-weight: 400;
-  color: white;
+  font-weight: 200;
+  color: black;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
+  font-family:helvetica;
   text-align: center;
 }
 
@@ -1734,7 +1742,7 @@ textarea {
 @media screen and (max-width: 580px) {
   .counter-up .content .box {
     width: 100%;
-    margin: 0px;
+    margin: 3px;
   }
 
   .content .box .counter {
