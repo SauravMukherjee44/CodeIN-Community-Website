@@ -166,6 +166,14 @@ a:not([href]):not([tabindex]) {
   background-color: #f63854;
 }
 
+.shape-testimonial {
+  height: 1px;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 60px;
+  background-color: #4094ec;
+}
+
 /* updated the title of Meet Our Team Section */
 .h2w{
   color: #eee;
@@ -812,6 +820,10 @@ hr {
 .testimonial {
   position: relative;
   background-color: #f63854;
+}
+
+.testimonial-community{
+  background-color: #f3f4f6;
 }
 
 .testimonial-item {
