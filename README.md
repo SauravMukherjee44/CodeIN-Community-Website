@@ -1,16 +1,17 @@
 <h1 align="center">CodeIN Community Website </h1>
 
-<h3 align="center"> Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap </h3>
+<h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap. </h3>
 
 
-<h2>
-<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">📌Join our community on Discord🚀</a>
+<h3 align="center">
+<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Be a part of our Community on Discord🚀</a></h3>
 <br>
-<a href="http://codeincommunity.tech/" target="_blank">📌Visit Our Website💻</a>
+<h2 align="center">
+<a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
 </h2>
 
-So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?
-<div align="left">
+<h3 align="center">So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?</h3>
+<div align="center">
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://sloc.xyz/github/SauravMukherjee44/CodeIN-Community-Website" alt="LOC"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.shields.io/github/stars/SauravMukherjee44/CodeIN-Community-Website" alt="Stars Badge"/></a>
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/network/members"><img src="https://img.shields.io/github/forks/SauravMukherjee44/CodeIN-Community-Website" alt="Forks Badge"/></a>
@@ -21,18 +22,19 @@ So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 
 </div>
 
 
-# Contribution is fun! 🧡
+<h2 align="center"> Contribution is fun! 🧡</h2>
 
-## 📌 Tech Stack
-![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+<h2 align="center"> 📌 Tech Stack </h2>
+<div align="center">
+<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+<img alt="JS" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+	</div>
 
 ## 📌 Sneak Peek of the Website:
 ![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/d17228955f83a69a76beebfc8f090d9da545ecbe/assets/img/screencapture-codeincommunity-tech-2022-04-19-02_35_25.png)
 
-In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
+In order to make a hassle-free environment, we implore you all (_while contributing_) to follow the instructions mentioned below!
 
 Happy Submissions :slightly_smiling_face:
 
@@ -53,7 +55,7 @@ Happy Submissions :slightly_smiling_face:
   <img src="https://contrib.rocks/image?repo=SauravMukherjee44/CodeIN-Community-Website" />
 </a>
 
-<h1 align=center>Happy Coding 👨‍💻 </h1>
+<h3 align="center"> Happy Coding 👨‍💻 </h3>
 
 
 <h2>📬 Contact</h2>
