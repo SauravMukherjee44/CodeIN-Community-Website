@@ -140,7 +140,7 @@ If you wish to contribute, we highly recommend following the guidelines mentione
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-**Note:** If anyone contributes to this repository, the changes will not be reflect in your local repository. For that:
+**Note:** If anyone contributes to this repository, the changes will not be reflected in your local repository. For that:
 
 **9.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
