@@ -169,7 +169,7 @@ If you wish to contribute, we highly recommend following the guidelines mentione
 
 <h2 align="center"> Code of Conduct 📜</h2>
 	
-To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and also go through [Guidelines for Contributing](./CONTRIBUTING.md) atleast once.
 	
 
 
