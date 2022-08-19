@@ -3,9 +3,12 @@
 <h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap. </h3>
 
 
-<h3 align="center">
-<a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">Be a part of our Community on Discord🚀</a></h3>
-<br>
+<p align="center">
+<b><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
+<font size="67"> Be a part of our Community on Discord🚀</font>
+</a>
+</b>
+</p>
 <h2 align="center">
 <a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
 </h2>
@@ -31,7 +34,8 @@
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 	</div>
 
-## 📌 Sneak Peek of the Website:
+<h2 align="center">📌 Sneak Peek of the Website:</h2>
+
 ![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/d17228955f83a69a76beebfc8f090d9da545ecbe/assets/img/screencapture-codeincommunity-tech-2022-04-19-02_35_25.png)
 
 In order to make a hassle-free environment, we implore you all (_while contributing_) to follow the instructions mentioned below!
@@ -54,13 +58,16 @@ Happy Submissions :slightly_smiling_face:
 <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=SauravMukherjee44/CodeIN-Community-Website" />
 </a>
-
+</p>
 <h3 align="center"> Happy Coding 👨‍💻 </h3>
 
 
-<h2>📬 Contact</h2>
+<h2 align="center">📬 Contact</h2>
 
-If you want to contact me, you can reach me through below handles.
+<p align="center">
+Get in touch with Saurav on your favorite platform.
+</p>
+
 <div align="center">
 
 <a  href="https://www.youtube.com/channel/UCYGVtIgQIAChKBWBmChxzJw" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
@@ -81,7 +88,7 @@ If you want to contact me, you can reach me through below handles.
 	 
 	 
  
-I have started a Community named **CodeIN Community [Community of Coding Enthusiasts]** where we share **Resources**, **Roadmaps** to learn different technologies and share opportunities related to different **Tech Programmes**. Also, we organize **Events** on different technologies to help people to get started with these technologies.
+Saurav started a community named **CodeIN Community [Community of Coding Enthusiasts]** where everyone around the world is encouraged to share **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, CodeIN community organizes **Events** about different technologies to help people to get started in the field of their choice. 
 
   <span> <h2>Join the Community on Discord and Other Platforms!⚡</h2>
 <a  href="https://discord.gg/hWwbgP4dz9"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
@@ -90,10 +97,13 @@ I have started a Community named **CodeIN Community [Community of Coding Enthusi
    
  </div>
 
-## Contribution Guidelines 🏗
+<h2 align="center"> Contribution Guidelines 🏗 </h2>
 
-Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and make it better. 
-To start contributing, follow the below guidelines: 
+Do you seem to notice any of your favorite features that we are missing? If yes, do you think you can add it and make it a beautiful experience for all? 
+
+We are excited to invite you to contribute to this project and make it better.
+
+If you wish to contribute, we highly recommend following the guidelines mentioned below. 
 
 **1.**  Fork [this](https://github.com/SauravMukherjee44/CodeIN-Community-Website) repository.
 
@@ -130,36 +140,36 @@ To start contributing, follow the below guidelines:
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-**9.** If anyone contribute to this repository, then the changes will not reflect in your local repository. For that:
+**Note:** If anyone contributes to this repository, the changes will not be reflect in your local repository. For that:
 
-**10.** Setup a reference(remote) to the original repository to get all the changes from the remote.
+**9.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
    git remote add upstream  https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
 ```
 
-**11.** Check the remotes for this repository.
+**10.** Check the remotes for this repository.
 ```
    git remote -v
 ```
 
-**12.** Fetching from the remote repository will bring in its branches and their respective commits.
+**11.** Fetching from the remote repository will bring in its branches and their respective commits.
 ```
    git fetch upstream
 ```
 
-**13.** Make sure that you're on your master branch.
+**12.** Make sure that you're on your master branch.
 ```
    git checkout main
 ```
 
-**14.** Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
+**13.** Now that you have fetched the upstream repository, you can merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing the local changes.
 ```
    git merge upstream/main
 ```
 
-## Code of Conduct 📜
+<h2 align="center"> Code of Conduct 📜</h2>
 	
-To maintain a safe and inclusive space for everyone to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 	
 
 
