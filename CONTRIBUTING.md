@@ -12,7 +12,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## How to Contribute
 
-- Take a look at the Existing [Issues](https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/SauravMukherjee44/CodeIN-Community-Website/issues) or create your own!
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this is all about.
@@ -53,29 +53,29 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-**9.** If anyone contribute to this repository, then the changes will not reflect in your local repository. For that:
+**Note** If anyone contributes to this repository, then the changes will not be reflected in your local repository. For that:
 
-**10.** Setup a reference(remote) to the original repository to get all the changes from the remote.
+**9.** Setup a reference(remote) to the original repository to get all the changes from the remote.
 ```
    git remote add upstream  https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
 ```
 
-**11.** Check the remotes for this repository.
+**10.** Check the remotes for this repository.
 ```
    git remote -v
 ```
 
-**12.** Fetching from the remote repository will bring in its branches and their respective commits.
+**11.** Fetching from the remote repository will bring in its branches and their respective commits.
 ```
    git fetch upstream
 ```
 
-**13.** Make sure that you're on your master branch.
+**12.** Make sure that you're on your master branch.
 ```
    git checkout master
 ```
 
-**14.** Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
+**13.** Now that we have fetched the upstream repository, we want to merge its changes into our local branch. This will bring that branch into sync with the upstream, without losing our local changes.
 ```
    git merge upstream/master
 ```
@@ -87,7 +87,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Keep your changes as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you.
+Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocking you from working further.
 
 ## Resources
 
