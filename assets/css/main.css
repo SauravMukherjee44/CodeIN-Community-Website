@@ -219,6 +219,11 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
 }
 
+.fa{
+  font-size: 17px;
+  margin-right: 8px;
+}
+
 .btn:focus,
 .btn:active {
   box-shadow: none;
