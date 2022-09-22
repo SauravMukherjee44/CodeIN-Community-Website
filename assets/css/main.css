@@ -1038,6 +1038,9 @@ hr {
 .events_box:hover .content {
   display: block;
 }
+.events_box:hover .content a{
+  margin-left:32px;
+}
 
 .events_box:hover .events_img {
   display: none;
