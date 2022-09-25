@@ -19,7 +19,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## How to make a Pull Request
 
-**1.** Fork the repository by clicking on the <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+**1.** Fork the repository by clicking on the <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.icons8.com/ios/24/FFFFFF/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 ```
@@ -36,7 +36,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
    git checkout -b YourBranchName
 ```
 
-**5.** Make changes in source code.
+**5.** Make the changes that you want in the source code.
 
 **6.** Stage your changes and commit
 
@@ -51,7 +51,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
    git push origin YourBranchName
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+**8.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 **Note** If anyone contributes to this repository, then the changes will not be reflected in your local repository. For that:
 
@@ -90,7 +90,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocking you from working further.
 
 ## Resources
-
+> checkout these resources to learn about contributions in a more precise manner ↓
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
