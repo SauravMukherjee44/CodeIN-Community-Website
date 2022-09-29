@@ -21,7 +21,6 @@
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-
 }
 
 .read_btn {
@@ -43,14 +42,12 @@
   -webkit-transition: all 0.2s ease-in-out;
 }
 
-
 .image img {
   object-fit: cover;
   width: 100%;
   border-radius: 30px 30px 0px 0px;
   height: 349px;
 }
-
 
 .blog_content {
   top: 214px;
@@ -89,7 +86,41 @@
 
 .center {
   display: flex;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 90%; */
+}
+
+.centered_img {
+  margin: auto;
+  border-radius: 12px;
+}
+
+/* media queries for screen less than size 430px */
+
+@media screen and (max-width: 430px) {
+  .centered_img {
+    object-fit: cover;
+    margin: auto;
+    max-width: -webkit-fill-available;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+  }
+  .searchbar_div {
+    display: flex;
+    float: none !important;
+    margin-right: 0 !important;
+  }
+  .searchbar_div input {
+    border-radius: 3rem;
+    padding: 10px;
+    border-color: grey;
+    /* width: 130%; */
+    width: 90% !important;
+    margin: auto;
+  }
+  /* .project_card_img {
+    object-fit: contain !important;
+  } */
 }
