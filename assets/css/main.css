@@ -219,6 +219,11 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
 }
 
+.fa{
+  font-size: 17px;
+  margin-right: 8px;
+}
+
 .btn:focus,
 .btn:active {
   box-shadow: none;
@@ -1032,6 +1037,9 @@ hr {
 
 .events_box:hover .content {
   display: block;
+}
+.events_box:hover .content a{
+  margin-left:32px;
 }
 
 .events_box:hover .events_img {
