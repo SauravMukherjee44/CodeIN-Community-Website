@@ -3,6 +3,9 @@
 <h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap. </h3>
 
 ![image](./assets/img/hack.jpg)
+
+<h1 align="center">HacktoberFest Accepted </h1>
+<br>
 <p align="center">
 <b><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
 <font size="67"> Be a part of our Community on Discord🚀</font>
