@@ -174,7 +174,7 @@ To maintain a safe and inclusive space for everyone, to learn and grow, contribu
 
 <hr>
 	
-© 2021 Saurav Mukherjee and contributors\
+© 2022 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
