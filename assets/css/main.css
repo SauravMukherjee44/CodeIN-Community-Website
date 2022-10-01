@@ -311,7 +311,7 @@ button:focus {
 }
 .mentor-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -324,7 +324,21 @@ button:focus {
   font-size: 20px;
   margin-right: 0.7rem;
 }
-
+.mentor-profile .fa-linkedin:hover{
+  color: #0A66C2;
+}
+.mentor-profile .fa-discord:hover{
+  color: #7289d9;
+}
+.mentor-profile .fa-github:hover{
+  color: #000;
+}
+.mentor-profile .fa-youtube:hover{
+  color: #f00;
+}
+.mentor-profile .fa-twitter:hover{
+  color: #00acee;
+}
 .social-icon a:hover {
   color: #fff !important;
 }
