@@ -119,7 +119,7 @@
 .navbar{
   padding: 10px 0;
    li.active a.nav-link {
-      color: #preset;
+      color: $preset;
   }
 }
 .dropdown-toggle::after{
