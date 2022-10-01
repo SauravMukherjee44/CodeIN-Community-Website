@@ -1520,6 +1520,10 @@ textarea {
   transform: translateX(-50%);
 }
 
+.opportunity_btn_t {
+  top: -40px;
+}
+
 .opportunity_btn a {
   color: aliceblue;
 }
@@ -1774,6 +1778,9 @@ textarea {
   .content .box .counter {
     margin: 10px 0px;
   }
+  .opportunity_btn_t {
+  top: -20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1783,6 +1790,15 @@ textarea {
 
   .counter-up {
     padding: 30px 20px 0 20px;
+  }
+  .opportunity_btn_t {
+    top:0px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .opportunity_btn_t {
+    top: 50px;
   }
 }
 
