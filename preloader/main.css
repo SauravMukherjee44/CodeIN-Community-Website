@@ -75,7 +75,7 @@ body {
 /* social icons end */
 
 .navbar-brand {
-  font-size: 7rem;
+  font-size: 9rem;
 }
 
 h1,
@@ -526,8 +526,8 @@ hr {
 
 .top-nav-collapse .navbar-nav .nav-link {
   color: #585b60 !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
