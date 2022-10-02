@@ -35,4 +35,8 @@ h2 {
     .page-header h2{
         font-size: 1.5rem;
     }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
 }
