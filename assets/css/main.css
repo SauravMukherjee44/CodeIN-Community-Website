@@ -659,7 +659,6 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
-  background-color: #f63854;
   content: "";
   display: block;
   height: 2px;
