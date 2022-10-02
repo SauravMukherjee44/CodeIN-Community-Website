@@ -156,8 +156,6 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
   font-weight: 700;
   position: relative;
-  border: transparent;
-  margin: 0;
 }
 
 .shape {
@@ -221,6 +219,23 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
 }
 
+.nav-btn{
+  color: #333; 
+  font-size: 15px;
+  padding: 7px 0;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  background: transparent;
+  vertical-align: middle;
+  border: 1px solid #dc3545 ;
+}
+
+.nav-btn:hover{
+  color: #fff;
+  background-color: #f63854;
+  
+}
 .fa{
   font-size: 17px;
   margin-right: 8px;
@@ -313,7 +328,7 @@ button:focus {
 }
 .mentor-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -326,21 +341,7 @@ button:focus {
   font-size: 20px;
   margin-right: 0.7rem;
 }
-.mentor-profile .fa-linkedin:hover{
-  color: #0A66C2;
-}
-.mentor-profile .fa-discord:hover{
-  color: #7289d9;
-}
-.mentor-profile .fa-github:hover{
-  color: #000;
-}
-.mentor-profile .fa-youtube:hover{
-  color: #f00;
-}
-.mentor-profile .fa-twitter:hover{
-  color: #00acee;
-}
+
 .social-icon a:hover {
   color: #fff !important;
 }
@@ -1529,10 +1530,6 @@ textarea {
   transform: translateX(-50%);
 }
 
-.opportunity_btn_t {
-  top: -40px;
-}
-
 .opportunity_btn a {
   color: aliceblue;
 }
@@ -1787,9 +1784,6 @@ textarea {
   .content .box .counter {
     margin: 10px 0px;
   }
-  .opportunity_btn_t {
-  top: -20px;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1799,15 +1793,6 @@ textarea {
 
   .counter-up {
     padding: 30px 20px 0 20px;
-  }
-  .opportunity_btn_t {
-    top:0px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .opportunity_btn_t {
-    top: 50px;
   }
 }
 
