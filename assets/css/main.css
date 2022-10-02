@@ -156,6 +156,8 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
   font-weight: 700;
   position: relative;
+  border: transparent;
+  margin: 0;
 }
 
 .shape {
@@ -311,7 +313,7 @@ button:focus {
 }
 .mentor-info {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -324,7 +326,21 @@ button:focus {
   font-size: 20px;
   margin-right: 0.7rem;
 }
-
+.mentor-profile .fa-linkedin:hover{
+  color: #0A66C2;
+}
+.mentor-profile .fa-discord:hover{
+  color: #7289d9;
+}
+.mentor-profile .fa-github:hover{
+  color: #000;
+}
+.mentor-profile .fa-youtube:hover{
+  color: #f00;
+}
+.mentor-profile .fa-twitter:hover{
+  color: #00acee;
+}
 .social-icon a:hover {
   color: #fff !important;
 }
@@ -643,7 +659,6 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
-  background-color: #f63854;
   content: "";
   display: block;
   height: 2px;
@@ -1463,6 +1478,14 @@ textarea {
 .communityPartner__image {
   height: 100px;
   width: auto;
+  filter: drop-shadow(2px 2px 2px black);
+  transition: transform 0.3s,filter 0.3s;
+  border-radius: 0.3em;
+}
+
+.communityPartner__image:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(4px 4px 4px black);
 }
 
 .communityPartner__box2 {
@@ -1504,6 +1527,10 @@ textarea {
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.opportunity_btn_t {
+  top: -40px;
 }
 
 .opportunity_btn a {
@@ -1760,6 +1787,9 @@ textarea {
   .content .box .counter {
     margin: 10px 0px;
   }
+  .opportunity_btn_t {
+  top: -20px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1769,6 +1799,15 @@ textarea {
 
   .counter-up {
     padding: 30px 20px 0 20px;
+  }
+  .opportunity_btn_t {
+    top:0px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .opportunity_btn_t {
+    top: 50px;
   }
 }
 
@@ -1801,3 +1840,4 @@ textarea {
   margin: 0;
   padding: 0;
 }
+
