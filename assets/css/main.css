@@ -23,6 +23,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
+  min-height: fit-content;
 }
 
 /* social icons start */
