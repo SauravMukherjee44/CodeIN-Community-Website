@@ -75,6 +75,8 @@ a:not([href]):not([tabindex]) {
   display: inline-block;
   font-weight: 700;
   position: relative;
+  border: transparent;
+  margin: 0;
 }
 
 .shape {
