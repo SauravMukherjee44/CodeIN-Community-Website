@@ -1478,6 +1478,14 @@ textarea {
 .communityPartner__image {
   height: 100px;
   width: auto;
+  filter: drop-shadow(2px 2px 2px black);
+  transition: transform 0.3s,filter 0.3s;
+  border-radius: 0.3em;
+}
+
+.communityPartner__image:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(4px 4px 4px black);
 }
 
 .communityPartner__box2 {
