@@ -263,3 +263,10 @@ left: 30px; */
     margin-bottom: 20px;
   }
 }
+
+@media (max-width:690px) {
+  .img_container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
