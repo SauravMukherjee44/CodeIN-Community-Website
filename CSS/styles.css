@@ -1,7 +1,6 @@
 .icon{      
     float: right;  
-}  
-
+}
 .heading{
     font-size: 50px;
     font-weight: bold;
@@ -24,8 +23,13 @@ h2 {
     padding-top: 50px;
 }
 
+.nav-bar-full{
+    display: flex;
+}
+.btn .about{
+    color: black;
+}
 
-    
 @media  (min-width: 412px) and (max-width: 915px) {
     .icon img {
         min-width: 100%;
@@ -35,4 +39,8 @@ h2 {
     .page-header h2{
         font-size: 1.5rem;
     }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
 }
