@@ -13,7 +13,12 @@ button.addEventListener('click', (e)=> {
   
   let msg = document.getElementById("suscribeMsg");
   let email = document.getElementById("Email");
-    
+
+  console.log(email.value); 
+  console.log(typeof email.value);
+
+  if(email.value=='') msg.innerText = "Kindly Insert an email"; 
+  else msg.innerText = "Sucessfully! Subscribed";
+
   email.value = "";
-  msg.innerText = "Sucessfully! Subscribed";    
 })
