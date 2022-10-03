@@ -16,7 +16,10 @@ async function fetchData(){
             contributorImageURL[i] = contributors[i].avatar_url;
             contributorGitHubURL[i] = contributors[i].html_url;
             contributorsName[i] = contributors[i].login;
-            contributor[i] = `<a href="${contributorGitHubURL[i]}"><img src="${contributorImageURL[i]}" alt="${contributorsName[i]}"></a>`
+            contributor[i] = `<a href="${contributorGitHubURL[i]}">
+            <img src="${contributorImageURL[i]}" alt="${contributorsName[i]}">
+            <span>${contributorsName[i]}</span>
+            </a>`
         }
         console.log(contributor);
         // getting dom elements
@@ -29,5 +32,7 @@ async function fetchData(){
     })
 }
 
-//call the function
-fetchData();
+//call the function after 1s
+setTimeout(()=>{
+    fetchData();
+}, 1000)
