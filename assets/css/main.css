@@ -1609,6 +1609,10 @@ textarea {
     flex-direction: column;
   }
 
+  .community_partner .imgbox > :last-child > :last-child{
+    margin: 8px 20px;
+  }
+
   .community_partner .img_container {
     display: flex;
     justify-content: center;
