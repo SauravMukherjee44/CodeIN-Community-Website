@@ -344,7 +344,7 @@
 		<div class="container" data-aos="fade-up" data-aos-duration="1500">
 			<div class="row justify-content-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div id="testimonials">
+					<div id="testimonials" class="owl-carousel">
 						<div id="testimonials-slider">
 							<div class="swiper">
 								<div class="swiper-wrapper">
@@ -1891,10 +1891,12 @@
 		var navToTop = function () {
 			var y = window.scrollY;
 			if (y >= 220) {
-				navtbut.className = "appear"
+				if (navtbut !== null)
+					navtbut.className = "appear"
 			}
 			else {
-				navtbut.className = "disappear"
+				if (navtbut !== null)
+					navtbut.className = "disappear"
 			}
 		};
 
