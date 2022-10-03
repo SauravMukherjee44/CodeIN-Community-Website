@@ -23,6 +23,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
+  min-height: fit-content;
 }
 
 /* social icons start */
@@ -644,8 +645,9 @@ hr {
 
 .navbar-expand-md .navbar-nav .nav-item {
   padding-left: 25px;
+  width: 25%;
+  position: static;
 }
-
 .navbar-expand-md .navbar-nav .nav-link {
   color: #333;
   font-weight: 400;
