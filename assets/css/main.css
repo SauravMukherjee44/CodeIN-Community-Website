@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html {
   overflow-x: hidden;
   font-size: 62.5%;
@@ -17,7 +17,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
