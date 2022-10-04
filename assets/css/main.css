@@ -1689,6 +1689,9 @@ textarea {
     color: black;
     font-weight: 800;
   }
+  .FAQsLi{
+    color: #000;
+  }
   .accordionFAQs:after {
     content: '\02795';
     font-size: 13px;
