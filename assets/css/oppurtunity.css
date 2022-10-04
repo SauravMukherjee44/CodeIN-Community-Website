@@ -48,6 +48,10 @@ li {
     flex-wrap: wrap;
 }
 
+.opportunity {
+    padding-right: 50px;
+}
+
 
 @media only screen and (max-width: 800px) {
     .card {
@@ -59,5 +63,12 @@ li {
         align-items: center;
         flex-direction: column;
         margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    .opportunity {
+        padding-right: 0;
     }
 }
