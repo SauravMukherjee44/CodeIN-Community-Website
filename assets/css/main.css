@@ -28,7 +28,7 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
-  min-height:fit-content;
+  min-height: fit-content;
   max-height: max-content;
 }
 
@@ -1627,7 +1627,7 @@ textarea {
     flex-direction: column;
   }
 
-  .community_partner .imgbox > :last-child > :last-child{
+  .community_partner .imgbox > :last-child > :last-child {
     margin: 8px 20px;
   }
 
@@ -1727,11 +1727,11 @@ button.accordionFAQs i.slidedown.slide-top {
   align-items: center;
   background-image: linear-gradient(
     to right top,
-    #051937,
-    #3f325b,
-    #7a4b79,
-    #b7668e,
-    #f2879b
+    #fdb833,
+    #e4b61a,
+    #fcd45d,
+    #fce45d,
+    #ffe600
   );
   margin: 40px 0px;
 }
