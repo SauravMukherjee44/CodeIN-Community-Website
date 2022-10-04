@@ -38,7 +38,7 @@
   width: 30px;
   height: 30px;
   margin: auto;
-  stroke: #f63854;
+  stroke: #f7b801;
 }
 
 /* ... */
@@ -71,6 +71,10 @@ body.dark {
 
 .whitecr {
   color: #ffffff;
+}
+
+.blackcr {
+  color: black;
 }
 
 nav a.whitecr:hover {
