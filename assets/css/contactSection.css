@@ -57,6 +57,7 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
   border-color: #ffd100;
+  border: 1px solid #ffffff;
 }
 
 .Cbutton-28:active {
@@ -73,9 +74,9 @@
   #inputName,
   #inputEmail,
   #subj,
-  #msg,
-  #checkBtn {
-    margin-left: 5px !important;
+  #msg {
+    width: 90vw !important;
+    margin: 0 5vw !important;
     justify-content: center;
   }
 
@@ -89,6 +90,10 @@
     height: 100vh !important;
     width: 100vw !important;
   }
+  #checkBtn {
+    width: 40vw !important;
+    justify-content: center !important;
+  }
 
   .bg-cont {
     display: none !important;
@@ -98,16 +103,24 @@
 @media (max-width: 767px) {
   .Cbtn {
     appearance: none;
-    background-color: purple !important;
+    background-color: rgba(255, 200, 60, 255) !important;
+  }
+  .Cbtn:hover {
+    background-color: #f7b801 !important;
   }
   #inputName,
   #inputEmail,
   #subj,
-  #msg,
+  #msg {
+    width: 90vw !important;
+    margin: 0 5vw !important;
+    justify-content: center;
+  }
   #checkBtn {
-    width: 95vw !important;
+    width: 40vw;
     justify-content: center !important;
-    margin-left: 10px !important;
+    margin: 0 30vw !important;
+    align: center;
   }
 }
 @media (max-width: 912px) {
@@ -116,7 +129,7 @@
   }
   .Cbtn {
     appearance: none;
-    background-color: purple !important;
+    background-color: transparent;
   }
 }
 
