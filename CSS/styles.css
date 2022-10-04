@@ -1,46 +1,47 @@
-.icon{      
-    float: right;  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-.heading{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;    
+
+body {
+  scroll-behavior: smooth;
+}
+
+.icon {
+  float: right;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 
 h2 {
-    border-bottom: 3px solid black;
-    display: inline-block;
-    margin-left: 150px;   
+  border-bottom: 3px solid black;
+  display: inline-block;
+  margin-left: 150px;
 }
 
 .page-header {
-    margin-top: 20px;
-    margin-left: -55px;
+  margin-top: 20px;
+  margin-left: -55px;
 }
 
 .guide {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
-.nav-bar-full{
-    display: flex;
-}
-.btn .about{
-    color: black;
-}
+@media (min-width: 412px) and (max-width: 915px) {
+  .icon img {
+    min-width: 100%;
+    max-width: 100%;
+  }
 
-@media  (min-width: 412px) and (max-width: 915px) {
-    .icon img {
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-    .page-header h2{
-        font-size: 1.5rem;
-    }
-    .navbar-nav .nav-link {
-            text-align: center;
-
-        }
+  .page-header h2 {
+    font-size: 1.5rem;
+  }
 }
