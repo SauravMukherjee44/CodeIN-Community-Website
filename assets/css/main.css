@@ -208,11 +208,11 @@ a:not([href]):not([tabindex]) {
   background: rgba(61, 96, 244, 0.3);
 }
 
-/* 
-.btn-danger{
-  padding: 10px 30px;
-  border-radius: 20px;
-} */
+.btn-warning:hover,
+.btn-warning:focus {
+  background: none;
+  color: var(--primary);
+}
 
 .btn {
   font-size: 14px;
@@ -1661,7 +1661,7 @@ textarea {
 /* FAQ section starts here */
 
 .accordionFAQs {
-  background-color: #fff2f2;
+  background-color: #ffee99;
   color: rgb(36, 36, 36);
   cursor: pointer;
   padding: 18px;
@@ -1687,7 +1687,7 @@ button.accordionFAQs i.slidedown.slide-top {
   color: #fa5019;
 }
 .accordionFAQs:hover {
-  background-color: #fdf1f1;
+  background-color: #fff2b2;
   color: black;
   border-color: #c2c2c2;
   box-shadow: 2px 2px 10px rgb(151, 129, 129), 5px 5px 25px rgb(207, 201, 201);
