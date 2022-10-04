@@ -11,7 +11,8 @@
 
 	<title>CodeIN Community </title>
 
-
+	<!-- index style css  -->
+	<link rel="stylesheet" href="./CSS/index.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- Icon -->
@@ -49,6 +50,9 @@
 
 	<!-- darkmode css -->
 	<link rel="stylesheet" href="./assets/css/darkmode.css">
+
+	<!-- javascript for the fetching contributors form github api -->
+	<script src="./JS/index.js" async defer></script>
 
 	<!-- counter imports -->
 	<script src="assets/js/jquery-min.js"></script>
@@ -1713,6 +1717,16 @@
 		  </div>
 	</section>
 	<!-- Contact Section End -->
+	<!-- Contributors section -->
+	<section class="contributors-holder">
+		<h3>Shout-Out to our Contributors</h3>
+		<div class="contributors">
+			<span id="contributor">
+				<!-- this will be fetched and set dynamically with ./JS/index.js -->
+			</span>
+		</div>
+	</section>
+	<!-- End Contributors section -->
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
