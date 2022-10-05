@@ -232,6 +232,9 @@ left: 30px; */
     bottom: 20px;
     right: 20px;
   }
+   #hacktoberfest{
+    min-width: fit-content;
+  }
 }
 
 @media (min-width: 151px) and (max-width: 350px) {
