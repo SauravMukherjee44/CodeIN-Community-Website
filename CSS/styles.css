@@ -3,6 +3,7 @@
 }
 .heading{
     font-size: 50px;
+    text-shadow: 1px 1px 2px red;
     font-weight: bold;
     text-align: center;
     font-family: 'Oswald', sans-serif;    
