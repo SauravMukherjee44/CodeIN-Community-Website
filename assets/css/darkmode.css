@@ -106,3 +106,59 @@ nav a.whitecr:hover {
 .feather.moon.hide {
   display: none;
 }
+
+
+/* ... */
+/* !for JavaScript */
+body.dark {
+  background: rgb(30, 32, 35);
+}
+
+.whitebg {
+  box-shadow: 1px 1px 10px 4px rgba(255, 255, 255, 0.2);
+  background: #e2e1e1;
+}
+
+.whitecr {
+  color: #ffffff;
+}
+
+.blackcr {
+  color: black;
+}
+
+nav a.whitecr:hover {
+  color: rgb(46, 48, 53);
+}
+
+.whiteburger {
+  background: #fff !important;
+}
+
+.darkmode button.wh {
+  background: #eeeeee;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.1),
+    -2px -1px 2px 1px rgba(255, 255, 255, 0.5);
+}
+
+.darkmode button.wh:active {
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+.darkmode button.wh:active .feather.sun {
+  margin-top: 7px;
+}
+
+.feather.sun.appear {
+  display: inline;
+}
+
+.feather.moon.hide {
+  display: none;
+}
+
+
+/* ... */
+/* !for JavaScript */
+
+/* !for JavaScript */

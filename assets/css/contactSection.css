@@ -125,3 +125,41 @@
     width: 40vw !important;
   }
 }
+
+.text-center {
+  text-align: center!important;
+  margin: 12px 134px;
+}
+
+@media (max-width: 1024px) {
+  .text-center {
+    text-align: center!important;
+    margin: 12px 134px;
+  }
+}
+
+@media (max-width: 912px) {
+  .text-center {
+    text-align: center!important;
+    margin: 12px 134px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-center {
+    text-align: center!important;
+    margin: 12px 134px;
+  }
+}
+
+@media (max-width: 751px) {
+  .text-center {
+    text-align: center!important;
+    margin: 12px 134px;
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=contactSection.css.map */

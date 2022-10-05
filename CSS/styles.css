@@ -44,3 +44,171 @@ h2 {
 
         }
 }
+
+@media  (min-width: 916px) and (max-width: 1200px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 1201px) and (max-width: 1400px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 1401px) and (max-width: 1600px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 1601px) and (max-width: 1800px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 1801px) and (max-width: 2000px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 2001px) and (max-width: 2200px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 2201px) and (max-width: 2400px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 2401px) and (max-width: 2600px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}   
+
+@media  (min-width: 2601px) and (max-width: 2800px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 2801px) and (max-width: 3000px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+@media  (min-width: 3001px) and (max-width: 3200px) {
+    .icon img {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .page-header h2{
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+            text-align: center;
+
+        }
+}
+
+
+/*# sourceMappingURL=styles.css.map */
