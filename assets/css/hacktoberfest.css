@@ -129,4 +129,7 @@
   /* .project_card_img {
       object-fit: contain !important;
     } */
+  .card:hover{
+  box-shadow: 0 4px 8px 0 #f7b801;
+  }
 }
