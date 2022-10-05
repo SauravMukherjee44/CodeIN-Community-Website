@@ -2,7 +2,14 @@
   --primary: #f7b801;
   --secondary: #ffd100;
 }
-
+::-moz-selection {
+    background: #f7b801;
+  color: black;
+}
+::selection {
+    background: #f7b801;
+    color: black;
+}
 .container_blog {
   display: flex;
   justify-content: center;
