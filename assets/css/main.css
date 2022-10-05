@@ -1685,7 +1685,7 @@ button.accordionFAQs i.slide-down {
 button.accordionFAQs i.slidedown.slide-top {
   transform: rotate(-180deg);
   color: #fa5019;
-yellowTheme
+
 }
 .accordionFAQs:hover {
   background-color: #fff2b2;
