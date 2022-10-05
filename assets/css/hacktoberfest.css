@@ -129,4 +129,8 @@
   /* .project_card_img {
       object-fit: contain !important;
     } */
+  .services-item:hover
+  {
+  box-shadow: 0 0 12px #ffd100;
+  }
 }
