@@ -1,18 +1,24 @@
-.icon{      
-    float: right;  
-}  
+.icon {
+    float: right;
+}
 
-.heading{
+a.back-to-top:hover {
+    transform: scale(1.44);
+    rotate: 360deg;
+    transition: .54s;
+}
+
+.heading {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Oswald', sans-serif;    
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
     border-bottom: 3px solid black;
     display: inline-block;
-    margin-left: 150px;   
+    margin-left: 150px;
 }
 
 .page-header {
@@ -25,14 +31,14 @@ h2 {
 }
 
 
-    
-@media  (min-width: 412px) and (max-width: 915px) {
+
+@media (min-width: 412px) and (max-width: 915px) {
     .icon img {
         min-width: 100%;
         max-width: 100%;
     }
 
-    .page-header h2{
+    .page-header h2 {
         font-size: 1.5rem;
     }
 }
