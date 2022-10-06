@@ -42,3 +42,9 @@
     transition: 0.5s ease;
     opacity: 1;
 }
+.events_box{
+    transition: transform 0.03s;
+}
+.events_box:hover{
+    transform: scale(1.1);
+}
