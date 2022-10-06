@@ -1,5 +1,5 @@
 <h1 align="center">CodeIN Community Website </h1>
-
+<h4 align="center"> India's Top Growing Student Technical Community of 8,000+ Students, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
 <h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap. </h3>
 
 ![image](./assets/img/hack.jpg)
@@ -36,10 +36,6 @@
 <img alt="JS" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 	</div>
-
-<h2 align="center">📌 Sneak Peek of the Website:</h2>
-
-![image](https://github.com/SauravMukherjee44/CodeIN-Community-Website/blob/d17228955f83a69a76beebfc8f090d9da545ecbe/assets/img/screencapture-codeincommunity-tech-2022-04-19-02_35_25.png)
 
 In order to make a hassle-free environment, we implore you all (_while contributing_) to follow the instructions mentioned below!
 
@@ -178,7 +174,7 @@ To maintain a safe and inclusive space for everyone, to learn and grow, contribu
 
 <hr>
 	
-© 2021 Saurav Mukherjee and contributors\
+© 2022 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)

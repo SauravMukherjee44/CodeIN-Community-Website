@@ -1,0 +1,44 @@
+/*------- styling for the contributor section ------*/
+.contributors-holder{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+.contributors-holder h3{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 30px;
+}
+#contributor , #contributor a , #contributor a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#contributor a{
+    margin: 3px;
+    position: relative;
+    color: white;
+}
+#contributor a span{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: -50px;
+    opacity: 0;
+    background-color: gray;
+    z-index: 1000;
+}
+#contributor a img:hover {
+    transition: 0.2s ease;
+    scale: 1.05;
+    box-shadow: 0px 1px 3px 5px rgba(103, 103, 103, 0.335);
+}
+#contributor a:hover span{
+    transition: 0.5s ease;
+    opacity: 1;
+}
