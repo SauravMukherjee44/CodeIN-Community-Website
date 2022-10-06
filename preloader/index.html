@@ -46,13 +46,25 @@
 	<!-- animate on scroll import -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<!-- animate on scroll import end -->
-
+<!--preloader script-->
+	<script>
+	window.onload=function(){
+		document.getElementById('loader').style.display="none";
+		document.getElementById('content').style.display="block";
+		
+	};
+	</script>
 </head>
 
-<body onload="loading()">
+<body>
 
     <!--Preloader-->
-    <div class="preloader" id="loading" ><span>Loading...</span></div>
+    <div class="preloader" id="loader" >
+		<img src="/assets/img/preloader.gif">
+	</div>
+
+
+	<div id="content">
 
 	<!-- Header Area wrapper Starts -->
 	<header id="header-wrap">
@@ -1470,7 +1482,7 @@
 						class="fab fa-twitter"></i></a>
 			</li>
 		</ul>
-		</div>
+		
 		<div id="copyright">
 			<div class="container">
 				<div class="row">
@@ -1498,7 +1510,7 @@
 			</button>
 		</a>
 	</div>
-
+</div>
 
 
     <!-- Preloader Script -->
