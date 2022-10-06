@@ -21,6 +21,25 @@ body {
   overflow-x: hidden;
 }
 
+/*preloader*/
+.preloader{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 70px;
+  height: 70px;
+}
+.preloader img{
+  width: 150px;
+}
+#content{
+  display: none;
+}
+
 /* social icons start */
 .socials {
   position: relative;
