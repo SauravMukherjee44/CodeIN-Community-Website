@@ -106,3 +106,11 @@ nav a.whitecr:hover {
 .feather.moon.hide {
   display: none;
 }
+
+.dark.services-item:hover {
+  box-shadow: 0px 5px 25px 4px rgb(246, 183, 1);
+}
+
+.dark.card:hover{
+  box-shadow: 0px 5px 25px 4px rgba(246, 185, 1, 0.575);
+}
