@@ -88,6 +88,7 @@
 .centered_img {
   margin: auto;
   border-radius: 12px;
+  width: 92%;
 }
 .yt-video a {
   margin-top: 10px;
