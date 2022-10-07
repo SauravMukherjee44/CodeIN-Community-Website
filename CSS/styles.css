@@ -38,6 +38,9 @@ h2 {
     color: black;
 }
 
+.fa-discord{
+    color:#7289d9;
+}
 @media  (min-width: 412px) and (max-width: 915px) {
     .icon img {
         min-width: 100%;
