@@ -628,7 +628,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #585b60 !important;
+  color: #ffd100 !important;
   border-color: var(--primary);
 }
 
