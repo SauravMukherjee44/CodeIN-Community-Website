@@ -28,19 +28,9 @@ th {
 }
 /*-------------------------------------------------------*/
 
-@media screen and (max-width: 1000px) {
-  .repos .col-md-6 {
-    max-width: 90%;
-    margin: 1em auto;
-  }
-}
 /* media queries for screen less than size 430px */
 
 @media screen and (max-width: 430px) {
-  .repos .col-md-6 {
-    max-width: 90%;
-    margin: 1em auto;
-  }
   .centered_img {
     object-fit: cover;
     margin: auto;
