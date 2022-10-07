@@ -5,9 +5,29 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    
     font-family: 'Oswald', sans-serif;    
 }
-
+.heading_benefits{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Magra', sans-serif;
+}
+.guide_heading{
+    font-size: 35px;
+    padding-bottom: 1rem;
+    color: #222222;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+}
+.guide_content{
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    
+}
 h2 {
     border-bottom: 3px solid black;
     display: inline-block;
