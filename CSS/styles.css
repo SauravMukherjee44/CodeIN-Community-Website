@@ -5,8 +5,7 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Magra', sans-serif;
-   
+    font-family: 'Oswald', sans-serif;    
 }
 
 h2 {
@@ -14,12 +13,7 @@ h2 {
     display: inline-block;
     margin-left: 150px;   
 }
-.guide_content{
-    font-family: 'Inconsolata', monospace;
-    font-size: medium;
-    color: #232222;
 
-}
 .page-header {
     margin-top: 20px;
     margin-left: -55px;
@@ -28,9 +22,7 @@ h2 {
 .guide {
     padding-top: 50px;
 }
-.guide .h4{
-    font-family: 'Roboto Mono', monospace;
-}
+
 .nav-bar-full{
     display: flex;
 }
