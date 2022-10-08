@@ -18,7 +18,7 @@
 	rel="stylesheet"/>
 
 	<!-- MDB -->
-	<script	type="text/javascript" 	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js" ></script>
+	<!-- <script	type="text/javascript" 	src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js" ></script> -->
 	
 	
 	
@@ -1811,11 +1811,31 @@
 					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<h3 class="footer-news">Subscribe to our Newsletter</h3>
 						<p class="text-light mb-2">Subscribe to get latest updates and updates.</p>
-						<div class="mail d-flex">
-						<input type="email" id="Email" placeholder="enter your email.." />
+						<div class="mail">
+						<input type="email" id="Email" placeholder="Enter your email" />
 						<a type="submit" id="btns" label="submit" placeholder="submit">Submit</a>
 					    </div>
-						<small class="text-light" id="suscribeMsg"></small>
+		
+						
+						<!-- Modal to trigger after submitting the newsletter form -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									<p class="text-dark" id="suscribeMsg"></p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+							</div>
+						</div>						
 
 						<h3 class="contact-footer mt-5">Contact</h3>
 						<ul class="address">
@@ -1829,8 +1849,7 @@
 									codeincommunity@gmail.com</a>
 							</li>
 						</ul>
-					</div>
-					
+					</div>					
 				</div>
 			</div>
 		</div>
