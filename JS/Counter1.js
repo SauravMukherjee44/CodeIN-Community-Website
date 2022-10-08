@@ -12,13 +12,20 @@ button.addEventListener('click', (e)=> {
 e.preventDefault();
 
 let msg = document.getElementById("suscribeMsg");
+let title = document.getElementById("subscribeTitle");
 let email = document.getElementById("Email");
 
 console.log(email.value); 
 console.log(typeof email.value);
 
-if(email.value=='') msg.innerText = "Kindly Insert an email"; 
-else msg.innerText = "Sucessfully! Subscribed";
+if(email.value==''){
+  title.innerText = "Info"; 
+  msg.innerText = "Kindly Insert an email"; 
+}
+else{
+  title.innerText = "Congratulations";
+  msg.innerText = "Sucessfully! Subscribed";
+}
 
 $('#exampleModalCenter').modal('show');
 
