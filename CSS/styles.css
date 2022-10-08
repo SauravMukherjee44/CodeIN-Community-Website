@@ -5,9 +5,29 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    
     font-family: 'Oswald', sans-serif;    
 }
-
+.heading_benefits{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Magra', sans-serif;
+}
+.guide_heading{
+    font-size: 35px;
+    padding-bottom: 1rem;
+    color: #222222;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+}
+.guide_content{
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    
+}
 h2 {
     border-bottom: 3px solid black;
     display: inline-block;
@@ -30,6 +50,13 @@ h2 {
     color: black;
 }
 
+
+.telegram_jus{
+    color:#7289d9;
+}
+.telegram_jus:hover{
+    color: #F7B801;
+}
 @media  (min-width: 412px) and (max-width: 915px) {
     .icon img {
         min-width: 100%;
