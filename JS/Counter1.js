@@ -1,24 +1,25 @@
 $(document).ready(function(){
-    $('.counter').counterUp({
-      delay: 10,
-      time: 400
-    });
+  $('.counter-value').each(function(){
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      },{
+          duration: 3500,
+          easing: 'swing',
+          step: function (now){
+              $(this).text(Math.ceil(now));
+          }
+      });
   });
+});
+// Subscribe Newsletter
+let button = document.getElementById("btns");
 
-  // Subscribe Newsletter
-  let button = document.getElementById("btns");
-  
 button.addEventListener('click', (e)=> {
-  e.preventDefault();
+e.preventDefault();
+
+let msg = document.getElementById("suscribeMsg");
+let email = document.getElementById("Email");
   
-  let msg = document.getElementById("suscribeMsg");
-  let email = document.getElementById("Email");
-
-  console.log(email.value); 
-  console.log(typeof email.value);
-
-  if(email.value=='') msg.innerText = "Kindly Insert an email"; 
-  else msg.innerText = "Sucessfully! Subscribed";
-
-  email.value = "";
+email.value = "";
+msg.innerText = "Sucessfully! Subscribed";    
 })

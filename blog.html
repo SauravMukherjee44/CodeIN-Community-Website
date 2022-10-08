@@ -81,7 +81,7 @@
                 Events
               </a>
             </li>
-            <li class="nav-item mr-5">
+            <li class="nav-item">
               <a class="nav-link" href="/#opportunity">
                 Opportunity
               </a>
@@ -92,10 +92,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#sponsors">
-                Sponsors
-              </a>
-            </li>
+							<a class="nav-link" href="#community_partner">
+								Sponsors
+							</a>
+						</li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">
                 Contact
@@ -115,7 +115,7 @@
   <br><br><br><br>
   <br><br>
 
-  <div class="row">
+  <div class="row" >
     <div class="col-md-4"></div>
     <div class="col-md-4">
       <div class="section-header text-center" data-aos="fade-up" data-aos-duration="1500">
@@ -126,11 +126,9 @@
     <div class="col-md-1"></div>
 
     <div class="col-md-3">
-
-      <div style="float: left;margin-right: 6%;">
-        <input style="border-radius: 4rem; padding: 15px;border-color: grey;width: 130%;" id="searchbar"
-          onkeyup="search_blog()" type="text" name="search" placeholder='Search blogs....' />
-
+      <div class="search">
+        <input style="border-radius: 3rem; padding: 10px;border-color: grey;width: 130%;" id="searchbar"
+          onkeyup="search_blog()" type="text" name="search" placeholder='Search blogs.....' />
       </div>
     </div>
   </div>
@@ -138,263 +136,116 @@
 
 
 
-  <div class="container_blog">
+  <div class="container" id="blog">
 
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img
-          src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/09/18085355/abstract-iot-1000x600.jpg"
-          alt="Iot blog image">
-
+   <div class="row">
+<!-- blog 1 -->
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img  src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/09/18085355/abstract-iot-1000x600.jpg" alt="card__image" class="card__image">
       </div>
-      <div class="blog_content" id="content">
-
-        <div class="head">
-          How Are These 5 Industry Segments Influenced by IoT?
-        </div>
-
-
-        <div class="description">
-          IoT has been racing ahead in the technological race, thinning the gap between the physical world and the
-          digital world
-        </div>
-
-        <a href="https://simpleprogrammer.com/iot-influence-industry/" class="read_btn" data-aos="fade-up">Go to Blogs</a>
-
+      <div class="card__body">
+        <h4> How Are These 5 Industry Segments Influenced by IoT?</h4>
+        <p> IoT has been racing ahead in the technological race, thinning the gap between the physical world and the
+          digital world</p>
       </div>
+    <div class="card__footer text-center">
+        <a href="https://simpleprogrammer.com/iot-influence-industry/" class="read_btn" data-aos="fade-up">Go to blog</a>
     </div>
-
-
-
-
-    <!-- blog 2 -->
-
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img
-          src="https://www.ukri.org/wp-content/uploads/2020/11/EPSRC-261120-ArtificialIntelligence-GettyImages-1206796363.jpg"
-          alt="AI and ML blog image">
-
+    </div>
+ <!-- blog 2 -->   
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img  src="https://www.ukri.org/wp-content/uploads/2020/11/EPSRC-261120-ArtificialIntelligence-GettyImages-1206796363.jpg" alt="card__image" class="card__image">
       </div>
-      <div class="blog_content" id="content">
-        <!-- <a data-aos="fade-up" data-aos-duration="1500" href=>
- -->
-        <div class="head">
-          6 Trends in Artificial Intelligence (AI) and Machine Learning (ML) in 2022
-        </div>
-        <!--  </a>
- -->
-        <div class="description">
-          Artificial intelligence (AI) and machine learning (ML) are two of the most used terms that are not confined in
-          a specific domain but have universal adoption
-        </div>
-
+      <div class="card__body">
+        <h4> 6 Trends in Artificial Intelligence (AI) and Machine Learning (ML) in 2022</h4>
+        <p> Artificial intelligence (AI) and machine learning (ML) are two of the most used terms that are not confined in
+          a specific domain but have universal adoption</p>
+      </div>
+    <div class="card__footer text-center">
         <a href="https://simpleprogrammer.com/trends-ai-and-ml-2022/" class="read_btn" data-aos="fade-up">Go to blog</a>
-
-
-
-      </div>
-
     </div>
-
-
-
-
-
+    </div>
     <!-- blog 3 -->
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img
-          src="https://cdn2.hubspot.net/hubfs/3928454/What%20Is%20the%20Difference%20Between%20Software%20Development%20vs.%20Programming.jpg"
-          alt="Software development blog image">
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img  src="https://cdn2.hubspot.net/hubfs/3928454/What%20Is%20the%20Difference%20Between%20Software%20Development%20vs.%20Programming.jpg" alt="card__image" class="card__image">
       </div>
-      <div class="blog_content" id="content">
-
-
-        <div class="head">
-          Fact or Fiction? 8 Myths About Software Programming
-
-        </div>
-
-        <div class="description">
-          Though developers can express their creativity through coding, we see many of them abandoning it. A likely
-          reason is that there are many myths surrounding coding, making it monotonous or illogical
-        </div>
-
-
-
-
-        <a href="https://simpleprogrammer.com/myths-about-software-programming/" class="read_btn">Go to blog</a>
-
-
+      <div class="card__body">
+        <h4>    Fact or Fiction? 8 Myths About Software Programming</h4>
+        <p>Though developers can express their creativity through coding, we see many of them abandoning it. A likely
+          reason is that there are many myths surrounding coding, making it monotonous or illogical</p>
       </div>
-
+    <div class="card__footer text-center">
+        <a href="https://simpleprogrammer.com/myths-about-software-programming/" class="read_btn" data-aos="fade-up">Go to blog</a>
     </div>
-
-
+    </div>
     <!-- blog 4 -->
-
-
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img src="https://appinventiv.com/wp-content/uploads/sites/1/2019/10/Android-app-development-cost-1.png"
-          alt="App development blog image">
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img src="https://appinventiv.com/wp-content/uploads/sites/1/2019/10/Android-app-development-cost-1.png" alt="card__image" class="card__image">
       </div>
-      <div class="blog_content" id="content">
-
-        <!--  <a data-aos="fade-up" data-aos-duration="1500" href="https://simpleprogrammer.com/mobile-app-development-process-guide-2022/">
- -->
-        <div class="head">
-          The Mobile App Development Process: A Step-by-Step Guide
-
-        </div>
-        <!--   </a>
-         -->
-        <div class="description">
-          Considering the increasing smartphone penetration and better connectivity, mobile app developers have a huge
-          scope to create world-class apps that would rake in millions of dollars
-        </div>
-
-        <a href="https://simpleprogrammer.com/mobile-app-development-process-guide-2022/" class="read_btn">Go to
-          blog</a>
-
-
-
-
+      <div class="card__body">
+        <h4> The Mobile App Development Process: A Step-by-Step Guide</h4>
+        <p> Considering the increasing smartphone penetration and better connectivity, mobile app developers have a huge
+          scope to create world-class apps that would rake in millions of dollars</p>
       </div>
-
+    <div class="card__footer text-center">
+        <a href="https://simpleprogrammer.com/mobile-app-development-process-guide-2022/" class="read_btn" data-aos="fade-up">Go to blog</a>
     </div>
-
+    </div>
     <!-- blog 5 -->
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-
-        <img src="https://www.programmableweb.com/sites/default/files/ryan-boyd-databricks.jpg"
-          alt="API development blog image">
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img src="https://www.programmableweb.com/sites/default/files/ryan-boyd-databricks.jpg" alt="card__image" class="card__image">
       </div>
-
-      <div class="blog_content" id="content">
-
-        <!--    <a data-aos="fade-up" data-aos-duration="1500" href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04" >
-        -->
-        <div class="head">
-          Databricks’ Ryan Boyd Highlights Strategies for Online Meetups
-        </div>
-        <!--       </a> -->
-
-        <div class="description">
-          Developing an API strategy can be broken down into four stages. This series of articles examines the fourth
-          stage
-        </div>
-
-
-        <a href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04"
-          class="read_btn">Go to blog</a>
+      <div class="card__body">
+        <h4>   Databricks’ Ryan Boyd Highlights Strategies for Online Meetups</h4>
+        <p>  Developing an API strategy can be broken down into four stages. This series of articles examines the fourth
+          stage</p>
       </div>
+    <div class="card__footer text-center">
+        <a href="https://www.programmableweb.com/news/databricks-ryan-boyd-highlights-strategies-online-meetups/analysis/2021/02/04" class="read_btn" data-aos="fade-up">Go to blog</a>
     </div>
-
-
-
+    </div>
     <!-- blog 6 -->
-
-    <div class="blog aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img src="https://2021.allthingsopen.org/wp-content/uploads/2021/07/briandouglas.jpg"
-          alt="Github developer team blog image">
+    <div class=" col-md-6">
+      <div class="card__header">
+        <img src="https://2021.allthingsopen.org/wp-content/uploads/2021/07/briandouglas.jpg" alt="card__image" class="card__image">
       </div>
-
-      <div class="blog_content" id="content">
-        <div class="head">
-          Brain Douglas' Team of 10 Developer </div>
-
-        <div class="description">
-          It seem like a daunting job to help support 65 million developers and a assumption is GitHub must employ an
+      <div class="card__body">
+        <h4>  Brain Douglas' Team of 10 Developer </h4>
+        <p> It seem like a daunting job to help support 65 million developers and a assumption is GitHub must employ an
           army of developer advocates to keep up. But this isn’t the case and according to Douglas the team consists of
-          about 10 people
-        </div>
-        <a href="https://www.programmableweb.com/news/how-brian-douglas-team-10-developer-advocates-supports-github-s-65-million-developers/analysis/2021/05/11"
-          class="read_btn">Go to blog</a>
+          about 10 people</p>
       </div>
-
+    <div class="card__footer text-center">
+        <a href="https://www.programmableweb.com/news/how-brian-douglas-team-10-developer-advocates-supports-github-s-65-million-developers/analysis/2021/05/11" class="read_btn" data-aos="fade-up">Go to blog</a>
+    </div>
     </div>
 
-    <!-- blog 7 -->
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img src="./assets/img/blog/austrology.jpg" alt="AI and ML blog image">
-
-      </div>
-      <div class="blog_content" id="content">
-
-        <div class="head">
-          Technology & the $2.2 Billion Astrology Market: Why is Online Astrology Getting so Popular?
-        </div>
-
-        <div class="description">
-          Astrology, an ancient craft first recorded to be practiced by the Babylonians, is making a comeback lately.
-          More young people are turning to the New Age spirituality found in astrological customs. 
-        </div>
-
-        <a href="https://jungleworks.com/technology-and-the-2-2-billion-astrology-market-why-is-online-astrology-getting-so-popular/"
-          class="read_btn" data-aos="fade-up">Go to blog</a>
 
 
-
-      </div>
-
-    </div>
-
-    <!-- blog 8-->
-
-    <div class="blog" data-aos="fade-up" data-aos-duration="1500">
-
-      <div class="image" style="max-width: 50rem;">
-        <img src="./assets/img/blog/being-by-doing.jpg" alt="AI and ML blog image">
-
-      </div>
-      <div class="blog_content" id="content">
-
-        <div class="head">
-          Being by doing
-        </div>
-
-        <div class="description">
-          Are you looking for a place to start? Is the number of options overwhelming? Its always best to begin by
-          doing.
-          School taught me that I am not ready to learn something properly until I have actually tried it or developed a
-          curiosity so deep that I am willing to engage with it for hours
-        </div>
-
-        <a href="https://www.chasejarvis.com/blog/begin-by-doing/"
-          class="read_btn" data-aos="fade-up">Go to blog</a>
+   </div>
 
 
-
-      </div>
-
-    </div>
 
   </div>
 
-  
+
+
+
+
   <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
 
 
   <!---- Sponsors
     ==================================== -->
-  <div class="community_partner" id="sponsors">
+  <div class="community_partner">
     <div class="container" data-aos="fade-up" data-aos-duration="1500">
       <h1 class="text-center mt-5 community_title wow fadeInDown animated" data-wow-duration="500ms">SPONSORS</h1>
       <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
@@ -404,46 +255,46 @@
         <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
           <div class="community_box box1">
             <a href="https://www.geeksforgeeks.org/" style="text-decoration: none;" target="_blank">
-              <img src="./assets/img/Partners/Geeks.jpg" class="communityPartner__image" alt="" style="margin-bottom:2rem ;">
+              <img src="./assets/img/Partners/Geeks.jpg" class="communityPartner__image" alt="">
             </a>
           </div>
 
 
-
-          <div class="community_box box2"style="margin-bottom:2rem ;">
+          <div class="community_box box2">
             <a href="https://www.azdev.community/index.html#communities" style="text-decoration: none;" target="_blank">
               <img src="./assets/img/Partners/Az.png" class="communityPartner__image" alt="">
             </a>
           </div>
-        </div>
 
-
-            <div class="community_box box1" style="margin-bottom:2rem ;">
+          <div class="img_container" data-aos="fade-up" data-aos-duration="1500">
+            <div class="community_box box1">
               <a href="https://givemycertificate.com/" style="text-decoration: none;" target="_blank">
                 <img src="./assets/img/Partners/GMC LogoS.png" class="communityPartner__image" alt="">
               </a>
             </div>
 
-            <div class="community_box box2" data-tilt data-tilt-scale="1.1" style="margin-bottom:2rem ;">
-              <a href="https://www.newtonschool.co/" style="text-decoration: none;" target="_blank">
-                <img src="./assets/img/Partners/Newton School.png" class="communityPartner__image"
-                  alt="Azdev community image">
-              </a>
-            </div>
+            <div class="community_box box2" data-tilt data-tilt-scale="1.1">
+							<a href="https://www.newtonschool.co/" style="text-decoration: none;"
+								target="_blank">
+								<img src="./assets/img/Partners/Newton School.png" class="communityPartner__image"
+									alt="Azdev community image">
+							</a>
+						</div>
 
-            <div class="community_box box2" data-tilt data-tilt-scale="1.1" style="margin-bottom:2rem ;">
-              <a href="https://www.codingminutes.com/" style="text-decoration: none;" target="_blank">
-                <img src="./assets/img/Partners/CodingMinutes Logo.png" class="communityPartner__image"
-                  alt="Azdev community image">
-              </a>
-            </div>
-      </div>            
+						<div class="community_box box2" data-tilt data-tilt-scale="1.1">
+							<a href="https://www.codingminutes.com/" style="text-decoration: none;"
+								target="_blank">
+								<img src="./assets/img/Partners/CodingMinutes Logo.png" class="communityPartner__image"
+									alt="Azdev community image">
+							</a>
+						</div>
+          </div>
 
+        </div>
+
+      </div>
     </div>
-
   </div>
-
-  
   <!--
          End  Sponsors
           ==================================== -->
@@ -598,11 +449,11 @@
           <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
             <h3 class="footer-titel">Quick Links</h3>
             <ul class="footer-link">
-              <li><a href="/#hero-area">Home</a></li>
-              <li><a href="/#about">About</a></li>
-              <li><a href="/#testimonials">Team</a></li>
-              <li><a href="/#events">Events</a></li>
-              <li><a href="/#opportunity">Opportunity</a></li>
+              <li><a href="#hero-area">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#testimonials">Team</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#opportunity">Opportunity</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
@@ -611,9 +462,7 @@
               <li><a href="#">Events</a></li>
               <li><a href="#">Hackathons</a></li>
               <li><a href="#">Open Source</a></li>
-              <li><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform">Volunteer
-                  Group</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform">Volunteer Group</a></li>
               <li><a href="https://codeincommunity.bio.link/">Community</a></li>
             </ul>
           </div>
@@ -643,7 +492,7 @@
         <a href=" https://discord.com/invite/sqFRzrj7f3" target="_blank"><i class="fab fa-discord"></i></a>
       </li>
       <li>
-        <a href="https://t.me/CodeINCommunity" target="_blank"><i class="fab fa-telegram" ></i></a>
+        <a href="https://t.me/CodeINCommunity"><i class="fab fa-telegram" target="_blank"></i></a>
       </li>
       <li>
         <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website" target="_blank"><i

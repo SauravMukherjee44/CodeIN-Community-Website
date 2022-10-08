@@ -525,7 +525,7 @@ hr {
 
 .services-item .services-content h3 a {
   font-size: 16px;
-  color: #585b60;
+  color: #585b6f;
 }
 
 .services-item .services-content h3 a:hover {
@@ -1673,8 +1673,8 @@ textarea {
   font-size: 20px;
   transition: 0.4s;
   border-radius: 6px;
-  border: 3px solid rgb(202, 202, 202);
-  box-shadow: 5px 5px 5px rgb(207, 201, 201);
+  border: 3px solid #f7b801;
+  box-shadow: 5px 5px 5px #f7b801;
   transition: all 0.3s ease-in;
   margin: 10px;
 }
@@ -1690,8 +1690,8 @@ button.accordionFAQs i.slidedown.slide-top {
 .accordionFAQs:hover {
   background-color: #fff2b2;
   color: black;
-  border-color: #c2c2c2;
-  box-shadow: 2px 2px 10px rgb(151, 129, 129), 5px 5px 25px rgb(207, 201, 201);
+  border-color: #f7b801;
+  box-shadow: 2px 2px 10px #f7b801, 5px 5px 25px #f7b801;
 }
 .panelFAQs {
   padding: 0px 18px;
@@ -1865,3 +1865,57 @@ button.accordionFAQs i.slidedown.slide-top {
   margin: 0;
   padding: 0;
 }
+
+/*counter section*/
+.counters-section{
+   background-image: linear-gradient(
+    to right top,
+    #fdb833,
+    #e4b61a,
+    #fcd45d,
+    #fce45d,
+    #ffe600
+  );
+  padding: 5rem 2rem;
+}
+.counter{
+  color: #Fc0155;
+  background: linear-gradient(to right bottom,#fff 50%, #f9f9f9 51%);
+  text-align: center;
+  width: 230px;
+  padding: 20px 0 0;
+  margin: 0 auto;
+  border-radius: 50px 0;
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.counter .counter-icon{
+  font-size: 45px;
+  margin: 10px 0 20px;
+}
+.counter h3{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0 0 20px;
+}
+.counter .counter-value{
+  color: #fff;
+  background: linear-gradient(to right bottom, #FD8ED2, #Fc0155);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  padding: 7px 0 3px;
+  display: block;
+}
+.counter.blue{ color: #0092CD; }
+.counter.blue .counter-value{ background: linear-gradient(to right bottom, #06BBF4, #0092CD); }
+.counter.orange{ color: #FB9A00; }
+.counter.orange .counter-value{ background: linear-gradient(to right bottom, #FCCA09, #FB9A00); }
+.counter.green{ color: #03BFB0; }
+.counter.green .counter-value{ background: linear-gradient(to right bottom, #00E2CD, #03BFB0); }
+@media screen and (max-width:990px){
+  .counter{ margin-bottom: 40px; }
+}
+Footer
+© 2022 GitHub, Inc.

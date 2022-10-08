@@ -1,3 +1,4 @@
+
 :root {
   --primary: #f7b801;
   --secondary: #ffd100;
@@ -147,7 +148,7 @@
   border-radius: 1em;
   background: #fff;
   margin: 1em auto;
-  filter: drop-shadow(23px 24px 26px rgba(254, 42, 80, 0.25));
+  filter: drop-shadow(10px 28px 10px rgba(248, 232, 2, 0.25));
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -157,6 +158,7 @@
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
+  filter: drop-shadow(10px 28px 16px rgba(248, 232, 2, 0.61));
 }
 .read_btn {
   background-color: var(--primary);
