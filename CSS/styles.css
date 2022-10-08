@@ -50,8 +50,12 @@ h2 {
     color: black;
 }
 
-.fa-discord{
+
+.telegram_jus{
     color:#7289d9;
+}
+.telegram_jus:hover{
+    color: #F7B801;
 }
 @media  (min-width: 412px) and (max-width: 915px) {
     .icon img {
