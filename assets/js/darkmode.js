@@ -24,4 +24,6 @@ $('.darkmode button').click(function () {
     $('ul li').toggleClass('whitecr');
     $('.panelParaFAQs').toggleClass('blackcr');
     $('.FAQsLi').toggleClass('blackcr');
+    $('.services-item').toggleClass('dark');
+    $('.card').toggleClass('dark');
 });

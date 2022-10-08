@@ -628,7 +628,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #585b60 !important;
+  color: #ffd100 !important;
   border-color: var(--primary);
 }
 
@@ -1411,10 +1411,11 @@ textarea {
   margin: 5rem 0 3rem 0;
   text-align: center;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .socials li {
-  margin: 0 10px;
+  margin: 15px 10px;
 }
 
 .socials a {
@@ -1685,7 +1686,6 @@ button.accordionFAQs i.slide-down {
 button.accordionFAQs i.slidedown.slide-top {
   transform: rotate(-180deg);
   color: #fa5019;
-yellowTheme
 }
 .accordionFAQs:hover {
   background-color: #fff2b2;
@@ -1714,7 +1714,6 @@ yellowTheme
   float: right;
   margin-left: 5px;
 }
-
 
 /* ////FAQ section ends here//// */
 

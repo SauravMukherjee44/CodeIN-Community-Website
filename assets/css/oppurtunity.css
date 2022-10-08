@@ -2,7 +2,7 @@
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  box-shadow: 0px 5px 10px rgba(248, 232, 2, 0.25) !important;
+  box-shadow: 0px 5px 10px rgba(248, 232, 2, 0.25) ;
   margin: 3%;
   min-height: max-content;
   border-radius: 3rem;
@@ -14,7 +14,7 @@
   transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  box-shadow: 0 3px 10px rgba(248, 232, 2, 0.25) !important;
+  box-shadow: 0px 5px 25px 4px rgba(246, 185, 1, 0.575) ;
 }
 
 .card-body {
@@ -73,4 +73,6 @@ li {
         padding-right: 0;
     }
 }
-
+/* .footer-link:hover{
+ transform: scale(0.7);
+} */
