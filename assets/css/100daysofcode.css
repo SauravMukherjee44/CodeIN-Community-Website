@@ -1,0 +1,55 @@
+.center {
+  display: flex;
+  /* margin-left: auto;
+      margin-right: auto;
+      width: 90%; */
+}
+
+.centered_img {
+  margin: auto;
+  border-radius: 12px;
+  width: 92%;
+}
+
+/*---------------------Winners Table CSS---------------- */
+.winners-table {
+  width: 92%;
+  margin: 20px auto;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+th,
+td {
+  border-right: 1px solid grey;
+}
+th {
+  color: black;
+}
+.rules-img{
+  width:100%;
+  height:100%;
+}
+#rules h4{
+  font-size: 25px;
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+
+}
+#rules hr{
+  border-top: 1px dashed black;
+}
+/*-------------------------------------------------------*/
+
+/* media queries for screen less than size 430px */
+
+@media screen and (max-width: 430px) {
+  .centered_img {
+    object-fit: cover;
+    margin: auto;
+    max-width: -webkit-fill-available;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+  }
+}
