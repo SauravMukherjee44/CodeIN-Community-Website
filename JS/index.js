@@ -38,3 +38,24 @@ async function fetchData() {
 setTimeout(() => {
   fetchData();
 }, 1000);
+
+// document.querySelector('#joinus').forEach(anchor=>{
+//   anchor.addEventListener("click",function(e){
+//     e.preventDefault();
+//     document.querySelector(".opportunity-section").scrollIntoView({
+//       behavior:"smooth"
+//     })
+//   })
+// })
+
+const joinus=document.querySelector('.joinus')
+const opportunitysection=document.querySelector('#joinushere');
+
+// joinus.addEventListener("click",()=>{
+//   opportunitysection.scrollIntoView({
+//     behavior:"smooth"
+//   })
+// })
+joinus.addEventListener("click",()=>{
+  document.documentElement.scrollBy(0,-2040);
+})
