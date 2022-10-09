@@ -1647,6 +1647,12 @@ textarea {
   width: auto;
 }
 
+@media screen and (max-width:766px){
+  .mail{
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 858px) {
   .community_partner .community_box {
     margin: 0px 20px;
