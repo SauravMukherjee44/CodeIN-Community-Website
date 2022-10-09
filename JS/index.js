@@ -8,7 +8,8 @@ async function fetchData() {
       /*  check if data is null or undefined using nullish collision js(2020)
             if undefined return no contributors  */
       let contributors = data ?? 'No contributors';
-      console.log(data);
+      // preventing the printing of contributers data in console log
+      // console.log(data);
       let contributorsName = [];
       let contributorImageURL = [];
       let contributorGitHubURL = [];
@@ -23,7 +24,8 @@ async function fetchData() {
             <span>${contributorsName[i]}</span>
             </a>`;
       }
-      console.log(contributor);
+      // console.log(contributor);
+      // preventing the printing of contributers data in console log
       // getting dom elements
       let contributorBox = document.querySelector('#contributor');
 

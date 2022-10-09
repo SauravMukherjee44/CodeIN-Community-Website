@@ -10,11 +10,13 @@
     margin-bottom: 30px;
 }
 #contributor , #contributor a , #contributor a img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-bottom: 15px;
-    margin-left: 5px;
+
+    margin: 15px;
+
+
 }
 #contributor a{
     margin: 3px;
@@ -44,9 +46,16 @@
     transition: 0.5s ease;
     opacity: 1;
 }
+
+
+#FAQs{
+    margin-bottom: 20px;
+    }
+
 .events_box{
     transition: transform 0.03s;
 }
 .events_box:hover{
     transform: scale(1.1);
+
 }
