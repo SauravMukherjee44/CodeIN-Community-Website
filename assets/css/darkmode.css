@@ -76,6 +76,9 @@ body.dark {
 .blackcr {
   color: black;
 }
+.bgdark{
+  background: rgb(30, 32, 35);
+}
 
 nav a.whitecr:hover {
   color: rgb(46, 48, 53);
