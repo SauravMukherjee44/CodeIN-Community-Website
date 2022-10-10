@@ -114,6 +114,7 @@ a {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  color: #585b60;
 }
 
 a:hover {
@@ -525,7 +526,6 @@ hr {
 
 .services-item .services-content h3 a {
   font-size: 16px;
-  color: #585b60;
 }
 
 .services-item .services-content h3 a:hover {
