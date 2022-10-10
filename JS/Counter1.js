@@ -17,14 +17,19 @@ let email = document.getElementById("Email");
 
 console.log(email.value); 
 console.log(typeof email.value);
+var mailformat=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 if(email.value==''){
   title.innerText = "Info"; 
   msg.innerText = "Kindly Insert an email"; 
 }
-else{
+else if(email.value.match(mailformat)){
   title.innerText = "Congratulations";
   msg.innerText = "Sucessfully! Subscribed";
+}
+else{
+  title.innerText = "Info";
+  msg.innerText = "Kindly insert a valid email";
 }
 
 $('#exampleModalCenter').modal('show');
