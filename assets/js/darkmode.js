@@ -23,8 +23,8 @@ $('.darkmode button').click(function () {
     $('h5').toggleClass('whitecr');
     $(".services-item .services-content h3 a ").toggleClass('whitecr');
     $('ul li').toggleClass('whitecr');
-    $('.panelParaFAQs').toggleClass('blackcr');
-    $('.FAQsLi').toggleClass('blackcr');
+    $('.panelFAQs').toggleClass('bgdark');
+    $('.FAQs_section').toggleClass('darkFAQ');
     $('.services-item').toggleClass('dark');
     $('.card').toggleClass('dark');
 });
