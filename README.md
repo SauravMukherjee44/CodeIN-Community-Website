@@ -87,7 +87,7 @@ Get in touch with Saurav on your favorite platform.
 	 
 	 
  
-Saurav started a community named **CodeIN Community [Community of Coding Enthusiasts]** where everyone around the world is encouraged to share **Resources**, **Roadmaps** to learn different technologies and, learn and share opportunities related to different **Tech Programmes**. Also, CodeIN community organizes **Events** about different technologies to help people to get started in the field of their choice. 
+Saurav started a community named **CodeIN Community [Community of Coding Enthusiasts]** where everyone around the world is encouraged to share **Resources**, **Roadmaps** to learn different technologies and share opportunities related to different **Tech Programmes**. Also, CodeIN community organizes **Events** about different technologies to help people to get started in the field of their choice. 
 
   <span> <h2>Join the Community on Discord and Other Platforms!⚡</h2>
 <a  href="https://discord.gg/hWwbgP4dz9"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
