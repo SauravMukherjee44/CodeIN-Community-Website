@@ -21,6 +21,7 @@ $('.darkmode button').click(function () {
     $('h3').toggleClass('whitecr');
     $('h4').toggleClass('whitecr');
     $('h5').toggleClass('whitecr');
+    $(".services-item .services-content h3 a ").toggleClass('whitecr');
     $('ul li').toggleClass('whitecr');
     $('.panelFAQs').toggleClass('bgdark');
     $('.services-item').toggleClass('dark');
