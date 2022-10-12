@@ -13,10 +13,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-
     margin: 15px;
-
-
 }
 #contributor a{
     margin: 3px;
@@ -46,8 +43,6 @@
     transition: 0.5s ease;
     opacity: 1;
 }
-
-
 #FAQs{
     margin-bottom: 20px;
     }
@@ -57,5 +52,4 @@
 }
 .events_box:hover{
     transform: scale(1.1);
-
 }
