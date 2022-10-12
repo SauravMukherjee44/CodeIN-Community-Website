@@ -59,3 +59,13 @@
     transform: scale(1.1);
 
 }
+footer{
+    background-color: #222222;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #F7B801;
+    
+    
+    font-family: 'Oswald', sans-serif;   
+}
