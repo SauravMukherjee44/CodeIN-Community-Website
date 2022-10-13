@@ -50,6 +50,7 @@
 
 #FAQs{
     margin-bottom: 20px;
+    
     }
 
 .events_box{
@@ -57,5 +58,6 @@
 }
 .events_box:hover{
     transform: scale(1.1);
+    
 
 }
