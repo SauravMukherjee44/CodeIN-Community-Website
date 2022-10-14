@@ -37,3 +37,10 @@ body{
     padding:6px;
     border:2px solid rgb(247,184,1);
 }
+@media only screen and (max-width:700px){
+    body{
+        position:absolute;
+        margin: 50px 0;
+    }
+
+}
