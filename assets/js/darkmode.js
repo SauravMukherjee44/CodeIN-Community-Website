@@ -34,5 +34,6 @@ $('.darkmode button').click(function () {
     $('.blog_content').toggleClass('pure_dark');
     $('.description').toggleClass('whitecr');
     $('.head').toggleClass('whitecr');
+    $('.textdark').toggleClass('text__dark');
 
 });

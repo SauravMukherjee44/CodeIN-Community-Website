@@ -132,3 +132,6 @@ nav a.whitecr:hover {
 .pure_dark:hover{
   background: black;
 }
+.text__dark{
+  color: #222222;
+}
