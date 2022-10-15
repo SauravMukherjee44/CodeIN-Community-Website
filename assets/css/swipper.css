@@ -23,12 +23,22 @@
   min-width: 270px;
   height: 100%;
 }
+.text_dark{
+  color: #343a40;
+}
+
+#testimonials-slider .swiper .swiper-slide .testimonial-item_dark{
+  background:#00000073;
+}
 #testimonials-slider .swiper .swiper-slide .testimonial-item h2 {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 30px;
   margin: 0;
+}
+#testimonials-slider .swiper .swiper-slide .testimonial-item_dark h2{
+  color: white;
 }
 
 /* update font style and color Of Meet-Our Team-Section*/
@@ -40,7 +50,6 @@
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 10px;
-  color: #495057;
 }
 #testimonials-slider .swiper .swiper-slide .testimonial-item .img-thumb {
   position: relative;
