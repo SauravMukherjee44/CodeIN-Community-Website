@@ -46,8 +46,6 @@
     transition: 0.5s ease;
     opacity: 1;
 }
-
-
 #FAQs{
     margin-bottom: 20px;
     }
@@ -59,8 +57,11 @@
     transform: scale(1.1);
 
 }
-
 button#moreDetails:hover {
+    background-color: #b1933d;
+    color: white;
+}
+#joinus:hover {
     background-color: #b1933d;
     color: white;
 }
