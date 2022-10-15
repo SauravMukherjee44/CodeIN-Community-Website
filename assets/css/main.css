@@ -1729,6 +1729,10 @@ button.accordionFAQs i.slidedown.slide-top {
   color: black;
   font-weight: 800;
 }
+.panelParaFAQs a:hover {
+  color: blue;
+  font-weight: 800;
+}
 .accordionFAQs:after {
   content: "\02795";
   font-size: 13px;
