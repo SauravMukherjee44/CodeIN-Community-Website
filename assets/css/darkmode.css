@@ -122,3 +122,16 @@ nav a.whitecr:hover {
 .dark.card:hover{
   box-shadow: 0px 5px 25px 4px rgba(246, 185, 1, 0.575);
 }
+
+.testimonial_dark{
+  background-color: rgb(30, 32, 35);
+}
+.pure_dark{
+  background: black;
+}
+.pure_dark:hover{
+  background: black;
+}
+.text__dark{
+  color: #222222;
+}
