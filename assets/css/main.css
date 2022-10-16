@@ -209,9 +209,12 @@ a:not([href]):not([tabindex]) {
   background: rgba(61, 96, 244, 0.3);
 }
 
+.btn-warning{
+  background-color:  rgb(46,48,53);;
+}
 .btn-warning:hover,
 .btn-warning:focus {
-  background: none;
+  background: var(--primary);
   color: var(--primary);
 }
 
