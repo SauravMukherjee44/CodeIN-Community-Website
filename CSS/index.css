@@ -58,4 +58,10 @@
 
 .events_box:hover{
     transform: scale(1.1);
+
+}
+
+button#moreDetails:hover {
+    background-color: #b1933d;
+    color: white;
 }

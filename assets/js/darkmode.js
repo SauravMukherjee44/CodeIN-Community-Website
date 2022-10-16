@@ -27,4 +27,13 @@ $('.darkmode button').click(function () {
     $('.FAQs_section').toggleClass('darkFAQ');
     $('.services-item').toggleClass('dark');
     $('.card').toggleClass('dark');
+    $('.testimonial-item').toggleClass('testimonial-item_dark');
+    $('.testimonial').toggleClass('testimonial_dark');
+    $('.card').toggleClass('testimonial_dark');
+    $('.testimonial-community').toggleClass('testimonial_dark');
+    $('.blog_content').toggleClass('pure_dark');
+    $('.description').toggleClass('whitecr');
+    $('.head').toggleClass('whitecr');
+    $('.textdark').toggleClass('text__dark');
+
 });
