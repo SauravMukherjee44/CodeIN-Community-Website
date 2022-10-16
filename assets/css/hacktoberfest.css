@@ -98,6 +98,12 @@
     margin: 1em auto;
   }
 }
+@media (min-width: 768px){
+  .col-md-6{
+    flex: 0 0 48%;
+  }
+  
+}
 /* media queries for screen less than size 430px */
 
 @media screen and (max-width: 430px) {
