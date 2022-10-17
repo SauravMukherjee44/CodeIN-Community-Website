@@ -924,6 +924,7 @@ hr {
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 10px;
+  color: #6306af;
 }
 
 .media-icons {
@@ -1050,55 +1051,75 @@ hr {
   margin-bottom: 120px;
 }
 
-.events_box {
-  flex: 0 0 18em;
-  border: 2px solid white;
-  overflow: hidden;
+.theCard{
   position: relative;
-  box-shadow: 0px 0px 15px gray;
-  border-radius: 15px;
-  transition: all 1s;
+  min-width: 300px;
   height: 21em;
+  margin: 1em;
+}
+
+.events_box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 15px -10px gray;
+  border-radius: 15px;
+  background: #fff;
+  transition: all .4s ease-in;
+  transform-style: preserve-3d;
+  margin: 10px;
+}
+
+.events_box:hover {
+  border: 5px solid #ffc61b;
+  transform: rotateY(180deg);
 }
 
 .events_box img {
   width: 100%;
   height: 100%;
   aspect-ratio: 16/9;
+  z-index: 99;
+  border-radius: 15px;
+}
+
+.events_box .events_box_img{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
 .events_box .content {
+  height: 90%;
+  width: 100%;
+  background: #fff;
   padding: 10px;
   margin-top: 10px;
-  display: none;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.events_box:hover {
-  box-shadow: 0px 0px 30px #bf8f00;
-}
-
-.events_box:hover .content {
-  display: block;
-}
-.events_box:hover .content a {
-  margin-left: 32px;
+.events_box .content a {
+  margin:0 auto;
   background-color: var(--secondary);
   border-color: var(--primary);
+  cursor: pointer;
 }
+
+
 .events_box:hover .content a:hover {
-  margin-left: 32px;
   background-color: var(--primary);
   border-color: var(--secondary);
 }
 
-.events_box:hover .events_img {
-  display: none;
-}
 
 .events_box .content h4 {
   font-size: 2rem;
@@ -1721,10 +1742,6 @@ button.accordionFAQs i.slidedown.slide-top {
 }
 .panelParaFAQs a {
   color: black;
-  font-weight: 800;
-}
-.panelParaFAQs a:hover {
-  color: blue;
   font-weight: 800;
 }
 .accordionFAQs:after {
