@@ -1188,21 +1188,12 @@ hr {
   border: 1px solid #f1f1f1;
 }
 
-.form-control:focus {
-  border-color: var(--primary);
-  box-shadow: none;
-  outline: none;
-}
 
 textarea {
   border-radius: 4px !important;
   resize: none;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  outline: none;
-}
 
 .btn.disabled,
 .btn:disabled {
