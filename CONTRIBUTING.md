@@ -19,7 +19,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 ## How to make a Pull Request
 
-**1.** Fork the repository by clicking on the <a href="https://github.com/SauravMukherjee44/CodeIN-Community-Website"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+**1.** Fork the repository by clicking on the ```Fork``` button at the top right corner.
 
 **2.** Clone the forked repository.
 ```
