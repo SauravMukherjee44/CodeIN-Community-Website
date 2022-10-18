@@ -1,13 +1,13 @@
 .form-control {
-  background-color: rgb(248, 245, 245);
+  background-color: #fcf8e6db;
   color: black;
   border-color: rgb(134, 134, 134);
 }
 .form-control:focus {
-  border-color: #af41a0;
+  border-color: #f7b801;
   -webkit-box-shadow: none;
   box-shadow: none;
-  box-shadow: 0 0 10px #f63955 !important;
+  box-shadow: 0 0 10px #f7b801 !important;
 }
 .contactSection {
   background-image: url("/assets/img/one-yellow.png");

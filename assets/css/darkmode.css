@@ -63,6 +63,9 @@
 body.dark {
   background: rgb(30, 32, 35);
 }
+.dark{
+  background-color: rgb(30, 32, 35);
+}
 
 .whitebg {
   box-shadow: 1px 1px 10px 4px rgba(255, 255, 255, 0.2);
@@ -131,7 +134,4 @@ nav a.whitecr:hover {
 }
 .pure_dark:hover{
   background: black;
-}
-.text__dark{
-  color: #222222;
 }
