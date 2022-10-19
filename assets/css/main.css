@@ -32,6 +32,13 @@ body {
   max-height: max-content;
 }
 
+.navbar-container{
+  padding: 0px 15px;
+  max-width: 1140px;
+  width: 1140px;
+  height: 50px;
+}
+
 /* social icons start */
 .socials {
   position: relative;
