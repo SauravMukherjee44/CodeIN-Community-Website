@@ -137,3 +137,10 @@
       object-fit: contain !important;
     } */
 }
+.search-box-container {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  display: flex;
+}
