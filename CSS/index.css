@@ -52,9 +52,10 @@
     margin-bottom: 20px;
     }
 
-.events_box{
-    transition: transform 0.03s;
-}
+/* .events_box{
+    transition: all 0.1s ease-in;
+} */
+
 .events_box:hover{
     transform: scale(1.1);
 
