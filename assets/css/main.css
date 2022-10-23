@@ -698,7 +698,7 @@ hr {
   outline: none;
   transition: .5s;
   border: 1px dotted var(--primary);
-  box-shadow: 0 6px 22px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 4px #ffd100, 0 0 8px #ffd100, 0 0 12px #ffd100;
   -webkit-transition: all 0.2s ease-in-out;
 }
 
