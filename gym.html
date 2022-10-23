@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding:0px;
+        background-color:rgb(131, 158, 97);
+    }
+    .left {
+       color:black;
+    }
+    .mid{
+       display: block;
+       width: 40%;
+       margin: 12px auto;
+       
+    }
+    .navbar li{
+            list-style: none;
+            margin: 5px 5px;
+            display: inline-block;
+            font-size: 22px;
+        }
+    .navbar li a{
+        text-decoration: none;
+        color:white;
+        padding: 4px 4px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        color:blue;
+        text-decoration: underline;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top:20px;
+        display: inline-block;
+    }.btn{
+        font-size: 15px;
+        margin:0px 9px;
+        color:white;
+        background-color: black;
+        padding: 4px 14px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color:blue;
+    }
+    .container{
+        margin:106px 18px;
+        padding:30px 50px;
+        width:40%;
+        
+    }
+    .form-group input{
+         text-align: center;
+         display: block;
+         width:300px;
+         padding:4px;
+         border:2px solid black;
+         margin:5px auto;
+         border-radius: 5px;
+         font-size: 17px;
+         
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width:23%;
+        margin:auto;
+    }
+    .container button:hover{
+        color:blue;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gymlogo.jpg">
+            </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Fitness cal</a></li>
+        </ul>
+    </div>
+    <div class="right">
+       <button class="btn">Call Us Now</button>
+       <button class="btn">Email Us</button>
+    </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Father's name">
+            </div>
+            <div class="form-group">
+              <input type="text" name="" placeholder="Enter your age">
+            </div><br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
