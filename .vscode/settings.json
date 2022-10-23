@@ -1,4 +1,7 @@
 {
     "liveServer.settings.port": 5501,
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
