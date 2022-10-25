@@ -631,7 +631,7 @@ hr {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #ffd100 !important;
+  color: #ffd100;
   border-color: var(--primary);
 }
 
@@ -696,7 +696,7 @@ hr {
 .navbar-expand-md .navbar-nav li .btn:hover,
 .navbar-expand-md .navbar-nav li .btn .active > a,
 .navbar-expand-md .navbar-nav li .btn:focus{
-  color: #fff;
+  color: #fff !important;
   background: var(--primary);
   outline: none;
   transition: .5s;
