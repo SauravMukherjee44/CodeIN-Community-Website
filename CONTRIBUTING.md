@@ -23,7 +23,7 @@ We'd also love PRs. If you're thinking of a large PR, we advise opening up an is
 
 **2.** Clone the forked repository.
 ```
-git clone https://github.com/SauravMukherjee44/CodeIN-Community-Website.git
+git clone https://github.com/Your-User-Name/CodeIN-Community-Website.git
 ```
 
 **3.** Navigate to the project directory.
