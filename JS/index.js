@@ -40,3 +40,37 @@ async function fetchData() {
 setTimeout(() => {
   fetchData();
 }, 1000);
+
+//post request
+var form=document.getElementById('checkBtn')
+form.addEventListener('click',function(e){
+     e.preventDefault()
+    var name=document.getElementById("inputName").value
+    var email=document.getElementById("inputEmail").value
+    var subject=document.getElementById("subj").value
+    var message=document.getElementById("msg").value
+  
+    //url for post
+    fetch("http://localhost:3000/contact_details",{
+        method:'POST',
+        body:JSON.stringify({
+            id:1,
+            name:name,
+            email:email,
+            subject:subject,
+            message:message
+        }),
+        headers:{
+            "Content-type":"application/json; charset=UTF-8",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "*"
+        }
+    })
+    .then((res)=>{
+        return res.json()
+    })
+    .then(data=>{
+      console.log(data)
+    })
+    alert("Your form submitted!")
+})
