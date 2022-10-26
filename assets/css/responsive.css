@@ -270,3 +270,47 @@ left: 30px; */
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: 768px) and (max-width:1029px) {
+  .navbarCollapse{
+    padding-right: 20px;
+    width: 100%;
+  }
+  .container{
+    padding-left: 0px;
+    margin: 0px;
+  }
+  #moreDetails{
+    margin-right: 20px;
+  }
+  
+  #joinus,#moreDetails{
+    font-size: 10px;
+    top: 8px;  
+  }
+  
+}
+
+@media (min-width: 425px) and (max-width:950px)
+{
+ .container{
+  font-size: 12px;
+  padding-left: 0px;
+  margin: 0px;
+ 
+} 
+ #joinus,#moreDetails{
+  font-size: 8px;  
+  padding: 3px;
+}
+#joinus{
+  top: 0px;
+  right: 0px;
+}
+#moreDetails{
+  top: 25px;
+  right: 75px;
+}
+
+
+}
