@@ -40,3 +40,15 @@ async function fetchData() {
 setTimeout(() => {
   fetchData();
 }, 1000);
+
+		/* time-based greetings*/
+		let container = document.querySelector(".container_greeting");
+		let timeNow = new Date().getHours();
+		let greeting =
+			timeNow >= 5 && timeNow < 12
+				? "Good Morning"
+				: timeNow >= 12 && timeNow < 18
+					? "Good Afternoon"
+					: "Good evening";
+		container.innerHTML = `<h1 style="font-size:25px">${greeting} Hustler</h1>`;
+/* end */
