@@ -1910,13 +1910,24 @@ button.accordionFAQs i.slidedown.slide-top {
   min-width: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  padding: 4px;
+  padding: 0px;
 }
-.dropdown-content a {
+
+.dropdown .dropdown-content a{
+
+  margin:0;
   display: block;
-  margin: 10px;
+  padding: 4px;
   color: #333;
+
 }
+.dropdown .dropdown-content a:hover{
+  background-color: #F7B801;
+  color: #333;
+  color:#fff;
+
+}
+
 .dropdown-content a:hover {
   color: var(--primary);
 }
