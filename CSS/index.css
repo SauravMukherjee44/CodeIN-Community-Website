@@ -1,67 +1,140 @@
 /*------- styling for the contributor section ------*/
-.contributors-holder{
-    background-color: black;
-    padding: 30px;
-    text-align: center;
+.contributors-holder {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
 }
-.contributors-holder h3{
-    font-size: 22px;
-    color: white;
-    margin-bottom: 30px;
+.contributors-holder h3 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 30px;
 }
-#contributor , #contributor a , #contributor a img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+#contributor,
+#contributor a,
+#contributor a img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 
-    margin: 15px;
-
-
+  margin: 15px;
 }
-#contributor a{
-    margin: 3px;
-    position: relative;
-    color: white;
+#contributor a {
+  margin: 3px;
+  position: relative;
+  color: white;
 }
-#contributor a span{
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    padding: 5px;
-    padding-top: 0;
-    padding-bottom: 10;
-    border-radius: 10px;
-    font-size: 12px;
-    margin-left: -50px;
-    opacity: 0;
-    background-color: gray;
-    z-index: 1000;
+#contributor a span {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 10;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: -50px;
+  opacity: 0;
+  background-color: gray;
+  z-index: 1000;
 }
 #contributor a img:hover {
-    transition: 0.2s ease;
-    scale: 1.05;
-    box-shadow: 0px 1px 8px 5px rgba(249, 247, 247, 0.335);
+  transition: 0.2s ease;
+  scale: 1.05;
+  box-shadow: 0px 1px 8px 5px rgba(249, 247, 247, 0.335);
 }
-#contributor a:hover span{
-    transition: 0.5s ease;
-    opacity: 1;
+#contributor a:hover span {
+  transition: 0.5s ease;
+  opacity: 1;
 }
 
-
-#FAQs{
-    margin-bottom: 20px;
-    }
+#FAQs {
+  margin-bottom: 20px;
+}
 
 /* .events_box{
     transition: all 0.1s ease-in;
 } */
 
-.events_box:hover{
-    transform: scale(1.1);
-
+.events_box:hover {
+  transform: scale(1.1);
 }
 
 button#moreDetails:hover {
-    background-color: #b1933d;
-    color: white;
+  background-color: #b1933d;
+  color: white;
 }
+
+/*------- styling for the contributor section end------*/
+
+/*-------styling for join us section start----------*/
+
+.services {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  align-items: center;
+  gap: 4rem;
+  padding: 8rem 2rem;
+  text-transform: capitalize;
+}
+
+.services h2 {
+  font-size: 4rem;
+}
+
+.service__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.service__card {
+  max-width: 35rem;
+  min-height: 25rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  border: 0.01rem solid rgba(0, 0, 0, 0.1);
+}
+
+.service__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 0.01rem solid rgba(0, 0, 0, 0.1);
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.service__icon i {
+  font-size: 3rem;
+}
+
+.service__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.service__info a {
+  font-size: 1.7rem;
+  color: #222222;
+  font-weight: 500;
+  font-family: "Arvo", serif;
+  text-transform: uppercase;
+}
+
+.service__info p {
+  text-align: center;
+}
+
+/*-------styling for join us section -end---------*/
