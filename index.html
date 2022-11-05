@@ -2716,7 +2716,7 @@
             <div class="col-md-12">
               <div class="copyright-content">
                 <p>
-                  Copyright © 2022
+                  Copyright © <span id="copyrightYear"></span>
                   <a rel="nofollow" href="#">CodeIN Community</a> All Right
                   Reserved
                 </p>
@@ -2799,6 +2799,13 @@
       src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
     ></script>
     <!-- emailjs cdn -->
+
+    <!-- function to add copyright year automaticallly -->
+
+    <script>
+      document.getElementById("copyrightYear").innerText =
+        new Date().getFullYear();
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/popper.min.js"></script>

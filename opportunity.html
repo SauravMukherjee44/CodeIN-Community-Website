@@ -1287,7 +1287,7 @@
             <div class="col-md-12">
               <div class="copyright-content">
                 <p>
-                  Copyright © 2022
+                  Copyright © <span id="copyrightYear"></span>
                   <a rel="nofollow" href="#">CodeIN Community</a> All Right
                   Reserved
                 </p>
@@ -1309,6 +1309,11 @@
       <div class="loader" id="loader-1"></div>
     </div>
     <!-- End Preloader -->
+
+    <script>
+      document.getElementById("copyrightYear").innerText =
+        new Date().getFullYear();
+    </script>
 
     <!-- emailjs cdn -->
     <script
