@@ -1,5 +1,5 @@
 <h1 align="center">CodeIN Community Website </h1>
-<h4 align="center"> India's Top Growing Student Technical Community of 8,000+ Students, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
+<h4 align="center"> India's Top Growing Student Technical Community of 10,000+ Students, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
 <h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript and Bootstrap. </h3>
 
 ![image](./assets/img/hack.jpg)
@@ -13,7 +13,7 @@
 </b>
 </p>
 <h2 align="center">
-<a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
+<a href="https://codeincommunity.com/" target="_blank">Visit Our Website💻</a>
 </h2>
 
 <h3 align="center">So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?</h3>
