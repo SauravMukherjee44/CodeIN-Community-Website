@@ -13,7 +13,7 @@
 </b>
 </p>
 <h2 align="center">
-<a href="http://codeincommunity.tech/" target="_blank">Visit Our Website💻</a>
+<a href="https://codeincommunity.com/" target="_blank">Visit Our Website💻</a>
 </h2>
 
 <h3 align="center">So, here you go! Contribute to the Open Source Website of CodeIN Community 🤩 Excited?</h3>
