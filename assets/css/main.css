@@ -178,7 +178,7 @@ a:not([href]):not([tabindex]) {
 
 .shape-testimonial {
   height: 1px;
-  margin: 0 auto 30px;
+  margin: 8px auto 30px;
   position: relative;
   width: 60px;
   background-color: #4094ec;
@@ -209,8 +209,8 @@ a:not([href]):not([tabindex]) {
   background: rgba(61, 96, 244, 0.3);
 }
 
-.btn-warning{
-  background-color:  rgb(46,48,53);;
+.btn-warning {
+  background-color: rgb(46, 48, 53);
 }
 .btn-warning:hover,
 .btn-warning:focus {
@@ -693,16 +693,15 @@ hr {
 /* hover effect on join us button */
 .navbar-expand-md .navbar-nav li .btn:hover,
 .navbar-expand-md .navbar-nav li .btn .active > a,
-.navbar-expand-md .navbar-nav li .btn:focus{
+.navbar-expand-md .navbar-nav li .btn:focus {
   color: #fff !important;
   background: var(--primary);
   outline: none;
-  transition: .5s;
+  transition: 0.5s;
   border: 1px dotted var(--primary);
   box-shadow: 0 6px 22px rgb(0 0 0 / 10%);
   -webkit-transition: all 0.2s ease-in-out;
 }
-
 
 .navbar-expand-md .navbar-nav .active > .nav-link,
 .navbar-expand-md .navbar-nav .nav-link.active,
@@ -721,8 +720,6 @@ hr {
   -webkit-transition: width 1s;
   -ms-transition: width 1s;
 }
-
-
 
 .navbar {
   padding: 10px 0;
@@ -1049,7 +1046,7 @@ hr {
   margin-bottom: 120px;
 }
 
-.theCard{
+.theCard {
   position: relative;
   min-width: 300px;
   height: 21em;
@@ -1064,7 +1061,7 @@ hr {
   box-shadow: 0px 0px 15px -10px gray;
   border-radius: 15px;
   background: #fff;
-  transition: all .4s ease-in;
+  transition: all 0.4s ease-in;
   transform-style: preserve-3d;
   margin: 10px;
 }
@@ -1082,7 +1079,7 @@ hr {
   border-radius: 15px;
 }
 
-.events_box .events_box_img{
+.events_box .events_box_img {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
@@ -1106,18 +1103,16 @@ hr {
 }
 
 .events_box .content a {
-  margin:0 auto;
+  margin: 0 auto;
   background-color: var(--secondary);
   border-color: var(--primary);
   cursor: pointer;
 }
 
-
 .events_box:hover .content a:hover {
   background-color: var(--primary);
   border-color: var(--secondary);
 }
-
 
 .events_box .content h4 {
   font-size: 2rem;
@@ -1207,12 +1202,10 @@ hr {
   border: 1px solid #f1f1f1;
 }
 
-
 textarea {
   border-radius: 4px !important;
   resize: none;
 }
-
 
 .btn.disabled,
 .btn:disabled {
@@ -1394,6 +1387,16 @@ textarea {
   border-radius: 0;
   background: transparent;
   color: var(--primary);
+}
+
+/* Founding members card */
+.row-founders {
+  display: flex;
+  justify-content: center;
+}
+.founder-item {
+  border: 1px solid gray;
+  margin: auto 25px;
 }
 
 .mail input {
@@ -1675,8 +1678,8 @@ textarea {
   width: auto;
 }
 
-@media screen and (max-width:766px){
-  .mail{
+@media screen and (max-width: 766px) {
+  .mail {
     justify-content: center;
   }
 }
@@ -1911,19 +1914,16 @@ button.accordionFAQs i.slidedown.slide-top {
   padding: 0px;
 }
 
-.dropdown .dropdown-content a{
-
-  margin:0;
+.dropdown .dropdown-content a {
+  margin: 0;
   display: block;
   padding: 4px;
   color: #333;
-
 }
-.dropdown .dropdown-content a:hover{
-  background-color: #F7B801;
+.dropdown .dropdown-content a:hover {
+  background-color: #f7b801;
   color: #333;
-  color:#fff;
-
+  color: #fff;
 }
 
 .dropdown-content a:hover {
