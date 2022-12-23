@@ -95,9 +95,37 @@ body {
 
 /* social icons end */
 
+/* navbar starts*/
+
+
+
 .navbar-brand {
-  font-size: 7rem;
+  font-size: 5rem;
 }
+
+.logo img{
+  width: 100%;
+}
+
+.navbar-nav{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.navbar-nav li{
+  padding: 1rem;
+}
+
+.dropdown{
+  margin: auto 0;
+}
+
+
+
+/* navbar end */
+
+
 
 h1,
 h2,
