@@ -40,3 +40,7 @@ async function fetchData() {
 setTimeout(() => {
   fetchData();
 }, 1000);
+
+const d=new Date();
+let year=d.getFullYear();
+document.querySelector(".year").innerHTML=year;
