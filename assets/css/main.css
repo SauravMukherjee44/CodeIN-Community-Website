@@ -1659,14 +1659,14 @@ textarea {
 
   .community_partner .imgbox {
     width: auto;
-    box-shadow: #0e0e0e;
+    box-shadow: #222222;
   }
 }
 
 @media (max-width: 991px) {
   .community_partner .imgbox {
     flex-direction: column;
-    box-shadow: #0e0e0e;
+    box-shadow: #222222;
   }
 
   .community_partner .img_container {
