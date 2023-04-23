@@ -743,7 +743,7 @@ hr {
 .navbar-expand-md .navbar-nav .nav-link:hover::before,
 .navbar-expand-md .navbar-nav .nav-link:focus {
   color: var(--primary);
-  width: 100%;
+  /* width: 100%; */
   transition: width 1s;
   -webkit-transition: width 1s;
   -ms-transition: width 1s;
