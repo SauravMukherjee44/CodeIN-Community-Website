@@ -18,9 +18,16 @@
 #inputName,
 #inputEmail,
 #subj,
-#msg,
-#checkBtn {
+#msg{
   margin-left: 45px;
+}
+
+#checkBtn{
+
+  margin-left: 45px;
+  background-color: #fcf8e6db;
+  color: black;
+  
 }
 
 .Cbtn {
