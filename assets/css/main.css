@@ -158,11 +158,14 @@ body {
   
   
 }
-@media screen and (max-width: 1074px){
-  #nav_dropdown{
-    display: none;
+@media screen and (max-width: 1074px) and (min-width:768px){
+  .nav_container {
+    font-size:11px;
+    font-weight:bolder ;
+  
   }
-}
+  
+} 
 
 /* navbar end */
 
