@@ -121,7 +121,48 @@ body {
   margin: auto 0;
 }
 
+@media screen and (max-width: 1300px) and (min-width: 1238px){
 
+  .nav_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 23px;
+  }
+  
+  .dropdown-content a{
+      margin: 0px;
+      display: block;
+      padding: 4px;
+      color: #333;
+      font-size: small;
+  }
+}
+@media screen and (max-width: 1238px) and (min-width: 991px){
+
+  .nav_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 23px;
+    font-size:smaller;
+    
+  }
+  .dropdown-content a{
+      margin: 0px;
+      display: block;
+      padding: 4px;
+      color: #333;
+      font-size: small;
+  }
+  
+  
+}
+@media screen and (max-width: 1074px){
+  #nav_dropdown{
+    display: none;
+  }
+}
 
 /* navbar end */
 
