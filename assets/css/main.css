@@ -1676,7 +1676,7 @@ textarea {
 
 /* //// Community partners //// */
 .community_partner .imgbox {
-  margin: 70px;
+  margin: 65px;
   display: flex;
   justify-content: center;
 }
@@ -1703,12 +1703,14 @@ textarea {
 
   .community_partner .imgbox {
     width: auto;
+    box-shadow: #222222;
   }
 }
 
 @media (max-width: 991px) {
   .community_partner .imgbox {
     flex-direction: column;
+    box-shadow: #222222;
   }
 
   .community_partner .img_container {
