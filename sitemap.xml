@@ -6,32 +6,32 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://codeincommunity.tech/</loc>
+  <loc>https://codeincommunity.com/</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://codeincommunity.tech/index.html</loc>
+  <loc>https://codeincommunity.com/index.html</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codeincommunity.tech/hacktoberfest2022.html</loc>
+  <loc>https://codeincommunity.com/hacktoberfest2022.html</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codeincommunity.tech/benefit.html</loc>
+  <loc>https://codeincommunity.com/benefit.html</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codeincommunity.tech/opportunity.html</loc>
+  <loc>https://codeincommunity.com/opportunity.html</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codeincommunity.tech/blog.html</loc>
+  <loc>https://codeincommunity.com/blog.html</loc>
   <lastmod>2022-10-04T07:32:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
