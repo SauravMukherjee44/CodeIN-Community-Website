@@ -1,5 +1,5 @@
 <h1 align="center">CodeIN Community Website </h1>
-<h4 align="center"> India's Top Growing Technical Community of 10,000+ Developers, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
+<h4 align="center"> India's Top Growing Technical Community of 15,000+ Developers, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
 <h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript, Firebase and Bootstrap. </h3>
 
 ![image](./assets/img/hack.jpg)
