@@ -65,3 +65,10 @@ button#moreDetails:hover {
     background-color: #b1933d;
     color: white;
 }
+
+
+/*Contact Us Section*/
+
+div.row div.col-md-6 form.mt-5{
+    margin-left: 25%;
+}
