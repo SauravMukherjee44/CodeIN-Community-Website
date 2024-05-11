@@ -1123,6 +1123,9 @@ hr {
   min-width: 300px;
   height: 21em;
   margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .events_box {
