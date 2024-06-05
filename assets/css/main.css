@@ -103,25 +103,25 @@ body {
   font-size: 5rem;
 }
 
-.logo img{
+.logo img {
   width: 100%;
 }
 
-.navbar-nav{
+.navbar-nav {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding: 1rem;
 }
 
-.dropdown{
+.dropdown {
   margin: auto 0;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 1238px){
+@media screen and (max-width: 1300px) and (min-width: 1238px) {
 
   .nav_container {
     width: 100%;
@@ -129,43 +129,46 @@ body {
     padding-left: 15px;
     margin-left: 23px;
   }
-  
-  .dropdown-content a{
-      margin: 0px;
-      display: block;
-      padding: 4px;
-      color: #333;
-      font-size: small;
+
+  .dropdown-content a {
+    margin: 0px;
+    display: block;
+    padding: 4px;
+    color: #333;
+    font-size: small;
   }
 }
-@media screen and (max-width: 1238px) and (min-width: 991px){
+
+@media screen and (max-width: 1238px) and (min-width: 991px) {
 
   .nav_container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: 23px;
-    font-size:smaller;
-    
+    font-size: smaller;
+
   }
-  .dropdown-content a{
-      margin: 0px;
-      display: block;
-      padding: 4px;
-      color: #333;
-      font-size: small;
+
+  .dropdown-content a {
+    margin: 0px;
+    display: block;
+    padding: 4px;
+    color: #333;
+    font-size: small;
   }
-  
-  
+
+
 }
-@media screen and (max-width: 1074px) and (min-width:768px){
+
+@media screen and (max-width: 1074px) and (min-width:768px) {
   .nav_container {
-    font-size:11px;
-    font-weight:bolder ;
-  
+    font-size: 11px;
+    font-weight: bolder;
+
   }
-  
-} 
+
+}
 
 /* navbar end */
 
@@ -260,6 +263,7 @@ a:not([href]):not([tabindex]) {
 .h2w {
   color: #eee;
 }
+
 .w {
   background-color: #eee;
 }
@@ -284,6 +288,7 @@ a:not([href]):not([tabindex]) {
 .btn-warning {
   background-color: rgb(46, 48, 53);
 }
+
 .btn-warning:hover,
 .btn-warning:focus {
   background: var(--primary);
@@ -394,36 +399,45 @@ button:focus {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
+
 .mentor-info {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .mentor-profile {
   display: flex;
   align-items: center;
 }
+
 .mentor-profile i {
   color: var(--primary);
   font-size: 20px;
   margin-right: 0.7rem;
 }
+
 .mentor-profile .fa-linkedin:hover {
   color: #0a66c2;
 }
+
 .mentor-profile .fa-discord:hover {
   color: #7289d9;
 }
+
 .mentor-profile .fa-github:hover {
   color: #000;
 }
+
 .mentor-profile .fa-youtube:hover {
   color: #f00;
 }
+
 .mentor-profile .fa-twitter:hover {
   color: #00acee;
 }
+
 .social-icon a:hover {
   color: #fff !important;
 }
@@ -629,7 +643,7 @@ hr {
   display: table;
 }
 
-.about-area .about-wrapper > div {
+.about-area .about-wrapper>div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -728,6 +742,7 @@ hr {
   width: 25%;
   position: static;
 }
+
 .navbar-expand-md .navbar-nav .nav-link {
   color: #333;
   font-weight: 400;
@@ -756,7 +771,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
-.navbar-expand-md .navbar-nav .nav-link .active > a,
+.navbar-expand-md .navbar-nav .nav-link .active>a,
 .navbar-expand-md .navbar-nav .nav-link:focus {
   color: var(--primary);
   outline: none;
@@ -764,7 +779,7 @@ hr {
 
 /* hover effect on join us button */
 .navbar-expand-md .navbar-nav li .btn:hover,
-.navbar-expand-md .navbar-nav li .btn .active > a,
+.navbar-expand-md .navbar-nav li .btn .active>a,
 .navbar-expand-md .navbar-nav li .btn:focus {
   color: #fff !important;
   background: var(--primary);
@@ -775,10 +790,10 @@ hr {
   -webkit-transition: all 0.2s ease-in-out;
 }
 
-.navbar-expand-md .navbar-nav .active > .nav-link,
+.navbar-expand-md .navbar-nav .active>.nav-link,
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.open,
-.navbar-expand-md .navbar-nav .open > .nav-link {
+.navbar-expand-md .navbar-nav .open>.nav-link {
   color: var(--primary) !important;
   width: 100%;
 }
@@ -1266,7 +1281,7 @@ hr {
   width: 100%;
   margin-bottom: 20px;
   font-size: 14px;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -1274,10 +1289,20 @@ hr {
   border: 1px solid #f1f1f1;
 }
 
+.form-control:hover {
+  border-radius: 10px;
+}
+
 textarea {
-  border-radius: 4px !important;
+  border-radius: 0px;
   resize: none;
 }
+
+textarea:hover {
+  border-radius: 10px;
+}
+
+
 
 .btn.disabled,
 .btn:disabled {
@@ -1466,6 +1491,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
+
 .founder-item {
   border: 1px solid gray;
   margin: auto 25px;
@@ -1494,6 +1520,7 @@ textarea {
   background-color: var(--primary);
   color: #fff;
 }
+
 .mail #btns:hover {
   background: var(--secondary);
   transition: 300ms ease-in;
@@ -1733,7 +1760,7 @@ textarea {
     flex-direction: column;
   }
 
-  .community_partner .imgbox > :last-child > :last-child {
+  .community_partner .imgbox> :last-child> :last-child {
     margin: 8px 20px;
   }
 
@@ -1789,6 +1816,7 @@ textarea {
   transition: all 0.3s ease-in;
   margin: 10px;
 }
+
 button.accordionFAQs i.slide-down {
   transform: rotate(0);
   transition: 0.4s;
@@ -1798,12 +1826,14 @@ button.accordionFAQs i.slidedown.slide-top {
   transform: rotate(-180deg);
   color: #fa5019;
 }
+
 .accordionFAQs:hover {
   background-color: #fff2b2;
   color: black;
   border-color: #c2c2c2;
   box-shadow: 2px 2px 10px rgb(151, 129, 129), 5px 5px 25px rgb(207, 201, 201);
 }
+
 .panelFAQs {
   padding: 0px 18px;
   background-color: white;
@@ -1811,14 +1841,17 @@ button.accordionFAQs i.slidedown.slide-top {
   overflow: hidden;
   transition: max-height 0.4s ease-out;
 }
+
 .panelParaFAQs {
   padding: 20px;
   font-size: 18px;
 }
+
 .panelParaFAQs a {
   color: black;
   font-weight: 800;
 }
+
 .accordionFAQs:after {
   content: "\02795";
   font-size: 13px;
@@ -1837,14 +1870,12 @@ button.accordionFAQs i.slidedown.slide-top {
   position: relative;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(
-    to right top,
-    #fdb833,
-    #e4b61a,
-    #fcd45d,
-    #fce45d,
-    #ffe600
-  );
+  background-image: linear-gradient(to right top,
+      #fdb833,
+      #e4b61a,
+      #fcd45d,
+      #fce45d,
+      #ffe600);
   margin: 40px 0px;
 }
 
@@ -1923,6 +1954,7 @@ button.accordionFAQs i.slidedown.slide-top {
   .content .box .counter {
     margin: 10px 0px;
   }
+
   .opportunity_btn_t {
     top: -20px;
   }
@@ -1936,6 +1968,7 @@ button.accordionFAQs i.slidedown.slide-top {
   .counter-up {
     padding: 30px 20px 0 20px;
   }
+
   .opportunity_btn_t {
     top: 0px;
   }
@@ -1994,6 +2027,7 @@ button.accordionFAQs i.slidedown.slide-top {
   padding: 4px;
   color: #333;
 }
+
 .dropdown .dropdown-content a:hover {
   background-color: #f7b801;
   color: #333;
@@ -2003,6 +2037,7 @@ button.accordionFAQs i.slidedown.slide-top {
 .dropdown-content a:hover {
   color: var(--primary);
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
