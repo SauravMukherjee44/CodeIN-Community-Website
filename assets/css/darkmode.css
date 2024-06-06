@@ -135,3 +135,11 @@ nav a.whitecr:hover {
 .pure_dark:hover{
   background: black;
 }
+
+#services .services-item{
+  /* height:270px;
+  width:275px; */
+  height:280px;
+  width:305px;
+}
+
