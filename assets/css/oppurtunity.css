@@ -38,6 +38,9 @@ li {
 
 .card-img-top {
   border-radius: 3rem;
+  height:340px; /* Fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+  width: 100%; /* Full width of the card */
 }
 
 .oppurtunity_section {
