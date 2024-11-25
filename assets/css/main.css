@@ -15,7 +15,7 @@ html {
 
 body {
   background: #fff;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   -webkit-box-sizing: border-box;
@@ -178,7 +178,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-size: 38px;
+  font-size: 25px;
   color: #222222;
   font-weight: 700;
   font-family: "Arvo", serif;
@@ -305,7 +305,7 @@ a:not([href]):not([tabindex]) {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
   display: inline-block;
 }
 
@@ -1694,7 +1694,7 @@ textarea:hover {
 }
 
 .navbar-brand img {
-  width: 50px;
+  width: 100px;
 }
 
 .top-nav-collapse .navbar-brand img {
