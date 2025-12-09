@@ -99,28 +99,108 @@
 	<!-- animate on scroll import end -->
 	<style>
         .Cbtn {
-           
             margin: 20px auto 10px;
-        
             background-color: white;
             border-radius: 25px;
-            color: #F7B801; /* Initial text color is white */
-            transition: all 0.3s ease; /* Smooth transition for hover effects */
-			
-            text-align: center; /* Center align text */
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
-            cursor: pointer; /* Change cursor to pointer */
+            color: #F7B801;
+            transition: all 0.3s ease;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
         }
 
         .Cbtn:hover {
             background-color:#F7B801;
-            color: white; /* Text color changes to yellow on hover */
-			border: 4px solid white; 
-		
-		    
-			
+            color: white;
+            border: 4px solid white;
         }
     </style>
+
+	<!-- Code of Conduct modal styling: modern, accessible -->
+	<style>
+	  /* Modal container tweaks (overrides Bootstrap defaults) */
+	  .modal-content.coc {
+	    border: 0;
+	    border-radius: 12px;
+	    overflow: hidden;
+	    box-shadow: 0 12px 40px rgba(12, 20, 40, 0.25);
+	    background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
+	  }
+
+	  .coc-header {
+	    background: linear-gradient(90deg, #0A66C2 0%, #785EF0 100%);
+	    color: #fff;
+	    padding: 18px 24px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	  }
+
+	  .coc-title {
+	    margin: 0;
+	    font-weight: 700;
+	    font-size: 1.05rem;
+	    letter-spacing: 0.2px;
+	  }
+
+	  .coc-sub {
+	    font-size: 0.9rem;
+	    opacity: 0.95;
+	    margin-top: 6px;
+	    color: rgba(255,255,255,0.95);
+	  }
+
+	  .coc-body {
+	    padding: 22px;
+	    max-height: 66vh;
+	    overflow: auto;
+	    color: #1f2937;
+	    line-height: 1.6;
+	  }
+
+	  .coc-body h6 {
+	    margin-top: 14px;
+	    margin-bottom: 8px;
+	    color: #111827;
+	    font-size: 0.98rem;
+	  }
+
+	  .coc-body p {
+	    margin-bottom: 12px;
+	    color: #374151;
+	    font-size: 0.95rem;
+	  }
+
+	  .coc-body ul, .coc-body ol {
+	    margin-left: 1.05rem;
+	    margin-bottom: 12px;
+	    color: #374151;
+	  }
+
+	  .coc-footer {
+	    padding: 12px 18px;
+	    background: linear-gradient(180deg, rgba(11,22,45,0.03), rgba(11,22,45,0.02));
+	    display: flex;
+	    justify-content: flex-end;
+	  }
+
+	  .coc-close {
+	    background: #0A66C2;
+	    color: #fff;
+	    border-radius: 8px;
+	    padding: 8px 14px;
+	    border: 0;
+	    font-weight: 600;
+	  }
+
+	  .coc-close:hover { filter: brightness(0.95); }
+
+	  /* Responsive tweaks */
+	  @media (max-width: 576px) {
+	    .coc-body { padding: 16px; font-size: 0.95rem; }
+	    .coc-header { padding: 14px; }
+	  }
+	</style>
 </head>
 
 <body>
@@ -1170,7 +1250,6 @@
 									</div>
 
 
-
 									<div class="swiper-slide">
 										<div class="testimonial-item">
 											<div class="img-thumb">
@@ -2132,14 +2211,15 @@
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 						<h3 class="footer-titel">Quick Links</h3>
-						<ul class="footer-link">
-							<li><a href="#hero-area">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#testimonials">Team</a></li>
-							<li><a href="#events">Events</a></li>
-							<li><a href="#testimonial1">Testimonals</a></li>
-							<li><a href="#opportunity">Opportunity</a></li>
-						</ul>
+                        <ul class="footer-link">
+                            <li><a href="#hero-area">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#testimonials">Team</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#testimonial1">Testimonals</a></li>
+                            <li><a href="#opportunity">Opportunity</a></li>
+							<li><a href="#" data-toggle="modal" data-target="#cocModal">Code of Conduct</a></li>
+                        </ul>
 					</div>
 					<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
 						<h3 class="footer-titel">Join Us</h3>
@@ -2181,7 +2261,72 @@
 								</div>
 							</div>
 							</div>
-						</div>						
+                        </div>
+
+						<!-- Code of Conduct Modal (Contributor Covenant) - modern design -->
+						<div class="modal fade" id="cocModal" tabindex="-1" role="dialog" aria-labelledby="cocModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content coc" role="document" aria-modal="true" aria-describedby="coc-desc">
+							  <div class="coc-header">
+								<div>
+								  <div class="coc-title">Contributor Covenant — Code of Conduct</div>
+								  <div class="coc-sub">Version 2.1 — Be kind. Be respectful. Report issues to codeincommunity@gmail.com</div>
+								</div>
+								<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true" style="font-size:1.4rem">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body coc-body" id="coc-desc">
+								<h6>Our Pledge</h6>
+								<p>We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio‑economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.</p>
+								<p>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</p>
+
+								<h6>Our Standards</h6>
+								<p>Examples of behavior that contributes to a positive environment for our community include:</p>
+								<ul>
+								  <li>Demonstrating empathy and kindness toward other people</li>
+								  <li>Being respectful of differing opinions, viewpoints, and experiences</li>
+								  <li>Giving and gracefully accepting constructive feedback</li>
+								  <li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+								  <li>Focusing on what is best not just for us as individuals, but for the overall community</li>
+								</ul>
+								<p>Examples of unacceptable behavior include:</p>
+								<ul>
+								  <li>The use of sexualized language or imagery, and sexual attention or advances of any kind</li>
+								  <li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+								  <li>Public or private harassment</li>
+								  <li>Publishing others' private information, such as a physical or email address, without their explicit permission</li>
+								  <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+								</ul>
+
+								<h6>Enforcement Responsibilities</h6>
+								<p>Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
+								<p>Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.</p>
+
+								<h6>Scope</h6>
+								<p>This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces (for example using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event).</p>
+
+								<h6>Enforcement</h6>
+								<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at <a href="mailto:codeincommunity@gmail.com">codeincommunity@gmail.com</a>. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.</p>
+
+								<h6>Enforcement Guidelines</h6>
+								<p>Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:</p>
+								<ol>
+								  <li><strong>Correction</strong> — Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome. Consequence: Private, written warning and request for apology if appropriate.</li>
+								  <li><strong>Warning</strong> — Community Impact: Violation through a single incident or series. Consequence: Warning with limited interaction and possible temporary restrictions.</li>
+								  <li><strong>Temporary Ban</strong> — Community Impact: Serious or sustained inappropriate behavior. Consequence: Temporary ban from community interactions.</li>
+								  <li><strong>Permanent Ban</strong> — Community Impact: Pattern of violations or severe harassment. Consequence: Permanent removal of community access.</li>
+								</ol>
+
+								<h6>Attribution</h6>
+								<p>This Code of Conduct is adapted from the Contributor Covenant, version 2.1. Community Impact Guidelines were inspired by Mozilla's code of conduct enforcement ladder. For the original and translations see <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct.html" target="_blank" rel="noopener">https://www.contributor-covenant.org</a>.</p>
+							  </div>
+							  <div class="coc-footer">
+								<button type="button" class="coc-close" data-dismiss="modal" aria-label="Close">Close</button>
+							  </div>
+							</div>
+						  </div>
+						</div>
 
 						<h3 class="contact-footer mt-5">Contact</h3>
 						<ul class="address">
@@ -2293,7 +2438,6 @@
 				}
 			}
 		});
-		//initialize AOS ends
 
 		navtbut = document.getElementById("navtbut");
 
