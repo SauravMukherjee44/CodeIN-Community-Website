@@ -431,12 +431,13 @@
 
 
 
-      <!-- Footer Section Start -->
+    
+	<!-- Footer Section Start -->
 	<footer id="footer" class="footer-area section-padding">
 		<div class="container">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 						<div class="widget">
 							<h3 class="footer-logo">CodeIN Community</h3>
 							<div class="textwidget">
@@ -444,48 +445,152 @@
 									to explore the
 									untouched world of technology and Tremendous growth-making fields.</p>
 							</div>
+							<!-- Netlify deploy badge -->
+        <div class="netlify-badge-wrap" style="margin-top:20px;">
+            <a href="https://www.netlify.com">
+  			<img src="https://www.netlify.com/assets/badges/netlify-badge-color-bg.svg" alt="Deploys by Netlify" />
+			</a>
+        </div>
 
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 						<h3 class="footer-titel">Quick Links</h3>
-						<ul class="footer-link">
-							<li><a href="/#hero-area">Home</a></li>
-							<li><a href="/#about">About</a></li>
-							<li><a href="/#testimonials">Team</a></li>
-							<li><a href="/#events">Events</a></li>
-							<li><a href="/#opportunity">Opportunity</a></li>
-						</ul>
+                        <ul class="footer-link">
+                            <li><a href="#hero-area">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#testimonials">Team</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#testimonial1">Testimonals</a></li>
+                            <li><a href="#opportunity">Opportunity</a></li>
+							<li><a href="#" data-toggle="modal" data-target="#cocModal">Code of Conduct</a></li>
+                        </ul>
 					</div>
 					<div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
 						<h3 class="footer-titel">Join Us</h3>
 						<ul class="footer-link">
 							<li><a href="#events">Events</a></li>
-							<li><a href="#">Hackathons</a></li>
-							<li><a href="#">Open Source</a></li>
-							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform">Volunteer Group</a></li>
+							<!-- <li><a href="#">Hackathons</a></li> -->
+							<!-- <li><a href="#">Open Source</a></li> -->
+							<li><a
+									href="https://docs.google.com/forms/d/e/1FAIpQLScKGzCBBaMDjzp9zgkAtqv0RDwAitR1RJouePcL_DP7Ds3VNQ/viewform" target="_blank">Volunteer
+									Group</a></li>
 							<li><a href="https://codeincommunity.bio.link/">Community</a></li>
 						</ul>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-						<h3 class="footer-titel">Contact</h3>
+						<h3 class="footer-news">Want to stay update?<br>
+							Subscribe to our Newsletter :)</h3>
+						<p class="text-light mb-2">Subscribe to get latest updates.</p>
+						<div class="mail d-flex">
+						<input type="email" id="Email" placeholder="Enter your email" />
+						<a type="submit" id="btns" label="submit" placeholder="submit">Submit</a>
+					    </div>
+		
+						
+						<!-- Modal to trigger after submitting the newsletter form -->
+						<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle"><p class="text_dark" id="subscribeTitle"></p></h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									<p class="text_dark" id="suscribeMsg"></p>
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+							</div>
+                        </div>
+
+						<!-- Code of Conduct Modal (Contributor Covenant) - modern design -->
+						<div class="modal fade" id="cocModal" tabindex="-1" role="dialog" aria-labelledby="cocModalLabel" aria-hidden="true">
+						  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+							<div class="modal-content coc" role="document" aria-modal="true" aria-describedby="coc-desc">
+							  <div class="coc-header">
+								<div>
+								  <div class="coc-title">Contributor Covenant — Code of Conduct</div>
+								  <div class="coc-sub">Version 2.1 — Be kind. Be respectful. Report issues to codeincommunity@gmail.com</div>
+								</div>
+								<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+								  <span aria-hidden="true" style="font-size:1.4rem">&times;</span>
+								</button>
+							  </div>
+							  <div class="modal-body coc-body" id="coc-desc">
+								<h6>Our Pledge</h6>
+								<p>We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio‑economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.</p>
+								<p>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</p>
+
+								<h6>Our Standards</h6>
+								<p>Examples of behavior that contributes to a positive environment for our community include:</p>
+								<ul>
+								  <li>Demonstrating empathy and kindness toward other people</li>
+								  <li>Being respectful of differing opinions, viewpoints, and experiences</li>
+								  <li>Giving and gracefully accepting constructive feedback</li>
+								  <li>Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience</li>
+								  <li>Focusing on what is best not just for us as individuals, but for the overall community</li>
+								</ul>
+								<p>Examples of unacceptable behavior include:</p>
+								<ul>
+								  <li>The use of sexualized language or imagery, and sexual attention or advances of any kind</li>
+								  <li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
+								  <li>Public or private harassment</li>
+								  <li>Publishing others' private information, such as a physical or email address, without their explicit permission</li>
+								  <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+								</ul>
+
+								<h6>Enforcement Responsibilities</h6>
+								<p>Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
+								<p>Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.</p>
+
+								<h6>Scope</h6>
+								<p>This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces (for example using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event).</p>
+
+								<h6>Enforcement</h6>
+								<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at <a href="mailto:codeincommunity@gmail.com">codeincommunity@gmail.com</a>. All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.</p>
+
+								<h6>Enforcement Guidelines</h6>
+								<p>Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:</p>
+								<ol>
+								  <li><strong>Correction</strong> — Community Impact: Use of inappropriate language or other behavior deemed unprofessional or unwelcome. Consequence: Private, written warning and request for apology if appropriate.</li>
+								  <li><strong>Warning</strong> — Community Impact: Violation through a single incident or series. Consequence: Warning with limited interaction and possible temporary restrictions.</li>
+								  <li><strong>Temporary Ban</strong> — Community Impact: Serious or sustained inappropriate behavior. Consequence: Temporary ban from community interactions.</li>
+								  <li><strong>Permanent Ban</strong> — Community Impact: Pattern of violations or severe harassment. Consequence: Permanent removal of community access.</li>
+								</ol>
+
+								<h6>Attribution</h6>
+								<p>This Code of Conduct is adapted from the Contributor Covenant, version 2.1. Community Impact Guidelines were inspired by Mozilla's code of conduct enforcement ladder. For the original and translations see <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct.html" target="_blank" rel="noopener">https://www.contributor-covenant.org</a>.</p>
+							  </div>
+							  <div class="coc-footer">
+								<button type="button" class="coc-close" data-dismiss="modal" aria-label="Close">Close</button>
+							  </div>
+							</div>
+						  </div>
+						</div>
+
+						<h3 class="contact-footer mt-5">Contact</h3>
 						<ul class="address">
 							<li>
 								<a
-									href="https://www.google.com/maps/place/Asansol,+West+Bengal/@23.6834541,86.8541898,11z/data=!3m1!4b1!4m5!3m4!1s0x39f71f0ea1022529:0xf888f7e7fd11cefe!8m2!3d23.6888636!4d86.9660638"><i
-										class="fas fa-map-marked-alt"></i> Location: Asansol,India-713305</a>
+									href="https://www.google.com/maps/place/Kolkata,+West+Bengal/@23.6834541,86.8541898,11z/data=!3m1!4b1!4m5!3m4!1s0x39f71f0ea1022529:0xf888f7e7fd11cefe!8m2!3d23.6888636!4d86.9660638"><i
+										class="fas fa-map-marked-alt"></i> Location: Kolkata,India-713305</a>
 							</li>
 							<li>
 								<a href="mailto:codeincommunity@gmail.com"><i class="fas fa-envelope"></i> Email:
 									codeincommunity@gmail.com</a>
 							</li>
 						</ul>
-					</div>
+					</div>					
 				</div>
 			</div>
 		</div>
 		<ul class="socials">
-      <li>
+			<li>
 				<a class="linkedin" href="https://www.linkedin.com/company/codein-community/mycompany/"
 					target="_blank">
 					<i class="fab fa-linkedin" style="color: rgb(10,102,194);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#0A66C2'"></i></a>
@@ -515,13 +620,14 @@
 						onmouseout="this.style.color='#1DA1F2'"></i></a>
 			</li>
 		</ul>
+		
 		</div>
 		<div id="copyright">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="copyright-content">
-							<p>Copyright © 2022 <a rel="nofollow" href="#">CodeIN Community</a> All Right Reserved</p>
+							<p>Copyright © <span class="year"></span> <a rel="nofollow" href="#">CodeIN Community</a> All Right Reserved</p>
 						</div>
 					</div>
 				</div>
@@ -529,9 +635,6 @@
 		</div>
 	</footer>
 	<!-- Footer Section End -->
-
-
-
 
 
  <!-- Go to Top Link -->
