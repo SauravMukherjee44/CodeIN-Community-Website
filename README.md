@@ -1,10 +1,19 @@
 <h1 align="center">CodeIN Community Website </h1>
 <h4 align="center"> India's Top Growing Technical Community of 15,000+ Developers, We Organizes Open Source Programs, Hackathons and 1:1 Mentorships. </h4>
-<h3 align="center"> An Open Source Website for CodeIN Community built using HTML, CSS, JavaScript, Firebase and Bootstrap. </h3>
+
 
 ![image](./assets/img/hack.jpg)
 
 <h1 align="center">HacktoberFest Accepted </h1>
+
+<h1 align="center">🚀 Accepted by Vercel's Open Source Program</h1>
+<div align="center">
+  <a href="https://vercel.com/?utm_source=CodeIN-Community" target="_blank">
+    <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" />
+  </a>
+</div>
+
+
 <br>
 <p align="center">
 <b><a href="https://discord.com/invite/sqFRzrj7f3" target="_blank">
@@ -29,13 +38,6 @@
 
 
 <h2 align="center"> Contribution is fun! 🧡</h2>
-
-<h2 align="center"> 📌 Tech Stack </h2>
-<div align="center">
-<img alt="HTML" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-<img alt="JS" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-	</div>
 
 In order to make a hassle-free environment, we implore you all (_while contributing_) to follow the instructions mentioned below!
 
@@ -172,7 +174,7 @@ To maintain a safe and inclusive space for everyone, to learn and grow, contribu
 
 <hr>
 	
-© 2022 Saurav Mukherjee and contributors\
+© 2026 Saurav Mukherjee and contributors\
 This project is licensed under the [**MIT license**](https://github.com/SauravMukherjee44/Aec-Library-Website/blob/main/LICENSE).
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
