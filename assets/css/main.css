@@ -1858,6 +1858,12 @@ button.accordionFAQs i.slidedown.slide-top {
   float: right;
   margin-left: 5px;
 }
+.FAQs_section .active:after{
+    content: "\02796" !important;
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+}
 
 /* ////FAQ section ends here//// */
 
