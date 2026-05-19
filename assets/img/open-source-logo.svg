@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Open Source Logo</title>
+  <desc id="desc">Green open source keyhole symbol with open source text.</desc>
+
+  <g transform="translate(40 15)">
+    <circle cx="150" cy="150" r="130" fill="#45ad55" stroke="#0f6a35" stroke-width="8"/>
+
+    <circle cx="150" cy="145" r="43" fill="#ffffff"/>
+    <polygon points="130,188 170,188 192,283 108,283" fill="#ffffff"/>
+
+    <polygon points="150,286 198,254 181,305 119,305 102,254" fill="#ffffff"/>
+  </g>
+
+  <text x="360" y="215" font-family="Arial, Helvetica, sans-serif" font-size="110" fill="#111111">open source</text>
+</svg>

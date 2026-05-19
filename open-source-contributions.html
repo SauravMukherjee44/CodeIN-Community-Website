@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Open Source Contributions | CodeIN Community</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Open Source Contributions - CodeIN Community">
+  <meta name="description"
+    content="Practice your first open-source contribution with guided missions, beginner tasks, and a pull request checklist from CodeIN Community.">
+  <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-png">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <style>
+    .osc-page-main {
+      padding-top: 110px;
+    }
+  </style>
+</head>
+
+<body class="osc-page">
+  <header id="header-wrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top scrolling-navbar">
+      <div class="container nav_container">
+        <a href="./index.html" class="navbar-brand">
+          <img src="./assets/img/logo-small.png" alt="CodeIN Community logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto w-100 justify-content-end clearfix">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#mission-tracks">Mission Tracks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pr-checklist">PR Checklist</a></li>
+            <li class="nav-item"><a class="nav-link" href="#practice-tasks">Practice Tasks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#submit-completion">Submit</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="osc-page-main">
+    <section class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <h1 class="section-title">Open Source Contributions</h1>
+          <div class="shape"></div>
+          <p>Designed for first-time contributors to learn, practice, and ship a real pull request.</p>
+        </div>
+        <div class="osc-module">
+          <h3>Build real confidence, not just theory</h3>
+          <p>
+            This page is your contribution practice lab. Follow guided missions, complete the checklist, pick a
+            beginner task, and submit your contribution once your PR is open.
+          </p>
+          <a href="#mission-tracks" class="btn btn-common mt-3">Start Mission Flow</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section-padding">
+      <div class="container">
+        <div class="osc-module">
+          <h3>1) How Open Source Works</h3>
+          <p>Core workflow you will use in almost every contribution.</p>
+          <div class="osc-flow">
+            <div class="osc-flow-step">
+              <span class="step-number">1</span>
+              <strong>Fork</strong>
+              <p>Copy the repository to your GitHub account.</p>
+            </div>
+            <div class="osc-flow-step">
+              <span class="step-number">2</span>
+              <strong>Clone</strong>
+              <p>Download your fork locally and create a new branch.</p>
+            </div>
+            <div class="osc-flow-step">
+              <span class="step-number">3</span>
+              <strong>Change</strong>
+              <p>Implement a focused fix or improvement.</p>
+            </div>
+            <div class="osc-flow-step">
+              <span class="step-number">4</span>
+              <strong>Commit</strong>
+              <p>Write clear commit messages that explain intent.</p>
+            </div>
+            <div class="osc-flow-step">
+              <span class="step-number">5</span>
+              <strong>Pull Request</strong>
+              <p>Open a PR and respond to maintainer feedback.</p>
+            </div>
+          </div>
+          <div class="osc-help-tip">
+            If you get stuck: re-read `README.md` and `CONTRIBUTING.md`, then ask in community channels with your branch
+            link, screenshot, and exact error.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mission-tracks" class="section-padding">
+      <div class="container">
+        <div class="osc-module">
+          <h3>2) Mission Tracks</h3>
+          <p>Pick one track that matches your current level. Every track is beginner-safe and contribution-focused.</p>
+          <div id="missionTrackList" class="osc-track-list"></div>
+          <div class="osc-help-tip">
+            Start with one small mission and complete it end-to-end. Tiny merged PRs beat large unfinished ones.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pr-checklist" class="section-padding">
+      <div class="container">
+        <div class="osc-module">
+          <h3>3) PR Checklist</h3>
+          <p>Track your progress before opening a pull request.</p>
+          <div class="osc-checklist" id="prChecklist">
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="read-guidelines">
+              <span>I read the repository `README.md` and `CONTRIBUTING.md`.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="forked-repo">
+              <span>I forked the repository and cloned it locally.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="created-branch">
+              <span>I created a feature branch with a meaningful name.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="implemented-change">
+              <span>I completed one focused change and reviewed it.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="tested-locally">
+              <span>I tested changes locally and verified no visible breakage.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="clear-commit">
+              <span>I committed with a clear, specific commit message.</span>
+            </label>
+            <label class="osc-check-item">
+              <input type="checkbox" data-check-id="opened-pr">
+              <span>I opened my PR and included context + screenshots if needed.</span>
+            </label>
+          </div>
+          <div class="osc-progress-wrap">
+            <div class="osc-progress-text" id="oscProgressText">0 / 7 steps completed</div>
+            <div class="osc-progress-bar" aria-label="Contribution checklist progress">
+              <div class="osc-progress-bar-fill" id="oscProgressFill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="practice-tasks" class="section-padding">
+      <div class="container">
+        <div class="osc-module">
+          <h3>4) Beginner Practice Tasks</h3>
+          <p>Curated beginner tasks from multiple CodeIN community repositories.</p>
+          <div id="practiceTaskList" class="osc-task-list"></div>
+          <div class="osc-help-tip">
+            Before coding, comment on the issue or track your intent in the PR description to avoid duplicated effort.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="submit-completion" class="section-padding">
+      <div class="container">
+        <div class="osc-module osc-submit-box">
+          <h3>5) Submit Completion</h3>
+          <p>
+            Once your PR is open, send your contribution details by email so our team can review and guide your next
+            mission.
+          </p>
+          <ul>
+            <li>Your GitHub profile URL</li>
+            <li>PR URL(s)</li>
+            <li>Mission track completed</li>
+            <li>What you learned during the contribution</li>
+          </ul>
+          <a id="oscSubmitLink" class="btn btn-common mt-3" href="mailto:codeincommunity@gmail.com">Submit by Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12">
+          <h3 class="footer-logo">CodeIN Community</h3>
+          <p>Helping first-time contributors learn open source by building real projects together.</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12">
+          <h3 class="footer-titel">Quick Links</h3>
+          <ul class="footer-link">
+            <li><a href="./index.html">Back to Home</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#submit-completion">Submit Completion</a></li>
+          </ul>
+          <div class="netlify-badge-wrap" style="margin-top:20px;">
+            <a href="https://www.netlify.com">
+              <img src="https://www.netlify.com/assets/badges/netlify-badge-color-bg.svg" alt="Deploys by Netlify" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/jquery-min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./JS/open-source-contributions.js"></script>
+</body>
+
+</html>
