@@ -75,7 +75,9 @@
 .blog_content:hover {
   background-color: white;
 }
-
+.description {
+    padding-bottom: 10px;
+}
 .head {
   color: black;
   font-size: 16px;
