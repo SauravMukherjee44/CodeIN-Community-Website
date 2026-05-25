@@ -22,24 +22,23 @@
 #checkBtn {
   margin-left: 45px;
 }
-
 .Cbtn {
   appearance: none;
-  background-color: transparent;
+  background: linear-gradient(135deg, #fcd423, #f7b801); /* Added gradient background */
   border: 1px solid #ffffff;
-  border-radius: 35px;
+  border-radius: 20px; /* Increased border-radius */
   box-sizing: border-box;
   color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-
+  font-size: 16px; /* Added font size */
   cursor: pointer;
   display: inline-block;
   line-height: normal;
   outline: none;
-  padding: 6px 4px;
+  padding: 12px 16px; /* Adjusted padding */
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 200ms ease-in-out; /* Updated transition */
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -49,15 +48,15 @@
 
 .Cbtn:disabled {
   pointer-events: none;
+  opacity: 0.6; /* Added opacity for disabled state */
 }
 
 .Cbtn:hover {
-  color: white;
-  background-color: #f7b801;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+  color: #ffffff; /* Change text color on hover */
+  background: linear-gradient(135deg, #f7b801, #fcd423); /* Updated gradient for hover state */
+  box-shadow: rgba(0, 0, 0, 0.35) 0 10px 20px; /* Adjusted shadow for hover state */
+  transform: translateY(-5px) scale(1.05); /* Added transform and scale effect for hover state */
   border-color: #ffd100;
-  border: 1px solid #ffffff;
 }
 
 .Cbutton-28:active {
@@ -120,7 +119,7 @@
     width: 40vw;
     justify-content: center !important;
     margin: 0 30vw !important;
-    align: center;
+    align-items: center;
   }
 }
 @media (max-width: 912px) {
